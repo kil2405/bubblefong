@@ -1,0 +1,25 @@
+﻿INDEX,ITEM_TYPE,ID,SPINE_NAME,ICON_INVEN_NAME,ICON_PRESET_NAME,ID_TEXT_NAME,ID_TEXT_INFO,INGAME_POSITION,IS_NFT,SORT_NUMBER,DESC
+0,5,1050001,Companion01_SkeletonData,Partner_list_01,Icon_preset_edit_list_partner_01,9060001,9070001,1,1,1,Brooklyn
+1,5,1050002,Companion02_SkeletonData,Partner_list_02,Icon_preset_edit_list_partner_02,9060002,9070002,0,1,2,Hermit Crab
+2,5,1050003,Companion03_SkeletonData,Partner_list_03,Icon_preset_edit_list_partner_03,9060003,9070003,1,1,3,Longnose
+3,5,1050004,Companion04_SkeletonData,Partner_list_04,Icon_preset_edit_list_partner_04,9060004,9070004,0,1,4,Snapping Shrimp
+4,5,1050005,Companion05_SkeletonData,Partner_list_05,Icon_preset_edit_list_partner_05,9060005,9070005,1,1,5,Dora
+5,5,1050006,Companion06_SkeletonData,Partner_list_06,Icon_preset_edit_list_partner_06,9060006,9070006,0,1,6,Flatfish
+6,5,1050007,Companion07_SkeletonData,Partner_list_07,Icon_preset_edit_list_partner_07,9060007,9070007,1,1,7,Mommy Shark
+7,5,1050008,Companion08_SkeletonData,Partner_list_08,Icon_preset_edit_list_partner_08,9060008,9070008,0,1,8,Sea Turtle
+8,5,1050009,Companion09_SkeletonData,Partner_list_09,Icon_preset_edit_list_partner_09,9060009,9070009,1,1,9,Gentle Blowfish
+9,5,1050010,Companion10_SkeletonData,Partner_list_10,Icon_preset_edit_list_partner_10,9060010,9070010,0,1,10,Pom-pom Crab
+10,5,1050011,Companion11_SkeletonData,Partner_list_11,Icon_preset_edit_list_partner_11,9060011,9070011,1,1,11,Manta Ray
+11,5,1050012,Companion12_SkeletonData,Partner_list_12,Icon_preset_edit_list_partner_12,9060012,9070012,1,1,12,Octopus
+12,5,1050013,Companion13_SkeletonData,Partner_list_13,Icon_preset_edit_list_partner_13,9060013,9070013,1,1,13,Daddy Shark
+13,5,1050014,Companion14_SkeletonData,Partner_list_14,Icon_preset_edit_list_partner_14,9060014,9070014,1,1,14,Catfish
+14,5,1050015,Companion15_SkeletonData,Partner_list_15,Icon_preset_edit_list_partner_15,9060015,9070015,1,1,15,Bluestreak Cleaner Wrasse
+15,5,1050016,Companion16_SkeletonData,Partner_list_16,Icon_preset_edit_list_partner_16,9060016,9070016,1,1,16,Midshipman Fish
+16,5,1050017,Companion17_SkeletonData,Partner_list_17,Icon_preset_edit_list_partner_17,9060017,9070017,1,1,17,Leafy Sea Dragon
+17,5,1050018,Companion18_SkeletonData,Partner_list_18,Icon_preset_edit_list_partner_18,9060018,9070018,0,1,18,Cone Snail
+18,5,1050019,Companion19_SkeletonData,Partner_list_19,Icon_preset_edit_list_partner_19,9060019,9070019,1,1,19,Mola mola
+19,5,1050020,Companion20_SkeletonData,Partner_list_20,Icon_preset_edit_list_partner_20,9060020,9070020,1,1,20,Blowfish
+20,5,1050021,Companion21_SkeletonData,Partner_list_21,Icon_preset_edit_list_partner_21,9060021,9070021,0,1,21,Sleepy Crab
+21,5,1050022,Companion22_SkeletonData,Partner_list_22,Icon_preset_edit_list_partner_22,9060022,9070022,1,1,22,Pink Seahorse
+22,5,1050023,Companion23_SkeletonData,Partner_list_23,Icon_preset_edit_list_partner_23,9060023,9070023,1,1,23,Purple Seahorse
+23,5,1050024,Companion24_SkeletonData,Partner_list_24,Icon_preset_edit_list_partner_24,9060024,9070024,1,1,24,William

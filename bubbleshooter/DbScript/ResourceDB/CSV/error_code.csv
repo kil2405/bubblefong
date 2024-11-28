@@ -1,0 +1,491 @@
+﻿error_code,action_code,message_ko,message_en
+20010,1,서버 버전 정보 오류 재접속 합니다.,Reconnect because of Server version information error.
+20011,1,세선 오류 재접속 합니다.,Reconnect because of Session error.
+20012,1,CDN Patch를 위해 재접속 합니다.,Reconnect due to CDN Patch.
+20013,1,Application Update로 재접속 합니다.,Reconnect due to an application update.
+20014,1,서버 점검으로 인해 접속할 수 없습니다.,Unable to connect due to server maintenance.
+20015,1,중복 접속으로 서버 접속 종료 됩니다.,The server connection will be terminated due to duplicate connections.
+20016,1,세션 만료로 인해 재접속 됩니다.,Reconnect due to session expiration.
+1000,0,캐릭터 정보를 찾을 수 없습니다.,Character information cannot be found.
+1001,0,유저 프리셋 정보를 찾을 수 없습니다.,User preset information cannot be found.
+1002,0,유저 아이템 정보를 찾을 수 없습니다.,User item information cannot be found.
+1003,0,출석부 데이터를 찾을 수 없습니다.,No attendance data found.
+1004,2,서버 점검시간입니다.,Server maintenance time.
+1005,1,로그인 유저 정보를 확인할 수 없습니다.,Unable to verify login user information.
+1006,1,계정생성에 실패했습니다.,Failed to create an account.
+1007,0,로그인을 할 수 없습니다.,Cannot log in.
+1008,0,아이템 정보를 찾을 수 없습니다.,Item information cannot be found.
+1009,1,시스템 에러가 발생하여 접속할 수 없습니다.,Connection failed due to system error.
+1010,1,CDN Patch를 위해 재접속 합니다.,Reconnecting due to a CDN patch update.
+1011,1,Application Update로 재접속 합니다.,Reconnecting due to an application update.
+1012,1,중복 접속으로 서버 접속 종료 됩니다.,Server disconnected due to duplicate login.
+1013,0,유저정보를 찾을 수 없습니다.,User information cannot be found.
+1014,0,유저정보를 찾을 수 없습니다.,User information cannot be found.
+1015,0,출석부 데이터를 찾을 수 없습니다.,Attendance data cannot be found.
+1016,0,유저정보를 찾을 수 없습니다.,User information cannot be found.
+1100,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+1101,0,랭킹이 존재 하지 않습니다.,Ranking does not exist.
+1102,0,랭킹 데이터를 찾을 수 없습니다.,Ranking data cannot be found.
+1103,0,랭킹 티어 정보를 찾을 수 없습니다.,Ranking tier information cannot be found.
+1104,0,유저 정보를 찾을 수 없습니다.,User information cannot be found.
+1200,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+1201,0,변경할 닉네임을 기재해 주세요.,Please enter new nickname.
+1202,0,닉네임 변경 후 24시간 이후 변경이 가능합니다.,You can change your nickname after 24 hours.
+1203,0,입력한 문장에 금칙어가 있습니다.,The sentence contains forbidden words.
+1204,0,영문 및 숫자만 사용 가능합니다.,Only English letters and numbers can be available.
+1205,0,12자 이내만 가능합니다.,No more than 12 characters.
+1300,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+1400,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+1401,0,아이템 변경에 실패했습니다.,Failed to change item.
+1402,0,보상 아이템이 없습니다,Reward item is not found.
+1500,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+1600,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+1601,0,Http 통신 에러,Http Communication Error
+1602,0,서버 통신 에러,Server Communication Error
+1700,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+1701,0,랭킹 데이터를 찾을 수 없습니다.,Ranking data cannot be found.
+1702,0,랭킹 티어 정보를 찾을 수 없습니다.,Ranking tier information cannot be found.
+1703,0,시즌정보를 찾을 수 없습니다.,Season information cannot be found.
+1704,0,아이템이 존재하지 않습니다.,The item doesn't exist.
+1705,0,이미 종료된 방입니다.,The room has already closed.
+1706,0,랭킹 티어 데이터를 찾을 수 없습니다.,Ranking tier data is not found.
+1707,0,랭킹 티어 데이터를 찾을 수 없습니다.,Ranking tier data is not found.
+1708,0,랭킹 티어 데이터를 찾을 수 없습니다.,Ranking tier data is not found.
+1709,0,아이템 지급에 실패했습니다.,Item distribution was failed.
+1710,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+1711,0,이미 보상을 받았습니다.,The reward has already been received.
+1712,0,보상을 받을 수 없습니다.,Rewards cannot be received.
+1713,0,보상 데이터가 없습니다.,No reward data.
+1720,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+1721,0,이미 방이 존재 합니다.,The room already exists.
+1722,0,방 정보를 찾을 수 없습니다.,Room information cannot be found.
+1723,0,방 정보를 찾을 수 없습니다.,Room information cannot be found.
+1724,0,참여 할 수 있는 방이 없습니다.,There are no rooms available to join.
+1725,0,방 정보를 찾을 수 없습니다.,Room information cannot be found.
+1726,0,이미 종료된 방 입니다.,The room has already closed.
+1727,0,유저 정보를 찾을 수 없습니다.,User information cannot be found.
+1728,0,캐릭터 정보를 찾을 수 없습니다.,Character information cannnot be found.
+1729,0,캐릭터가 존재하지 않습니다.,The character doesn't exist.
+1730,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+1731,0,방이 존재 하지 않습니다.,The room doesn't exist.
+1732,0,이미 종료된 방입니다.,The room has already been closed.
+1733,0,아이템 정보를 찾을 수 없습니다.,Item information cannot be found.
+1734,0,아이템이 존재하지 않습니다.,The item does not exist.
+1735,0,방 정보를 찾을 수 없습니다.,Room information cannot be found.
+1736,0,해당 방에서 게임하지 않은 유저 입니다.,The user has not played in the room.
+1737,0,랭킹 티어 데이터를 찾을 수 없습니다.,Ranking tier data cannot be found.
+1738,0,아이템 지급에 실패했습니다.,Item distribution was failed.
+1740,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+1741,0,방이 존재 하지 않습니다.,The room does not exist.
+1742,0,이미 종료되거나 게임 시작된 방입니다.,The room has already ended or the game has started.
+1743,0,블루 다이아 데이터가 없습니다.,No Blue Diamond data.
+1744,0,아이템 지급에 실패했습니다.,Item distribution was failed.
+1745,0,경쟁정 티켓 데이터가 없습니다.,No matching ticket data.
+1746,0,경쟁정 티켓이 부족합니다.,Not enough matching tickets.
+1747,0,유저의 프리셋 정보가 없습니다.,No preset information for the user.
+1748,0,이미 생성되어 있는 방입니다.,The room has already been created.
+1749,0,대전 Room을 찾을 수 없습니다.,Matching room cannot be found.
+1750,0,"이미 시작되었거나, 만료된 대전 Room 입니다.",Matching room has already started or ended.
+1751,0,대전 Room을 찾을 수 없습니다.,Matching room cannot be found.
+1752,0,이미 종료된 Room 입니다.,The room has already ended.
+1753,0,잘못된 요청입니다.,Wrong request.
+1754,0,유저 정보를 찾을 수 없습니다.,User information cannot be found.
+1755,0,대전 Room을 찾을 수 없습니다.,The matching room cannot be found.
+1756,0,이미 만료된 Room 입니다.,The room has already ended.
+1757,0,잘못된 요청입니다.,Wrong request.
+1758,0,이미 경기 결과 보상을 받았습니다.,You have already received a match reward.
+1759,0,유저 아이템 정보를 찾을 수 없습니다.,User item information cannot be found.
+1760,0,미니 게임 티켓이 없습니다.,No mini-game tickets.
+1761,0,미니 게임 티켓이 부족합니다.,Not enough mini-game tickets.
+1762,0,미니 게임 티켓이 부족합니다.,Not enough mini-game tickets.
+1763,0,루비가 없습니다.,No rubies.
+1764,0,보상 지급에 실패했습니다.,Failed to distribute rewards.
+1765,0,점검 중입니다. 고객센터로 문의해 주세요.,Maintenance is in progress. Please contact support center.
+1766,0,유저 아이템 정보를 찾을 수 없습니다.,User item information cannot be found.
+1767,0,유저 아이템 정보를 찾을 수 없습니다.,User item information cannot be found.
+1768,0,경쟁전 티켓이 부족합니다.,Not enough matching tickets.
+1769,0,유저 아이템 정보를 찾을 수 없습니다.,User item information cannot be found.
+1770,0,미니 게임 티켓이 부족합니다.,There are not enough mini-game tickets.
+1800,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+1801,0,랭킹이 존재 하지 않습니다.,The ranking does not exist.
+1802,0,랭킹 만료시간 설정에 실패했습니다.,Failed to set ranking expiration time.
+1803,0,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+1804,0,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+1085,0,동일 시즌 이여서 보상 할 수 없습니다.,Cannot receive rewards because it's the same season.
+1086,0,로그 정보를 찾을 수 없습니다.,Log information cannot be found.
+1087,0,랭킹 티어 데이터를 찾을 수 없습니다.,Ranking tier data cannot be found.
+1088,0,내 티어정보를 확인할 수 없습니다.,You cannot check your tier infromation.
+1089,0,내 티어정보를 확인할 수 없습니다.,You cannot check your tier infromation.
+2000,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+2001,0,캐릭터 정보를 찾을 수 없습니다.,Character information cannot be found.
+2002,0,아이템이 존재하지 않습니다.,Item does not exist.
+2003,0,레벨업 데이터를 찾을 수 없습니다.,Upgrade data cannot be found.
+2004,0,더 이상 레벨업을 할 수 없습니다.,You cannot level up no longer.
+2005,0,캐릭터 레벨업에 필요한 재료가 부족합니다.,Not enough materials for character level up.
+2006,0,캐릭터 레벨업에 실패하였습니다.,Failed to level up your character.
+2007,0,파트너 정보를 찾을 수 없습니다.,Partner information cannot be found.
+2008,0,더 이상 레벨업을 할 수 없습니다.,You cannot level up no longer.
+2009,0,강화를 할 수 없는 파트너입니다.,It is the partner who cannot be enhanced.
+2010,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+2011,0,캐릭터 데이터를 찾을 수 없습니다.,Character data cannot be found.
+2012,0,캐릭터 강화에 실패하였습니다.,Character enhancement failed.
+2013,0,더 이상 강화를 할 수 없습니다.,You cannot enhance any more.
+2014,0,강화를 할 수 없는 캐릭터입니다.,This character cannot be upgraded.
+2015,0,캐릭터가 존재하지 않습니다.,The character does not exist.
+2016,0,같은 종류의 캐릭터만 강화할 수 있습니다.,Upgrading is only possible for characters of the same type.
+2017,0,강화할 수 없는 레벨입니다.,This level cannot be enhanced.
+2018,0,잠금상태의 캐릭터입니다.,The character is locked.
+2019,0,파트너가 존재하지 않습니다.,A partner does not exist.
+2020,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+2021,0,캐릭터 정보를 찾을 수 없습니다.,Character information cannot be found.
+2022,0,재료로 사용될 캐릭터가 존재하지 않습니다.,The character to be used as an ingredient does not exist.
+2023,0,재료로 사용될 파트너가 존재하지 않습니다.,The partner to be used as an ingredient does not exist.
+2024,0,재료로 사용될 수 없는 캐릭터 입니다.,The character cannot be used as an ingredient.
+2025,0,재료로 사용될 수 없는 파트너 입니다.,The partner cannot be used as an ingredient.
+2026,0,캐릭터 정보를 찾을 수 없습니다.,Character information cannot be found.
+2027,0,파트너 정보를 찾을 수 없습니다.,Partner information cannot be found.
+2028,0,캐릭터가 존재하지 않습니다.,The character does not exist.
+2029,0,파트너가 존재하지 않습니다.,The partner does not exist.
+2030,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+2031,0,파트너 데이터를 찾을 수 없습니다.,Partner data cannot be found.
+2032,0,아이템이 존재하지 않습니다.,Item does not exist.
+2033,0,레벨업 데이터를 찾을 수 없습니다.,Upgrade data cannot be found.
+2034,0,레벨업 할 수 없는 파트너입니다.,This companion cannot be promoted.
+2035,0,파트너 레벨업에 필요한 재료가 부족합니다.,Not enough materials for partner level up.
+2036,0,파트너가 존재하지 않습니다.,The partner does not exist.
+2037,0,파트너가 존재하지 않습니다.,The partner does not exist.
+2038,0,파트너 정보를 찾을 수 없습니다.,Partner information cannot be found.
+2039,0,파트너가 존재하지 않습니다.,The partner does not exist.
+2040,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+2041,0,파트너 정보를 찾을 수 없습니다.,Companion information cannot be found.
+2042,0,파트너 강화에 실패하였습니다.,Partner enhancement failed.
+2043,0,더 이상 강화를 할 수 없습니다.,You cannot enhance any more.
+2044,0,파트너가 존재하지 않습니다.,The partner does not exist.
+2045,0,파트너 강화에 필요한 재료가 부족합니다.,Not enough materials for partner enhancement.
+2046,0,같은 종류의 파트너만 강화할 수 있습니다.,Upgrading is only possible for partners of the same type.
+2047,0,같은 등급의 파트너만 강화할 수 있습니다.,Upgrading is only possible for partners of the same grade.
+2048,0,잠겨있는 파트너입니다.,The partner is locked.
+2049,0,강화할 수 없는 레벨입니다.,This level cannot be enhanced.
+2050,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+2051,0,같은 종류의 파트너는 장착 할 수 없습니다.,Same kind of partners cannot be equipped.
+2052,0,아이템이 존재하지 않습니다.,The item does not exist.
+2053,0,재료가 부족합니다.,Materials are not enough
+2054,0,캐릭터 레벨 데이터를 찾을 수 없습니다.,Character level data cannot be found.
+2055,0,더 이상 레벨업을 할 수 없습니다.,You cannot level up anymore.
+2056,0,아이템 정보를 찾을 수 없습니다.,Item information cannot be found.
+2057,0,재료로 사용될 캐릭터가 잠겨 있습니다.,The character to be used as an ingredient is locked.
+2058,0,같은 등급의 캐릭터만 강화할 수 있습니다.,Enhancement is only possible for characters of the same grade.
+2059,0,캐릭터 정보를 찾을 수 없습니다.,Character information cannot be found.
+2060,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+2061,0,유저 프리셋 정보를 찾을 수 없습니다.,User preset information cannot be found.
+2062,0,캐릭터가 존재하지 않습니다.,The character does not exist.
+2063,0,파트너가 존재하지 않습니다.,The partner does not exist.
+2064,0,파트너의 데이터가 없습니다.,The partner''s data cannot be found.
+2065,0,캐릭터 데이터를 찾을 수 없습니다.,Character data cannot be found.
+2066,0,아이템 정보를 찾을 수 없습니다.,Item information cannot be found.
+2067,0,파트너 스킬변경에 필요한 재료가 부족합니다.,Materials to change partner's skill are not enough.
+2068,0,파트너 레벨 데이터를 찾을 수 없습니다.,Partner level data cannot be found.
+2069,0,더 이상 레벨업을 할 수 없습니다.,You cannot level up anymore.
+2070,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+2071,0,파트너 정보를 찾을 수 없습니다.,Companion information cannot be found.
+2072,0,스킬 변경에 실패했습니다.,Failed to change skills.
+2073,0,아이템이 존재하지 않습니다.,The item does not exist.
+2074,0,파트너 스킬변경에 필요한 재료가 부족합니다.,Materials to change partner's skill are not enough.
+2075,0,아이템 정보를 찾을 수 없습니다.,Item information cannot be found.
+2076,0,사용중이지 않는 파트너 입니다.,This partner is not in use.
+2077,0,파트너 업그레이드 데이트를 찾을 수 없습니다.,Partner upgrade data cannot be found.
+2078,0,파트너 레벨이 부족합니다,Partner level is insufficient.
+2079,0,재료로 사용될 파트너가 잠겨 있습니다.,The character to be used as an ingredient is locked.
+2080,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+2081,0,캐릭터 정보를 찾을 수 없습니다.,Character information cannot be found.
+2082,0,잠금처리가 불가능한 캐릭터 입니다.,This character cannot be locked.
+2083,0,유저 정보를 찾을 수 없습니다.,User information cannot be found.
+2084,0,캐릭터 정보를 찾을 수 없습니다.,Character information cannot be found.
+2085,0,파트너 정보를 찾을 수 없습니다.,Partner information cannot be found.
+2086,0,캐릭터가 존재하지 않습니다.,Character does not exist.
+2087,0,파트너가 존재하지 않습니다.,Partner does not exist.
+2088,0,업그레이드 데이트를 찾을 수 없습니다.,Upgrade date cannot be found.
+2089,0,업그레이드 데이트를 찾을 수 없습니다.,Upgrade date cannot be found.
+2090,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+2091,0,캐릭터가 존재하지 않습니다.,The character does not exist.
+2092,0,잠금처리가 불가능한 파트너 입니다.,This companion cannot be locked.
+2093,0,잠금처리에 실패하였습니다.,The locking was failed.
+2094,0,같은 등급의 파트너만 강화할 수 있습니다.,Enhancement is only possible for partners of the same grade.
+2095,0,파트너 정보를 찾을 수 없습니다.,Partner information cannot be found.
+2096,0,파트너 데이터를 찾을 수 없습니다.,Partner data cannot be found.
+2097,0,임무 수행중인 캐릭터는 레벨업을 할 수 없습니다.,Character who is on a mission cannot level up.
+2098,0,임무 수행중인 캐릭터는 강화를 할 수 없습니다.,Character who is on a mission cannot enhance.
+2099,0,임무 수행중인 캐릭터는 강화재료로 사용할 수 없습니다.,Character who is on a mission cannot be used as a material for enhancement.
+2100,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+2101,0,이미 보상을 받았습니다.,The reward has already been received.
+2102,0,보상을 받을 수 없습니다.,Rewards cannot be received.
+2103,0,보상 데이터가 없습니다.,No reward data.
+2104,0,임무 수행중인 동료는 레벨업을 할 수 없습니다.,Partner who is on a mission cannot level up.
+2105,0,임무 수행중인 동료는 강화를 할 수 없습니다.,Partner who is on a mission cannot enhance.
+2106,0,임무 수행중인 동료는 강화재료로 사용할 수 없습니다.,Partner who is on a mission cannot be used as a material for enhancement.
+3000,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+3010,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+3011,0,합성할 수 있는 아이템이 아닙니다.,This is not a synthesizable item.
+3012,0,보유 토큰 개수가 부족합니다.,Not enough tokens.
+3013,0,아이템 합성에 실패 하였습니다.,Item synthesis failed.
+3020,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+3021,0,합성 토큰 2개 이상 5개 이하만 가능합니다.,It is possible at least 2 but no more than 5 synthesized tokens.
+3022,0,합성할 수 있는 아이템이 아닙니다.,This is not a synthesizable item.
+3023,0,보유 토큰 개수가 부족합니다.,Not enough tokens.
+3024,0,아이템 합성에 실패 하였습니다.,Item synthesis failed.
+3100,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+3101,0,스타가 부족합니다.,Not enough stars.
+3102,0,스타팩 열기에 실패했습니다.,Failed to open the Star Pack.
+3103,0,스타팩 데이터를 찾을 수 없습니다.,Star Pack data cannot be found.
+3110,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+3111,0,스타팩 데이터를 찾을 수 없습니다.,Star Pack data cannot be found.
+3112,0,샵 정보를 찾을 수 없습니다.,Shop information cannot be found.
+3113,0,샵 데이터를 찾을 수 없습니다.,Shop data cannot be found.
+3114,0,상품 판매 기간이 아닙니다.,The product is not on sale.
+3115,0,더 이상 구매 할 수 없습니다.,It is no longer available for purchase.
+3116,0,아이템이 존재하지 않습니다.,The item does not exist.
+3117,0,샵 티켓 정보를 찾을 수 없습니다.,Shop ticket information cannot be found.
+3118,0,아이템이 존재하지 않습니다.,The item does not exist.
+3119,0,아이템 변경에 실패 했습니다.,Failed to change item.
+3120,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+3121,0,샵 데이터를 찾을 수 없습니다.,Shop data cannot be found.
+3122,0,상점 목록 데이터를 찾을 수 없습니다.,Shop list data cannot be found.
+3123,0,샵 데이터를 찾을 수 없습니다.,Shop data cannot be found.
+3124,0,아이템 지급에 실패했습니다.,Item distribution was failed.
+3125,0,샵 정보를 찾을 수 없습니다.,Shop information cannot be found.
+3126,0,샵 데이터를 찾을 수 없습니다.,Shop data cannot be found.
+3127,0,샵 랜덤 데이터를 찾을 수 없습니다.,Shop random data cannot be found.
+3128,0,샵 랜덤 데이터를 찾을 수 없습니다.,Shop random data cannot be found.
+3129,0,샵 랜덤 데이터에서 누적비율을 찾을 수 없습니다.,Unable to find accumulation rate in shop random data.
+3130,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+3131,0,아이템이 존재하지 않습니다.,Item does not exist.
+3132,0,재화가 부족합니다.,Not enough goods.
+3133,0,상품 판매 기간이 아닙니다.,Not the product purchase period.
+3134,0,더 이상 상품을 구매할 수 없습니다.,You cannot buy the product any more.
+3135,0,아이템을 구매할 수 없습니다.,You cannot buy an item.
+3136,0,아이템 지급에 실패했습니다.,Failed to receive items.
+3137,0,아이템 정보를 찾을 수 없습니다.,Item information cannot be found.
+3138,0,아이템이 존재하지 않습니다.,The item does not exist.
+3139,0,아이템이 존재하지 않습니다.,The item does not exist.
+3140,0,아이템이 존재하지 않습니다.,The item does not exist.
+3141,0,아이템 변경에 실패 했습니다.,Failed to change item.
+3142,0,아이템 변경에 실패 했습니다.,Failed to change item.
+3143,0,아이템 변경에 실패 했습니다.,Failed to change item.
+3144,0,아이템 정보를 찾을 수 없습니다.,Item information cannot be found.
+3145,0,아이템이 존재하지 않습니다.,The item does not exist.
+3146,0,아이템 개수가 맞지 않습니다.,The number of items is incorrect.
+3147,0,아이템 변경에 실패했습니다.,Failed to change item.
+3148,0,아이템이 존재하지 않습니다.,The item does not exist.
+3149,0,아이템 변경에 실패했습니다.,Failed to change item.
+3150,0,아이템 변경에 실패했습니다.,Failed to change item.
+3200,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+3201,0,스타박스 티켓이 부족합니다.,Starbox tickets are insufficient.
+3202,0,스타박스 랜덤 정보를 찾을 수 없습니다.,Starbox random information not found.
+3210,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+4000,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+4001,0,지갑 주소를 입력해 주세요,Please enter your wallet address
+4002,0,이미 지갑이 존재합니다.,This wallet already exists.
+4003,0,지갑 정보를 찾을 수 없습니다.,Wallet information cannot be found.
+4004,0,지갑이 유효하지 않습니다.,Wallet is invalid.
+4005,0,지갑이 유효하지 않습니다.,The wallet is invalid.
+4006,0,NFT 등록에서 유저 지갑 주소가 없습니다.,There is no user wallet address in NFT registration.
+4007,0,NFT 등록에서 response가 올바르지 않습니다.,Invalid response in NFT registration.
+4008,0,NFT 등록에서 파라미터 타입이 올바르지 않습니다.,Invalid parameter type in NFT registration.
+4009,0,NFT 등록에서 파라미터 검증에 실패했습니다.,Parameter verification failed in NFT registration.
+4010,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+4011,0,지갑 정보를 찾을 수 없습니다.,Wallet information cannot be found.
+4012,0,지갑이 유효하지 않습니다.,Wallet is invalid.
+4013,0,NFT 등록해제에서 파라미터 타입이 올바르지 않습니다.,The parameter type is incorrect in NFT deregistration.
+4014,0,NFT 등록해제에서 response가 올바르지 않습니다.,Invalid response in NFT deregistration.
+4015,0,NFT 등록해제에서 지갑주소가 데이터베이스에 업데이트되지 않았습니다.,Wallet address is not updated to the database in NFT deregistration.
+4016,0,NFT 등록에서 지갑주소가 데이터베이스에 등록되지 않았습니다.,"In NFT registration, the wallet address is not registered in the database."
+4017,0,NFT 등록해제에서 유저 정보를 확인할 수 없습니다.,User information cannot be verified in NFT deregistration.
+4018,0,NFT 등록해제에서 유저 지갑 주소가 없습니다.,There is no user wallet address in NFT deregistration.
+4019,0,NFT 등록해제에서 파라미터 검증에 실패했습니다.,Parameter verification failed in NFT deregistration.
+4020,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+4021,0,NFT 캐릭터가 아닙니다.,This character is not for NFTs.
+4022,0,장착된 캐릭터 입니다.,This character is deployed.
+4023,0,캐릭터 데이터를 찾을 수 없습니다.,Character data cannot be found.
+4024,0,NFT 발행에 실패 했습니다.,Failed to issue NFT.
+4025,0,파트너 정보를 찾을 수 없습니다.,Partner information cannot be found.
+4026,0,NFT 파트너가 아닙니다.,This partner is not an NFT partner.
+4027,0,장착된 파트너 입니다.,This partner is deployed.
+4028,0,지갑 주소를 입력해 주세요,Please enter your wallet address
+4029,0,캐릭터 민팅에서 Response가 올바르지 않습니다.,Response is incorrect in Character Minting.
+4030,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+4031,0,NFT 발행이 불가능한 아이템입니다.,This item cannot be issued as an NFT.
+4032,0,NFT 발행에 실패 했습니다.,Failed to issue NFT.
+4033,0,발행 가능한 아이템이 없습니다.,No item can be issued.
+4034,0,아이템 데이터를 찾을 수 없습니다.,Item data cannot be found.
+4035,0,캐릭터 민팅에서 파라미터 검증에 실패했습니다.,Parameter verification failed in Character Minting.
+4036,0,캐릭터 민팅에서 파라미터 타입이 올바르지 않습니다.,The parameter type is incorrect in Character Minting.
+4037,0,캐릭터 민팅에서 버전 정보가 등록되지 않았습니다.,Version information is not registered in Character Minting.
+4038,0,캐릭터 민팅에서 유저 객체를 가져올 수 없습니다.,Unable to get user object from Character Minting.
+4039,0,캐릭터 정보를 가져올 수 없습니다.,Unable to import character information.
+4040,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+4041,0,캐릭터의 NFT 데이터를 찾을 수 없습니다.,Character NFT data cannot be found.
+4042,0,파트너의 NFT 데이터를 찾을 수 없습니다.,Partner NFT data cannot be found.
+4043,0,아이템의 NFT 데이터를 찾을 수 없습니다.,Item NFT data cannot be found.
+4044,0,NFT 정보를 가져오는데 실패 했습니다.,Failed to load the NFT information.
+4045,0,파트너 민팅에서 유저의 파트너 정보를 가져올 수 없습니다.,Unable to import a user's partner information from Partner Minting.
+4046,0,파트너 민팅에서 파트너 고유 정보를 가져올 수 없습니다.,Unable to import partner unique information from Partner Minting.
+4047,0,파트너 민팅에서 파트너 기술 정보를 가져올 수 없습니다.,Unable to import partner technical information from Partner Minting.
+4048,0,파트너 민팅에서 Response가 올바르지 않습니다.,Response is incorrect in Partner Minting.
+4049,0,파트너 민팅에서 암호화에 실패했습니다.,Encryption failed in Partner Minting.
+4050,0,파트너 민팅에서 NFT 데이터 저장에 실패했습니다.,Failed to save NFT data in Partner Minting.
+4051,0,파트너 민팅에서 파트너 정보 업데이트에 실패했습니다.,Failed to update partner information in Partner Minting.
+4052,0,캐릭터 민팅에서 캐릭터 스킬 정보를 가져 올 수 없습니다.,Unable to import character skill information from Character Minting.
+4053,0,캐릭터 민팅에서 캐릭터 텍스트 정보를 가져 올 수 없습니다.,Unable to import character text information from Character Minting.
+4054,0,캐릭터 민팅에서 캐릭터 고유 정보를 가져올 수 없습니다.,Unable to import character unique information from Character Minting.
+4055,0,캐릭터 민팅에서 암호화에 실패했습니다.,Failed to encrypt in Character Minting.
+4056,0,캐릭터 민팅에서 캐릭터 정보 업데이트에 실패했습니다.,Failed to update character information in Character Minting.
+4057,0,캐릭터 민팅에서 NFT 데이터 저장에 실패했습니다.,Failed to save NFT data in Character Minting.
+4058,0,파트너 민팅에서 유저 정보를 확인할 수 없습니다.,Unable to verify user information in Partner Minting.
+4059,0,파트너 민팅에서 파트너 파라미터 검증에 실패했습니다.,Partner Parameter verification failed in Partner Minting.
+4060,0,아이템 민팅에서 유저 정보를 확인할 수 없습니다.,Unable to verify user information in Item Minting.
+4061,0,아이템 민팅에서 파라미터 검증에 실패했습니다.,Parameter verification failed from Item Minting.
+4062,0,아이템 민팅에서 유저 객체를 가져올 수 없습니다.,Unable to import user object from Item Minting.
+4063,0,아이템 민팅에서 버전 정보를 가져올 수 없습니다.,Unable to import version information from Item Minting.
+4064,0,아이템 민팅에서 유저 아이템 정보를 가져올 수 없습니다.,Unable to import user item information from Item Minting.
+4065,0,아이템 민팅에서 유저 아이템이 부족합니다.,Not enough user items in Item Minting.
+4066,0,아이템 민팅에서 고유 아이템 정보를 가져올 수 없습니다.,Unable to import unique item information from Item Minting.
+4067,0,아이템 민팅에서 Response가 올바르지 않습니다.,Response is incorrect in Item Minting.
+4068,0,아이템 민팅에서 암호화에 실패했습니다.,Encryption failed in Item Minting.
+4069,0,아이템 민팅에서 NFT 데이터 저장에 실패했습니다.,Failed to save NFT data in Item Minting.
+4070,0,아이템 민팅에서 아이템 정보 업데이트에 실패했습니다.,Failed to update item information in Item Minting.
+4071,0,파트너 민팅에서 파트너 파라미터 타입이 올바르지 않습니다.,The partner parameter type is incorrect in Partner Minting.
+4072,0,파트너 민팅에서 유저 객체를 가져올 수 없습니다.,Unable to import user object from Partner Minting.
+4073,0,파트너 민팅에서 버전 정보를 가져올 수 없습니다.,Unable to import version information from Partner Minting.
+4074,0,캐릭터 민팅에서 유저 정보를 확인할 수 없습니다.,Unable to verify user information in Character Minting.
+4075,0,유저 아이템 정보를 찾을 수 없습니다.,Unable to find user item information.
+4076,0,아이템이 존재하지 않습니다.,The item does not exist.
+4077,0,아이템 변경에 실패 했습니다.,Failed to change item.
+4078,0,유저 프리셋 정보를 찾을 수 없습니다.,User preset information cannot be found.
+4079,0,유저 프리셋 정보를 찾을 수 없습니다.,User preset information cannot be found.
+4080,0,NFT 리스트 호출에서 유저 정보를 확인할 수 없습니다.,Unable to check user information in NFT list call.
+4081,0,NFT 리스트 호출에서 리스트 Response가 올바르지 않습니다.,Invalid list response in NFT list call.
+4082,0,NFT 리스트 호출에서 리스트 정보를 가져올 수 없습니다.,Unable to import list information from NFT list call.
+4083,0,NFT 리스트 호출에서 JSON 정보가 일치하지 않습니다.,JSON information does not match in NFT list call.
+4084,0,NFT 리스트 호출에서 deposit 함수 결과가 true가 아닙니다.,The deposit function result is not true in the NFT list call.
+4085,0,NFT 리스트 호출에서 캐릭터 정보를 찾을 수 없습니다.,Unable to find character information in NFT list call.
+4086,0,NFT 리스트 호출에서 캐릭터 메일 아이템 생성에 실패했습니다.,Failed to create character mail item in NFT list call.
+4087,0,NFT 리스트 호출에서 파트너 정보를 찾을 수 없습니다.,Unable to find Partner information in NFT list call.
+4088,0,NFT 리스트 호출에서 파트너 메일 아이템 생성에 실패했습니다.,Failed to create partner mail item in NFT list call.
+4089,0,NFT 리스트 호출에서 아이템 메일 아이템 생성에 실패했습니다.,Failed to create item mail item in NFT list call.
+4090,0,NFT 들여오기에서 ID 타입이 맞지 않습니다.,ID type is incorrect in NFT import.
+4091,0,NFT 들여오기에서 deposit API response가 올바르지 않습니다.,The deposit API response is incorrect in NFT import.
+4092,0,NFT 들여오기에서 NFT 정보를 가져올 수 없습니다.,Unable to import NFT information from NFT import.
+4093,0,NFT 들여오기에서 NFT 데이터 업데이트에 실패했습니다.,Failed to update NFT data in NFT import.
+4094,0,지갑이 유효하지 않습니다.,The wallet is invalid.
+4095,0,유저 정보를 찾을 수 없습니다.,User information cannot be found.
+4096,0,캐릭터가 존재하지 않습니다.,Character does not exist.
+4097,0,파트너가 존재하지 않습니다.,Partner does not exist.
+4098,0,파트너 데이터를 찾을 수 없습니다.,Partner data cannot be found.
+4099,0,NFT 발행에 실패 했습니다.,Failed to NFT issuance.
+4100,1,시스템 에러가 발생했습니다.,A system error occurred.
+4101,1,시스템 에러가 발생했습니다.,A system error occurred.
+4102,0,NFT 발행에 실패 했습니다.,Failed to issue NFT.
+4103,0,특수문자가 포함된 닉네임은 계정연동이 불가능합니다. 닉네임 변경을 해주세요,A nickname containing special characters cannot be linked to your account. Please change your nickname.
+4104,0,지갑이 유효하지 않습니다.,The wallet is invalid.
+4105,0,지갑 주소를 입력해 주세요.,Please enter your wallet address.
+4106,0,1일 한도를 초과 했습니다,You have exceeded the daily limit.
+4107,0,버전 정보를 찾을 수 없습니다.,Version information cannot be found.
+4108,0,아이템 데이터를 찾을 수 없습니다.,Item data cannot be found.
+4109,0,아이템 데이터를 찾을 수 없습니다.,Item data cannot be found.
+4110,0,버전 정보를 찾을 수 없습니다.,Version information cannot be found.
+4111,0,버전 정보를 찾을 수 없습니다.,Version information cannot be found.
+4112,0,임무 수행 중인 캐릭터는 NFT 내보내기를 할 수 없습니다.,A character on a mission cannot export NFTs.
+4113,0,임무 수행 중인 동료는 NFT 내보내기를 할 수 없습니다.,A partner on a mission cannot export NFTs.
+5000,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+5001,0,메일 정보를 찾을 수 없습니다.,Mail information cannot be found.
+5002,0,메일 아이템 정보를 찾을 수 없습니다.,Mail item information cannot be found.
+5003,0,메일 정보를 찾을 수 없습니다.,Mail information cannot be found.
+5004,0,메일 정보를 찾을 수 없습니다.,Mail information cannot be found.
+5005,0,메일이 존재하지 않습니다.,A mail does not exist.
+5006,0,메일 정보를 찾을 수 없습니다.,Mail information cannot be found.
+5007,0,메일 정보를 찾을 수 없습니다.,Mail information cannot be found.
+5008,0,메일이 존재하지 않습니다.,A mail does not exist.
+5010,0,메일 정보를 찾을 수 없습니다.,Mail information cannot be found.
+5011,0,메일의 만료기간이 지났습니다.,The mail has expired.
+5012,0,메일 아이템 정보를 찾을 수 없습니다.,Mail item information cannot be found.
+5013,0,메일 아이템이 존재하지 않습니다.,Mail item does not exist.
+5020,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+5021,0,이미 메일을 받았습니다.,The mail has already been received.
+5022,0,메일의 만료기간이 지났습니다.,The mail has expired.
+5023,0,메일 아이템 정보를 찾을 수 없습니다.,Mail item information cannot be found.
+5024,0,메일 아이템이 존재하지 않습니다.,Mail item does not exist.
+5025,0,잘못된 메일 정보입니다.,Mail information is incorrect.
+5026,0,아이템 받기에 실패하였습니다.,Failed to receive the item.
+5030,1,유저 정보를 확인할 수 없습니다.,User information cannot be verified.
+5031,0,메일 확인을 할 수 없습니다,Unable to check mail
+5032,0,잘못된 요청 입니다.,Invalid request
+5033,0,잘못된 요청 입니다.,Invalid request
+5034,0,메일에 아이템이 있습니다.,The item is in the mail.
+6000,0,미션 데이터를 찾을 수 없습니다.,Mission data cannot be found.
+6001,0,수행하려는 미션 정보가 없습니다.,There is no mission information to perform.
+6002,0,이미 진행중인 미션입니다.,The mission is already in progress.
+6003,0,캐릭터 정보를 찾을 수 없습니다.,Character information cannot be found.
+6004,0,파트너 정보를 찾을 수 없습니다.,Partner information cannot be found.
+6005,0,미션 수행에 필요한 캐릭터가 없습니다.,You don't have the required character for a mission.
+6006,0,미션 수행에 필요한 파트너가 없습니다.,You don't have the required partner for a mission.
+6007,0,캐릭터와 동료만 임무 수행이 가능합니다.,Only character and partner can carry out a mission.
+6008,0,미션 데이터를 찾을 수 없습니다.,Mission data cannot be found.
+6009,0,수행하려는 미션 정보가 없습니다.,There is no mission information to perform.
+6010,0,종료된 미션만 완료가 가능합니다.,Only closed missions can be completed.
+6011,0,데이터에 존재하지 않은 미션입니다.,The mission does not exist in the data.
+6012,0,아직 종료되지 않는 미션입니다.,The mission has not yet ended.
+6013,0,캐릭터 정보를 찾을 수 없습니다.,Character information cannot be found.
+6014,0,미션 수행에 필요한 캐릭터가 없습니다.,You don't have the required character for a mission.
+6015,0,파트너 정보를 찾을 수 없습니다.,Partner information cannot be found.
+6016,0,미션 수행에 필요한 파트너가 없습니다.,You don't have the required partner for a mission.
+6017,0,미션 데이터를 찾을 수 없습니다.,Mission data cannot be found.
+6018,0,이미 미션을 수행중인 캐릭터 입니다.,The character is already on the mission.
+6019,0,이미 미션을 수행중인 동료 입니다.,The partner is already on the mission.
+6020,0,미션이 새롭게 갱신되었습니다.,The mission has been updated.
+6021,0,이미 완료된 미션입니다.,The mission has already been completed.
+6100,0,뽑기 정보를 찾을 수 없습니다.,Drawing lot information cannot be found.
+6101,0,뽑기 데이터를 찾을 수 없습니다.,Drawing lot data cannot be found.
+6102,0,뽑기 보상 데이터를 찾을 수 없습니다.,Reward data of Drawing lot cannot be found.
+6103,0,뽑기 보상 데이터를 찾을 수 없습니다.,Reward data of Drawing lot cannot be found.
+6104,0,유저의 뽑기 보상 데이터를 찾을 수 없습니다.,User's reward data of Drawing lot cannot be found.
+6105,0,뽑기 정보를 찾을 수 없습니다.,Drawing lot information cannot be found.
+6106,0,현재 진행중인 뽑기 이벤트가 없습니다.,There is no Drawing event in progress.
+6107,0,잘못된 요청입니다.,Invalid request.
+6108,0,유저의 아이템 정보를 찾을 수 없습니다.,User's item information cannot be found.
+6109,0,이벤트 뽑기권이 없습니다.,There is no event ticket for Drawing lot.
+6110,0,이벤트 뽑기권이 부족합니다.,Not enough event tickets for Drawing lot 
+6111,0,이벤트 뽑기권이 부족합니다.,Not enough event tickets for Drawing lot 
+6112,0,뽑기 보상 정보를 찾을 수 없습니다.,Reward information of Drawing lot cannot be found.
+6113,0,뽑기 보상 정보를 찾을 수 없습니다.,Reward information of Drawing lot cannot be found.
+6200,0,프로필 데이터를 찾을 수 없습니다.,Can not found profile data.
+6201,0,유저 프로필 데이터를 찾을 수 없습니다.,Can not found user profile data.
+6202,0,보유하고 있지 않은 프로필 입니다.,Doesn't have this profile.
+9000,0,선언되지 않은 파라미터가 있습니다.,An undeclared parameter exists.
+9001,0,정의되지 않은 파라미터가 존재합니다.,An undefined parameter exists.
+9002,0,선언이 잘못된 파라미터가 있습니다.,An misdeclared parameter exists.
+9003,0,잘못된 요청입니다.,Invalid request.
+9004,0,비정상적인 요청입니다.,Wrong request.
+9005,0,사용하지 않음,Not in use
+9100,0,정의되지 않은 서버 오류,Undefined Server Error
+5035,0,유저 정보를 찾을 수 없습니다.,User information cannot be found.
+4114,0,게스트 계정은 NFT를 이용할 수 없습니다.,Guest accounts cannot use NFT.
+4115,0,NFT 아이템이 아닙니다.,This is not an NFT item.
+4116,0,시스템 에러가 발생했습니다.,A system error occurred.
+4117,0,시스템 에러가 발생했습니다.,A system error occurred.
+4118,0,유저 정보를 찾을 수 없습니다.,User information cannot be found.
+4119,0,NFT 지갑 정보가 없습니다.,There is no NFT wallet information.
+4120,0,유저 아이템 정보를 찾을 수 없습니다.,User item information cannot be found.
+4121,0,유저 아이템 정보를 찾을 수 없습니다.,User item information cannot be found.
+4122,0,다이아가 부족합니다.,There are not enough diamonds.
+4123,0,더 이상 출금할 수 없습니다.,You can no longer withdraw diamonds.
+4124,0,시스템 에러가 발생했습니다.,A system error occurred.
+4125,0,유저 정보를 찾을 수 없습니다.,User information cannot be found.
+4126,0,시스템 에러가 발생했습니다.,A system error occurred.
+4127,0,시스템 에러가 발생했습니다.,A system error occurred.
+4128,0,시스템 에러가 발생했습니다.,A system error occurred.
+4129,0,시스템 에러가 발생했습니다.,A system error occurred.
+1206,0,같은 닉네임이 존재합니다.,The same nickname exists.
+20022,0,잘못된 접근입니다.,The wrong approach.
+4130,0,아이템 데이터를 찾을 수 없습니다.,Item data cannot be found.
+4131,0,N등급 캐릭터는 내보내기를 할 수 없습니다.,N grade characters cannot be exported.
+4132,0,N등급 동료는 내보내기를 할 수 없습니다.,N grade partners cannot be exported.

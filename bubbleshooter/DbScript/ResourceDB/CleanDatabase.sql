@@ -1,0 +1,7 @@
+SET FOREIGN_KEY_CHECKS=0;
+DROP DATABASE IF EXISTS bbf_static ;
+
+CREATE DATABASE bbf_static
+	CHARACTER SET utf8
+	COLLATE utf8_general_ci
+;

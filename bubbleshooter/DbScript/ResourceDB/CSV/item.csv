@@ -1,0 +1,89 @@
+﻿ITEM_TYPE,ITEM_ID,ITEM_NAME,ITEM_ICON,IS_NFT,DESC
+0,0,9110001,Icon_gold03,0,Gold
+1,1,9110002,Icon_ruby03,0,Ruby
+2,2,9110003,Icon_dia03,1,Diamond
+3,1000001,9110007,Icon_dualticket,0,Competition tickets
+3,1000002,9110009,Icon_gachacoin,0,Drawing Lot Coins
+3,1000008,9110011,Icon_arcadecoin,0,Mini game Chips
+3,1020001,9110013,Icon_telescope,0,Pinkfong's item
+3,1020002,9110015,Icon_Brush,0,Hogi's item
+3,1020003,9110017,Icon_carrot,0,Jeni's item
+3,1020004,9110019,Icon_spanner,0,Poki's item
+3,1020005,9110021,Icon_guitar,0,Rachel's item
+3,1020006,9110023,Icon_cheese,0,Myan's item
+3,1020007,9110025,Icon_oildrum,0,Billi's item
+3,1020008,9110027,Icon_note,0,Coco's item
+3,1000003,9110029,Icon_rankup_item_R,0,R grade item
+3,1000004,9110031,Icon_rankup_item_SR,0,SR grade item
+3,1000005,9110033,Icon_rankup_item_SSR,0,SSR grade item
+6,1000006,9110035,Icon_friendspack01,0,Nomal Friends Pack
+6,1000007,9110037,Icon_friendspack02,0,Rare Frriends Pack
+6,1000015,9110077,Icon_friendspack00,0,Super Rare Friends Pack
+7,1000009,9110065,Icon_Partnerpack_R,0,R Partner Pack
+7,1000010,9110067,Icon_Partnerpack_SR,0,SR Partner Pack
+7,1000011,9110069,Icon_friendspack00,0,Character Upgrade Pack
+7,1000012,9110071,Icon_friendspack00,0,Partner Upgrade Pack
+7,1000013,9110073,Icon_Partnerpack_R,0,R Character Pack
+7,1000014,9110075,Icon_Partnerpack_SR,0,SR Character Pack
+7,1000016,9110079,Icon_friendspack03,0,New Friends Recruit(Character)
+7,1000017,9110081,Icon_friendspack04,0,New Friends Recruit(Partner)
+7,1000018,9110107,icon_giftbox00,0,mission_randomGR_1
+7,1000019,9110108,icon_giftbox00,0,mission_randomGR_2
+7,1000020,9110109,icon_giftbox00,0,mission_randomGR_3
+9,1010001,9110041,Icon_Trophy00,1,1st TROPHY
+9,1010002,9110043,Icon_Trophy01,1,2nd TROPHY
+9,1010003,9110045,Icon_Trophy02,1,3rd TROPHY
+9,1010004,9110047,Icon_Trophy03,1,4_10th TROPHY
+9,1010005,9110049,Icon_Trophy04,1,11_30th TROPHY
+9,1010006,9110051,Icon_Trophy05,1,31_50th TROPHY
+9,1010007,9110053,Icon_Trophy06,1,51_70th TROPHY
+9,1010008,9110055,Icon_Trophy07,1,71_100th TROPHY
+9,1010009,9110057,Icon_Trophy08,1,101-200th  TROPHY
+9,1010010,9110059,Icon_Trophy09,1,201-300th TROPHY
+9,1010011,9110061,Icon_Trophy10,1,301-400th TROPHY
+9,1010012,9110063,Icon_Trophy11,1,401-500th TROPHY
+9,1010021,9110083,Icon_Trophy00,1,1st TROPHY
+9,1010022,9110085,Icon_Trophy01,1,2nd TROPHY
+9,1010023,9110087,Icon_Trophy02,1,3rd TROPHY
+9,1010024,9110089,Icon_Trophy03,1,4-5th TROPHY
+9,1010025,9110091,Icon_Trophy04,1,6-8th TROPHY
+9,1010026,9110093,Icon_Trophy05,1,9-12th TROPHY
+9,1010027,9110095,Icon_Trophy06,1,13-20th TROPHY
+9,1010028,9110097,Icon_Trophy07,1,21-30th TROPHY
+9,1010029,9110099,Icon_Trophy08,1,31-40th  TROPHY
+9,1010030,9110101,Icon_Trophy09,1,41-60th TROPHY
+9,1010031,9110103,Icon_Trophy10,1,61-80th TROPHY
+9,1010032,9110105,Icon_Trophy11,1,81-100th TROPHY
+10,1120000,9010000,character_profile_09,0,Rua_PROFILE
+10,1120001,9010001,character_profile_08,0,Pinkfong_PROFILE
+10,1120002,9010002,character_profile_06,0,Hogi_PROFILE
+10,1120003,9010003,character_profile_01,0,Jeni_PROFILE
+10,1120004,9010004,character_profile_02,0,Poki_PROFILE
+10,1120005,9010005,character_profile_03,0,Rachel_PROFILE
+10,1120006,9010006,character_profile_07,0,Myan_PROFILE
+10,1120007,9010007,character_profile_04,0,Billy_PROFILE
+10,1120008,9010008,character_profile_05,0,Coco_PROFILE
+10,1150001,9060001,Partner_list_01,0,Brooklyn_PROFILE
+10,1150002,9060002,Partner_list_02,0,Hermit Crab_PROFILE
+10,1150003,9060003,Partner_list_03,0,Longnose_PROFILE
+10,1150004,9060004,Partner_list_04,0,Snapping Shrimp_PROFILE
+10,1150005,9060005,Partner_list_05,0,Dora_PROFILE
+10,1150006,9060006,Partner_list_06,0,Flatfish_PROFILE
+10,1150007,9060007,Partner_list_07,0,Mommy Shark_PROFILE
+10,1150008,9060008,Partner_list_08,0,Sea Turtle_PROFILE
+10,1150009,9060009,Partner_list_09,0,Gentle Blowfish_PROFILE
+10,1150010,9060010,Partner_list_10,0,Pom-pom Crab_PROFILE
+10,1150011,9060011,Partner_list_11,0,Manta Ray_PROFILE
+10,1150012,9060012,Partner_list_12,0,Octopus_PROFILE
+10,1150013,9060013,Partner_list_13,0,Daddy Shark_PROFILE
+10,1150014,9060014,Partner_list_14,0,Catfish_PROFILE
+10,1150015,9060015,Partner_list_15,0,Bluestreak Cleaner Wrasse_PROFILE
+10,1150016,9060016,Partner_list_16,0,Midshipman Fish_PROFILE
+10,1150017,9060017,Partner_list_17,0,Leafy Sea Dragon_PROFILE
+10,1150018,9060018,Partner_list_18,0,Cone Snail_PROFILE
+10,1150019,9060019,Partner_list_19,0,Mola mola_PROFILE
+10,1150020,9060020,Partner_list_20,0,Blowfish_PROFILE
+10,1150021,9060021,Partner_list_21,0,Sleepy Crab_PROFILE
+10,1150022,9060022,Partner_list_22,0,Pink Seahorse_PROFILE
+10,1150023,9060023,Partner_list_23,0,Purple Seahorse_PROFILE
+10,1150024,9060024,Partner_list_24,0,William_PROFILE

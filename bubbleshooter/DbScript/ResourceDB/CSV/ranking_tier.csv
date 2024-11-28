@@ -1,0 +1,13 @@
+﻿RANKING_SEASON_ID,RANKING_TIER,TIER_NAME,TIER_ICON,SEASON_REWARD_SPINE,REGULATE_TIER,RANKING_TIER_STANDARD_POINT,RANKING_MAX_RP,RANKING_MIN_RP
+0,0,9500001,Icon_Bronze_3,CardPack_Star,0,0,20,0
+0,1,9500002,Icon_Bronze_2,CardPack_Star,0,100,19,-1
+0,2,9500003,Icon_Bronze_1,CardPack_Star,0,200,18,-2
+0,3,9500004,Icon_Silver_3,CardPack_Star,0,300,16,-4
+0,4,9500005,Icon_Silver_2,CardPack_Star,0,400,15,-5
+0,5,9500006,Icon_Silver_1,CardPack_Star,0,500,14,-6
+0,6,9500007,Icon_Gold_3,CardPack_Star,0,600,12,-8
+0,7,9500008,Icon_Gold_2,CardPack_Star,0,800,11,-9
+0,8,9500009,Icon_Gold_1,CardPack_Star,0,1000,10,-10
+0,9,9500010,Icon_Diamond_3,CardPack_Star,0,1200,8,-12
+0,10,9500011,Icon_Diamond_2,CardPack_Star,0,1600,7,-13
+0,11,9500012,Icon_Diamond_1,CardPack_Star,0,2000,5,-15

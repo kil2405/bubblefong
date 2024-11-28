@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="log">
+	<select id="initQry" resultType="Integer" statementType="CALLABLE">
+		SELECT 1
+	</select>
+	
+	<select id="user_connect_log_INS_SP" resultType="Integer" statementType="CALLABLE">
+		CALL user_connect_log_INS_SP (
+			#{ptn_month,			jdbcType=TINYINT,		mode=IN},
+			#{ptn_day,				jdbcType=TINYINT,		mode=IN},
+			#{log_date,				jdbcType=BIGINT,		mode=IN},
+			#{user_id,				jdbcType=BIGINT,		mode=IN},
+			#{uuid,					jdbcType=VARCHAR,		mode=IN},
+			#{level,				jdbcType=INTEGER,		mode=IN},
+			#{gold,					jdbcType=INTEGER,		mode=IN},
+			#{ruby,					jdbcType=INTEGER,		mode=IN},
+			#{diamond,				jdbcType=INTEGER,		mode=IN},
+			#{version,				jdbcType=VARCHAR,		mode=IN},
+			#{rank_tier,			jdbcType=TINYINT,		mode=IN},
+			#{rank_point,			jdbcType=INTEGER,		mode=IN},
+			#{region,				jdbcType=VARCHAR,		mode=IN},
+			#{is_new,				jdbcType=TINYINT,		mode=IN}
+		)
+	</select>
+	
+	<select id="game_money_log_INS_SP" resultType="Integer" statementType="CALLABLE">
+		CALL game_money_log_INS_SP (
+			#{ptn_month,			jdbcType=TINYINT,		mode=IN},
+			#{ptn_day,				jdbcType=TINYINT,		mode=IN},
+			#{log_date,				jdbcType=INTEGER,		mode=IN},
+			#{log_type,				jdbcType=VARCHAR,		mode=IN},
+			#{user_id,				jdbcType=BIGINT,		mode=IN},
+			#{money_type,			jdbcType=TINYINT,		mode=IN},
+			#{item_id,				jdbcType=INTEGER,		mode=IN},
+			#{add_value,			jdbcType=INTEGER,		mode=IN},
+			#{total_value,			jdbcType=BIGINT,		mode=IN},
+			#{description,			jdbcType=VARCHAR,		mode=IN}
+		)
+	</select>
+	
+	<select id="change_nickname_log_INS_SP" resultType="Integer" statementType="CALLABLE">
+		CALL change_nickname_log_INS_SP (
+			#{ptn_month,			jdbcType=TINYINT,		mode=IN},
+			#{log_date,				jdbcType=INTEGER,		mode=IN},
+			#{user_id,				jdbcType=BIGINT,		mode=IN},
+			#{prev_nickname,		jdbcType=VARCHAR,		mode=IN},
+			#{new_nickname,			jdbcType=VARCHAR,		mode=IN},
+			#{limit_date,			jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="change_nickname_log_LST_SP" resultType="com.bubbleShooter.domain.ChangeNicknameLog" statementType="CALLABLE">
+		CALL change_nickname_log_LST_SP (
+			#{user_id,				jdbcType=BIGINT,		mode=IN}
+		)
+	</select>
+	
+	<select id="error_log_INS_SP" statementType="CALLABLE" >
+		CALL error_log_INS_SP(
+		    #{in_month,				    jdbcType=INTEGER,		mode=IN},
+		    #{in_log_time,				jdbcType=BIGINT,		mode=IN},
+			#{in_user_id,				jdbcType=INTEGER,		mode=IN},
+			#{in_request_url,			jdbcType=VARCHAR,		mode=IN},
+			#{in_error_code,			jdbcType=BIGINT,		mode=IN},	
+			#{in_request_body,			jdbcType=VARCHAR,		mode=IN},		
+			#{in_error_text,			jdbcType=VARCHAR,		mode=IN}
+		)
+	</select>
+	
+	<select id="ranking_reward_log_INS_SP" resultType="Integer" statementType="CALLABLE">
+		CALL ranking_reward_log_INS_SP (
+			#{ptn_month,			jdbcType=TINYINT,		mode=IN},
+			#{ptn_day,				jdbcType=TINYINT,		mode=IN},
+			#{log_date,				jdbcType=INTEGER,		mode=IN},
+			#{user_id,				jdbcType=INTEGER,		mode=IN},
+			#{reward_season,		jdbcType=INTEGER,		mode=IN},
+			#{reward_tier,			jdbcType=INTEGER,		mode=IN},
+			#{reward_score,			jdbcType=INTEGER,		mode=IN},
+			#{reward_ranking,		jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="ranking_reward_log_LST_SP" resultType="com.bubbleShooter.domain.RankingRewardLog" statementType="CALLABLE">
+		CALL ranking_reward_log_LST_SP (
+			#{user_id,				jdbcType=INTEGER,		mode=IN},
+			#{reward_season,		jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="attendance_log_INS_SP" resultType="Integer" statementType="CALLABLE">
+		CALL attendance_log_INS_SP (
+			#{ptn_month,							jdbcType=TINYINT,		mode=IN},
+			#{ptn_day,								jdbcType=TINYINT,		mode=IN},
+			#{log_time,								jdbcType=BIGINT,		mode=IN},
+			#{user_id,								jdbcType=INTEGER,		mode=IN},
+			#{item_type,							jdbcType=INTEGER,		mode=IN},
+			#{item_id,								jdbcType=INTEGER,		mode=IN},
+			#{item_count,							jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="attendance_log_LST_SP" resultType="com.bubbleShooter.domain.AttendanceRewardLog" statementType="CALLABLE">
+		CALL attendance_log_LST_SP (
+			#{user_id,				jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="attendance_event_log_INS_SP" resultType="Integer" statementType="CALLABLE">
+		CALL attendance_event_log_INS_SP (
+			#{ptn_month,							jdbcType=TINYINT,		mode=IN},
+			#{ptn_day,								jdbcType=TINYINT,		mode=IN},
+			#{log_time,								jdbcType=BIGINT,		mode=IN},
+			#{user_id,								jdbcType=INTEGER,		mode=IN},
+			#{event_no,								jdbcType=INTEGER,		mode=IN},
+			#{event_day,							jdbcType=INTEGER,		mode=IN},
+			#{reward_day,							jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="attendance_event_log_LST_SP" resultType="com.bubbleShooter.domain.AttendanceEventRewardLog" statementType="CALLABLE">
+		CALL attendance_event_log_LST_SP (
+			#{user_id,				jdbcType=INTEGER,		mode=IN},
+			#{event_no,				jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="nft_item_import_log_INS_SP" resultType="Integer" statementType="CALLABLE">
+		CALL nft_item_import_log_INS_SP (
+			#{ptn_month,			jdbcType=TINYINT,		mode=IN},
+			#{ptn_day,				jdbcType=TINYINT,		mode=IN},
+			#{log_date,				jdbcType=BIGINT,		mode=IN},
+			#{user_id,				jdbcType=INTEGER,		mode=IN},
+			#{wallet,				jdbcType=VARCHAR,		mode=IN},
+			#{url,					jdbcType=VARCHAR,		mode=IN},
+			#{market_id,			jdbcType=VARCHAR,		mode=IN},
+			#{created_game_yn,		jdbcType=VARCHAR,		mode=IN},
+			#{item_type,			jdbcType=INTEGER,		mode=IN},
+			#{item_id,				jdbcType=INTEGER,		mode=IN},
+			#{item_count,			jdbcType=INTEGER,		mode=IN},
+			#{grade,				jdbcType=INTEGER,		mode=IN},
+			#{level,				jdbcType=INTEGER,		mode=IN},
+			#{upgrade,				jdbcType=INTEGER,		mode=IN},
+			#{skill1,				jdbcType=INTEGER,		mode=IN},
+			#{skill2,				jdbcType=INTEGER,		mode=IN},
+			#{skill3,				jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="nft_item_export_log_INS_SP" resultType="Integer" statementType="CALLABLE">
+		CALL nft_item_export_log_INS_SP (
+			#{ptn_month,			jdbcType=TINYINT,		mode=IN},
+			#{ptn_day,				jdbcType=INTEGER,		mode=IN},
+			#{log_date,				jdbcType=BIGINT,		mode=IN},
+			#{user_id,				jdbcType=INTEGER,		mode=IN},
+			#{wallet,				jdbcType=VARCHAR,		mode=IN},
+			#{url,					jdbcType=VARCHAR,		mode=IN},
+			#{uid,					jdbcType=VARCHAR,		mode=IN},
+			#{meta_data,			jdbcType=VARCHAR,		mode=IN},
+			#{resCode,				jdbcType=VARCHAR,		mode=IN}
+		)
+	</select>
+	
+	<select id="nft_item_export_log_LST_SP" resultType="com.bubbleShooter.domain.NftItemExportLog" statementType="CALLABLE">
+		CALL nft_item_export_log_LST_SP (
+			#{ptn_month,			jdbcType=TINYINT,		mode=IN},
+			#{ptn_day,				jdbcType=TINYINT,		mode=IN},
+			#{user_id,				jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="mission_log_INS_SP" resultType="Integer" statementType="CALLABLE">
+		CALL mission_log_INS_SP (
+			#{ptn_month,				jdbcType=TINYINT,		mode=IN},
+			#{ptn_day,					jdbcType=TINYINT,		mode=IN},
+			#{log_time,					jdbcType=BIGINT,		mode=IN},
+			#{user_id,					jdbcType=INTEGER,		mode=IN},
+			#{index,					jdbcType=INTEGER,		mode=IN},
+			#{mission_id,				jdbcType=INTEGER,		mode=IN},
+			#{status,					jdbcType=TINYINT,		mode=IN},
+			#{hero_type,				jdbcType=TINYINT,		mode=IN},
+			#{hero_uuid,				jdbcType=VARCHAR,		mode=IN},
+			#{mission_start_time,		jdbcType=BIGINT,		mode=IN},
+			#{mission_reward_time,		jdbcType=BIGINT,		mode=IN},
+			#{mission_update_time,		jdbcType=INTEGER,		mode=IN},
+			#{reward_item_0,			jdbcType=VARCHAR,		mode=IN},
+			#{reward_item_1,			jdbcType=VARCHAR,		mode=IN},
+			#{reward_item_2,			jdbcType=VARCHAR,		mode=IN},
+			#{reward_item_3,			jdbcType=VARCHAR,		mode=IN},
+			#{reward_item_4,			jdbcType=VARCHAR,		mode=IN}
+		)
+	</select>
+	
+	<select id="gacha_reward_log_INS_SP" resultType="Integer" statementType="CALLABLE">
+		CALL gacha_reward_log_INS_SP (
+			#{ptn_month,				jdbcType=TINYINT,		mode=IN},
+			#{ptn_day,					jdbcType=TINYINT,		mode=IN},
+			#{log_time,					jdbcType=INTEGER,		mode=IN},
+			#{user_id,					jdbcType=INTEGER,		mode=IN},
+			#{gacha_index,				jdbcType=INTEGER,		mode=IN},
+			#{gacha_id,					jdbcType=INTEGER,		mode=IN},
+			#{reward_grade,				jdbcType=INTEGER,		mode=IN},
+			#{gacha_reward_item,		jdbcType=VARCHAR,		mode=IN}
+			
+		)
+	</select>
+	
+	<select id="mini_game_play_log_INS_SP" resultType="Integer" statementType="CALLABLE">
+		CALL mini_game_play_log_INS_SP (
+			#{ptn_month,				jdbcType=TINYINT,		mode=IN},
+			#{ptn_day,					jdbcType=TINYINT,		mode=IN},
+			#{log_date,					jdbcType=BIGINT,		mode=IN},
+			#{room_uid,					jdbcType=VARCHAR,		mode=IN},
+			#{user_id,					jdbcType=INTEGER,		mode=IN},
+			#{game_id,					jdbcType=INTEGER,		mode=IN},
+			#{rank,						jdbcType=INTEGER,		mode=IN},
+			#{ruby,						jdbcType=INTEGER,		mode=IN},
+			#{is_ticket,				jdbcType=TINYINT,		mode=IN}
+		)
+	</select>
+	
+	<select id="mini_game_play_log_LST_SP" resultType="com.bubbleShooter.domain.MinigamePlayLog" statementType="CALLABLE">
+		CALL mini_game_play_log_LST_SP (
+			#{user_id,				jdbcType=INTEGER,		mode=IN},
+			#{room_id,				jdbcType=VARCHAR,		mode=IN}
+		)
+	</select>
+	
+	<select id="event_log_INS_SP" resultType="Integer" statementType="CALLABLE">
+		CALL event_log_INS_SP (
+			#{event_id,					jdbcType=INTEGER,		mode=IN},
+			#{user_id,					jdbcType=INTEGER,		mode=IN},
+			#{event_name,				jdbcType=VARCHAR,		mode=IN}
+		)
+	</select>
+	
+	<select id="event_log_LST_SP" resultType="com.bubbleShooter.domain.EventLog" statementType="CALLABLE">
+		CALL event_log_LST_SP (
+			#{user_id,				jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="nft_import_error_log_INS_SP" resultType="Integer" statementType="CALLABLE">
+		CALL nft_import_error_log_INS_SP (
+			#{ptn_month,				jdbcType=TINYINT,		mode=IN},
+			#{ptn_day,					jdbcType=INTEGER,		mode=IN},
+			#{log_date,					jdbcType=BIGINT,		mode=IN},
+			#{user_id,					jdbcType=INTEGER,		mode=IN},
+			#{created_game_yn,			jdbcType=VARCHAR,		mode=IN},
+			#{hash,						jdbcType=VARCHAR,		mode=IN},
+			#{secret,					jdbcType=VARCHAR,		mode=IN},
+			#{unique,					jdbcType=VARCHAR,		mode=IN},
+			#{json,						jdbcType=VARCHAR,		mode=IN}
+		)
+	</select>
+	
+	<select id="nft_import_error_log_LST_SP" resultType="com.bubbleShooter.domain.NftImportErrorLog" statementType="CALLABLE">
+		CALL nft_import_error_log_LST_SP (
+			#{user_id,				jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="shop_purchase_log_INS_SP" resultType="Integer" statementType="CALLABLE">
+		CALL shop_purchase_log_INS_SP (
+			#{ptn_month,				jdbcType=TINYINT,		mode=IN},
+			#{log_date,					jdbcType=BIGINT,		mode=IN},
+			#{user_id,					jdbcType=INTEGER,		mode=IN},
+			#{product_id,				jdbcType=INTEGER,		mode=IN},
+			#{price,					jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+
+	<select id="user_profile_log_INS_SP" resultType="Integer" statementType="CALLABLE">
+		CALL user_profile_log_INS_SP (
+			#{ptn_month,				jdbcType=TINYINT,		mode=IN},
+			#{ptn_day,					jdbcType=INTEGER,		mode=IN},
+			#{log_date,					jdbcType=BIGINT,		mode=IN},
+			#{user_id,					jdbcType=INTEGER,		mode=IN},
+			#{profile_id,				jdbcType=INTEGER,		mode=IN},
+			#{item_type,				jdbcType=INTEGER,		mode=IN},
+			#{character_id,				jdbcType=INTEGER,		mode=IN},
+			#{is_new,					jdbcType=TINYINT,		mode=IN},
+			#{is_have,					jdbcType=TINYINT,		mode=IN},
+			#{is_use,					jdbcType=TINYINT,		mode=IN}
+		)
+	</select>
+	
+</mapper>

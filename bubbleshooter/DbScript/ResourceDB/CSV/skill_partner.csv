@@ -1,0 +1,30 @@
+﻿INDEX,ID,ID_TEXT_INFO,ID_TEXT_SUMMARY_INFO,USE_SLOT,INITIAL_VALUE1,GROWTH_VALUE_PER_LEVEL1,IS_PERCENT1,INITIAL_VALUE2,GROWTH_VALUE_PER_LEVEL2,IS_PERCENT2,INITIAL_VALUE3,GROWTH_VALUE_PER_LEVEL3,IS_PERCENT3,DESC1,DESC2,DESC4
+0,-1,-1,-1,-1,-1,-1,1,-1,-1,0,0,0,0,값없음,값없음,
+1,1060001,9080001,9080002,1,10,1,1,0,0,0,0,0,0,Increase Bubble Launcher rotation speed by {value1}%,발사대의 회전 속도가 {value1}% 증가,{0}/s
+2,1060002,9080003,9080004,1,15,1.5,1,0,0,0,0,0,0,Extend a guideline length from Bubble Launcher by {value1}%,발사대의 가이드라인의 길이가 {value1}% 증가,{0}%
+3,1060003,9080005,9080006,1,15,1.5,1,0,0,0,0,0,0,Increase moving speed of shooted Bubbles by {value1}%,발사한 버블의 이동속도가 {value1}% 증가,{0}
+4,1060004,9080007,9080008,1,10,1,1,0,0,0,0,0,0,Increase damage giving to opponents by {value1}%,상대에게 주는 대미지가 {value1}% 증가,{0}%
+5,1060005,9080009,9080010,1,7,0.7,1,0,0,0,0,0,0,Decrease damage you take from opponents by {value1}% ,자신이 받는 대미지가 {value1}% 감소 ,{0}%
+6,1060006,9080011,9080012,1,7,0.7,1,0,0,0,0,0,0,Increase acquisition amount of all gauges by {value1}%,모든 게이지의 획득량이 {value1}% 증가,{0}%
+7,1060007,9080013,9080014,1,1,0.1,0,0,0,0,0,0,0,"When popping Bubbles, gaining gauges increase {value1}",버블을 터트릴때 획득하는 게이지 {value1} 증가,{0}
+8,1060008,9080015,9080016,1,10,0.1,1,0,0,0,0,0,0,Spawn rate of Bubbles on top reduces by {value1}%,상단에 버블의 생성속도가 {value1}% 감소,{0}%
+9,1060101,9080017,9080018,2,5,0.5,1,2,0.2,0,0,0,0,Increase appearing rate of Orange Bubble by {value1}% / Increase acquisition amount of Orange Bubble gauge by {value2},주황색 버블 등장 확률 {value1}%증가 / 주황색 버블 게이지 획득량 {value2}증가,{0}% {1}
+10,1060102,9080019,9080020,2,5,0.5,1,2,0.2,0,0,0,0,Increase appearing rate of Blue Bubble by {value1}% / Increase acquisition amount of Blue Bubble gauge by {value2},파란색 버블 등장 확률 {value1}%증가 / 파란색 버블 게이지 획득량 {value2}증가,{0}% {1}
+11,1060103,9080021,9080022,2,5,0.5,1,2,0.2,0,0,0,0,Increase appearing rate of Purple Bubble by {value1}% / Increase acquisition amount of Purple Bubble gauge by {value2},보라색 버블 등장 확률 {value1}%증가 / 보라색 버블 게이지 획득량 {value2}증가,{0}% {1}
+12,1060104,9080023,9080024,2,5,0.5,1,2,0.2,0,0,0,0,Increase appearing rate of Green Bubble by {value1}% / Increase acquisition amount of Green Bubble gauge by {value2},초록색 버블 등장 확률 {value1}%증가 / 초록색 버블 게이지 획득량 {value2}증가,{0}% {1}
+13,1060105,9080025,9080026,2,5,0.5,1,2,0.2,0,0,0,0,Increase appearing rate of Red Bubble by {value1}% / Increase acquisition amount of Red Bubble gauge by {value2},빨간색 버블 등장 확률 {value1}%증가 / 빨간색 버블 게이지 획득량 {value2}증가,{0}% {1}
+14,1060106,9080027,9080028,2,5,0.5,1,2,0.2,0,0,0,0,Increase appearing rate of Yellow Bubble by {value1}% / Increase acquisition amount of Yellow Bubble gauge by {value2},노란색 버블 등장 확률 {value1}%증가 / 노란색 버블 게이지 획득량 {value2} 증가,{0}% {1}
+15,1060107,9080029,9080030,2,5,0.5,1,20,2,1,0,0,0,Increase appearing rate of Orange Bubble by {value1}% / Increase Attack Power of Orange Bubble by {value2},주황색 버블 등장 확률 {value1}%증가 / 주황색 버블 공격력 {value2}%증가,{0}% {1}%
+16,1060108,9080031,9080032,2,5,0.5,1,20,2,1,0,0,0,Increase appearing rate of Blue Bubble by {value1}% / Increase Attack Power of Blue Bubble by {value2},파란색 버블 등장 확률 {value1}%증가 / 파란색 버블 공격력 {value2}%증가,{0}% {1}%
+17,1060109,9080033,9080034,2,5,0.5,1,20,2,1,0,0,0,Increase appearing rate of Purple Bubble by {value1}% / Increase Attack Power of Purple Bubble by {value2},보라색 버블 등장 확률 {value1}%증가 / 보라색 버블 공격력 {value2}%증가,{0}% {1}%
+18,1060110,9080035,9080036,2,5,0.5,1,20,2,1,0,0,0,Increase appearing rate of Green Bubble by {value1}% / Increase Attack Power of Green Bubble by {value2},초록색 버블 등장 확률 {value1}%증가 / 초록색 버블 공격력 {value2}%증가,{0}% {1}%
+19,1060111,9080037,9080038,2,5,0.5,1,20,2,1,0,0,0,Increase appearing rate of Red Bubble by {value1}% / Increase Attack Power of Red Bubble by {value2},빨간색 버블 등장 확률 {value1}%증가 / 빨간색 버블 공격력 {value2}%증가,{0}% {1}%
+20,1060112,9080039,9080040,2,5,0.5,1,20,2,1,0,0,0,Increase appearing rate of Yellow Bubble by {value1}% / Increase Attack Power of Yellow Bubble by {value2},노란색 버블 등장 확률 {value1}%증가 / 노란색 버블 공격력 {value2}%증가,{0}% {1}%
+21,1060201,9080041,9080042,3,1,0,0,0,0,0,0,0,0,[Only for Pinkfong] Pop an additional {value1} bubbles when activating an active skill,[핑크퐁 전용] 액티브 스킬 발동시 {value1}개의 버블이 추가로 터짐,
+22,1060202,9080043,9080044,3,3,0,0,0,0,0,0,0,0,[Only for Hogi] Change {value1} neighboring bubbles when activating an active skill,[호기 전용] 액티브 스킬 발동시 주변 버블 {value1}개도 변경,
+23,1060203,9080045,9080046,3,5,0,0,1,0,0,1,0,0,[Only for Jenny] Pop {value1} or more bubbles of the same color at once to launch {value3} carrots to {value2} person,[제니 전용] 한번에 같은 색의 버블 {value1}개 이상 터트리면 {value2}명에게 당근 {value3}개 발사,
+24,1060204,9080047,9080048,3,1,0,0,2,0,1,0,0,0,"[Only for Poki] A bomb with a range of {value1} spaces has a low chance of appearing on the screen. When popping with Poki's skill, bubbles will pop in succession",[포키 전용] 낮은 확률로 화면에 범위 {value1}칸의 폭탄이 등장. 포키의 스킬로 터트리면 연속적으로 터짐,
+25,1060205,9080049,9080050,3,1,0,0,0,0,0,0,0,0,[Only for Rachel] Prevent bubble creation when you are down to the last row,[레이첼 전용] 마지막 줄까지 내려와 있을때 버블 생성 억제,
+26,1060206,9080051,9080052,3,5,0,0,1,0,0,2,0,0,[Only for Myan] Pop {value1} or more bubbles of the same color at once to launch {value3} cheeses to {value2} person,[마이언 전용] 한번에 같은 색의 버블을 {value1}개 이상 터트리면 {value2} 명에게 치즈 {value3}개 발사,
+27,1060207,9080053,9080054,3,5,0,0,1,0,0,5,0,0,[Only for Billy] Pop {value1} or more bubbles of the same color at once to launch {value3} rockets to {value2} person,[빌리 전용] 한번에 같은 색의 버블을 {value1}개 이상 터트리면 {value2}명에게 로켓 발사,
+28,1060208,9080055,9080056,3,10,0,0,0,0,0,0,0,0,[Only for Coco] Rainbow bubbles appear every {value1} launches,[코코 전용] {value1}회 발사할때마다 레인보우 버블 등장,

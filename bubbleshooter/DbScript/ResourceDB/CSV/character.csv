@@ -1,0 +1,11 @@
+﻿INDEX,ITEM_TYPE,ID,GAME_SPINE_NAME,GAME_SPINE_SKIN,MENU_SPINE_NAME,ICON_INVEN_NAME,ICON_MATCHING_NAME,ICON_RANKING_NAME,VOICE_PACK_NAME,VOICE_PACK_NAME_KR,ID_TEXT_NAME,ID_TEXT_INTRO,ID_CHARACTER_ACTIVE,IS_NFT,SORT_NUMBER,DESC
+0,-1,-1,EMPTY,EMPTY,EMPTY,EMPTY,EMPTY,EMPTY,EMPTY,EMPTY,-1,-1,-1,-1,-1,none
+1,4,1020000,Cannon_Rua_SkeletonData,Rua_Default,Rua_SkeletonData,Character_list_Rua,Icon_Matching_Rua,Icon_Ranking_Rua,VoicePack_EN_Rua,VoicePack_EN_Rua,9010000,9020000,1030000,0,0,Rua
+2,4,1020001,Cannon_Pinkfong_SkeletonData,Pinkfong_Default,Pinkfong_SkeletonData,Character_list_Pinkfong,Icon_Matching_Pinkfong,Icon_Ranking_Pinkfong,VoicePack_EN_Pinkfong,VoicePack_KR_Pinkfong,9010001,9020001,1030001,1,1,Pinkfong
+3,4,1020002,Cannon_Hogi_SkeletonData,Hogi_Default,Hogi_SkeletonData,Character_list_Hogi,Icon_Matching_Hogi,Icon_Ranking_Hogi,VoicePack_EN_Hogi,VoicePack_KR_Hogi,9010002,9020002,1030002,1,2,Hogi
+4,4,1020003,Cannon_Jeni_SkeletonData,Jeni_Default,Jeni_SkeletonData,Character_list_Jenni,Icon_Matching_Jeni,Icon_Ranking_Jeni,VoicePack_EN_Jeni,VoicePack_KR_Jeni,9010003,9020003,1030003,1,3,Jeni
+5,4,1020004,Cannon_Poki_SkeletonData,Poki_Default,Poki_SkeletonData,Character_list_Poki,Icon_Matching_Poki,Icon_Ranking_Poki,VoicePack_EN_Poki,VoicePack_KR_Poki,9010004,9020004,1030004,1,4,Poki
+6,4,1020005,Cannon_Rachel_SkeletonData,Rachel_Default,Rachel_SkeletonData,Character_list_Rachel,Icon_Matching_Rachel,Icon_Ranking_Rachel,VoicePack_EN_Rachel,VoicePack_KR_Rachel,9010005,9020005,1030005,1,5,Rachel
+7,4,1020006,Cannon_Myan_SkeletonData,Myan_Default,Myan_SkeletonData,Character_list_Myan,Icon_Matching_Myan,Icon_Ranking_Myan,VoicePack_EN_Myan,VoicePack_KR_Myan,9010006,9020006,1030006,1,6,Myan
+8,4,1020007,Cannon_Billy_SkeletonData,Billy_Default,Billy_SkeletonData,Character_list_Billy,Icon_Matching_Billy,Icon_Ranking_Billy,VoicePack_EN_Billy,VoicePack_KR_Billy,9010007,9020007,1030007,1,7,Billy
+9,4,1020008,Cannon_Coco_SkeletonData,Coco_Default,Coco_SkeletonData,Character_list_Coco,Icon_Matching_Coco,Icon_Ranking_Coco,VoicePack_EN_Coco,VoicePack_KR_Coco,9010008,9020008,1030008,1,8,Coco

@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="game">
+	<select id="initQry" resultType="Integer" statementType="CALLABLE">
+		SELECT 1
+	</select>
+	
+	<select id="get_server_time_LST_SP" resultType="Long" statementType="CALLABLE">
+		SELECT UNIX_TIMESTAMP(NOW())
+	</select>
+	
+	<resultMap id="userInfo" type="com.bubbleShooter.domain.User">
+        <result property="id" column="id"/>
+        <result property="uuid" column="uuid"/>
+        <result property="nickname" column="nickname"/>
+        <result property="level" column="level"/>
+        <result property="exp" column="exp"/>
+        <result property="season" column="season"/>
+        <result property="rankPoint" column="rank_point"/>
+        <result property="tier" column="tier"/>
+        <result property="vip" column="vip"/>
+        <result property="grade" column="grade"/>
+        <result property="secret" column="secret"/>
+        <result property="encryption" column="encryption"/>
+        <result property="wallet" column="wallet"/>
+        <result property="market" column="market"/>
+        <result property="attendanceDay" column="attendance_day"/>
+        <result property="attendanceDate" column="attendance_date"/>
+        <result property="isGuest" column="is_guest"/>
+        <result property="language" column="language"/>
+        <result property="region" column="region"/>
+        <result property="loginTime" column="login_time"/>
+        <result property="nickUpdate" column="nick_update"/>
+        <result property="regDate" column="reg_date"/>
+    </resultMap>
+    
+    <select id="user_LST_SP" resultMap="userInfo" statementType="CALLABLE">
+		CALL user_LST_SP (
+			#{id,				jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="user_uuid_LST_SP" resultMap="userInfo" statementType="CALLABLE">
+		CALL user_uuid_LST_SP (
+			#{uuid,				jdbcType=VARCHAR,		mode=IN}
+		)
+	</select>
+
+	<select id="user_nickname_LST_SP" resultMap="userInfo" statementType="CALLABLE">
+		CALL user_nickname_LST_SP (
+			#{nickname,				jdbcType=VARCHAR,		mode=IN}
+		)
+	</select>
+	
+	<select id="user_UDT_SP" resultType="Integer" statementType="CALLABLE">
+		CALL user_UDT_SP (
+			#{id,					jdbcType=INTEGER,		mode=IN},
+			#{uuid,					jdbcType=VARCHAR,		mode=IN},
+			#{nickname,				jdbcType=VARCHAR,		mode=IN},
+			#{level,				jdbcType=INTEGER,		mode=IN},
+			#{exp,					jdbcType=INTEGER,		mode=IN},
+			#{season,				jdbcType=INTEGER,		mode=IN},
+			#{rankPoint,			jdbcType=INTEGER,		mode=IN},
+			#{tier,					jdbcType=INTEGER,		mode=IN},
+			#{vip,					jdbcType=TINYINT,		mode=IN},
+			#{grade,				jdbcType=TINYINT,		mode=IN},
+			#{secret,				jdbcType=VARCHAR,		mode=IN},
+			#{encryption,			jdbcType=VARCHAR,		mode=IN},
+			#{wallet,				jdbcType=VARCHAR,		mode=IN},
+			#{market,				jdbcType=TINYINT,		mode=IN},
+			#{attendanceDay,		jdbcType=INTEGER,		mode=IN},
+			#{attendanceDate,		jdbcType=INTEGER,		mode=IN},
+			#{isGuest,				jdbcType=TINYINT,		mode=IN},
+			#{language,				jdbcType=VARCHAR,		mode=IN},
+			#{region,				jdbcType=VARCHAR,		mode=IN},
+			#{loginTime,			jdbcType=INTEGER,		mode=IN},
+			#{nickUpdate,			jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="user_INS_SP" resultType="Integer" statementType="CALLABLE">
+		CALL user_INS_SP (
+			#{id,					jdbcType=INTEGER,		mode=IN},
+			#{uuid,					jdbcType=VARCHAR,		mode=IN},
+			#{nickname,				jdbcType=VARCHAR,		mode=IN},
+			#{level,				jdbcType=INTEGER,		mode=IN},
+			#{exp,					jdbcType=INTEGER,		mode=IN},
+			#{season,				jdbcType=INTEGER,		mode=IN},
+			#{rankPoint,			jdbcType=INTEGER,		mode=IN},
+			#{tier,					jdbcType=INTEGER,		mode=IN},
+			#{vip,					jdbcType=TINYINT,		mode=IN},
+			#{grade,				jdbcType=TINYINT,		mode=IN},
+			#{secret,				jdbcType=VARCHAR,		mode=IN},
+			#{encryption,			jdbcType=VARCHAR,		mode=IN},
+			#{wallet,				jdbcType=VARCHAR,		mode=IN},
+			#{market,				jdbcType=TINYINT,		mode=IN},
+			#{attendanceDay,		jdbcType=INTEGER,		mode=IN},
+			#{attendanceDate,		jdbcType=INTEGER,		mode=IN},
+			#{isGuest,				jdbcType=TINYINT,		mode=IN},
+			#{language,				jdbcType=VARCHAR,		mode=IN},
+			#{region,				jdbcType=VARCHAR,		mode=IN},
+			#{loginTime,			jdbcType=INTEGER,		mode=IN},
+			#{nickUpdate,			jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="user_bot_INS_SP" resultType="Integer" statementType="CALLABLE">
+		CALL user_bot_INS_SP (
+			#{id,					jdbcType=INTEGER,		mode=IN},
+			#{uuid,					jdbcType=VARCHAR,		mode=IN},
+			#{nickname,				jdbcType=VARCHAR,		mode=IN},
+			#{level,				jdbcType=INTEGER,		mode=IN},
+			#{exp,					jdbcType=INTEGER,		mode=IN},
+			#{season,				jdbcType=INTEGER,		mode=IN},
+			#{rankPoint,			jdbcType=INTEGER,		mode=IN},
+			#{tier,					jdbcType=INTEGER,		mode=IN},
+			#{vip,					jdbcType=TINYINT,		mode=IN},
+			#{grade,				jdbcType=TINYINT,		mode=IN},
+			#{secret,				jdbcType=VARCHAR,		mode=IN},
+			#{encryption,			jdbcType=VARCHAR,		mode=IN},
+			#{wallet,				jdbcType=VARCHAR,		mode=IN},
+			#{market,				jdbcType=TINYINT,		mode=IN},
+			#{attendanceDay,		jdbcType=INTEGER,		mode=IN},
+			#{attendanceDate,		jdbcType=INTEGER,		mode=IN},
+			#{isGuest,				jdbcType=TINYINT,		mode=IN},
+			#{language,				jdbcType=VARCHAR,		mode=IN},
+			#{region,				jdbcType=VARCHAR,		mode=IN},
+			#{loginTime,			jdbcType=INTEGER,		mode=IN},
+			#{nickUpdate,			jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="check_nickname_LST_SP" resultType="Integer" parameterType="String" statementType="CALLABLE">
+		SELECT id FROM users WHERE nickname = #{nickname}
+	</select>
+	
+	<resultMap id="cdnInfo" type="com.bubbleShooter.domain.CdnInfo">
+        <result property="id" column="id"/>
+        <result property="cdnUrl" column="cdn_url"/>
+        <result property="isUsing" column="is_using"/>
+    </resultMap>
+	
+	<select id="patch_LST_SP" resultMap="cdnInfo" statementType="CALLABLE">
+		SELECT id, cdn_url, is_using FROM patch WHERE is_using = 1 ORDER BY created DESC LIMIT 1
+	</select>
+	
+	
+	<resultMap id="characterInfo" type="com.bubbleShooter.domain.Character">
+        <result property="userId" column="user_id"/>
+        <result property="uid" column="uid"/>
+        <result property="characterId" column="character_id"/>
+        <result property="grade" column="grade"/>
+        <result property="characterLevel" column="character_level"/>
+        <result property="characterUpgrade" column="character_upgrade"/>
+        <result property="activeSkill" column="active_skill"/>
+        <result property="isLock" column="is_lock"/>
+        <result property="dailyearn" column="dailyearn"/>
+        <result property="dailyearnlimit" column="dailyearnlimit"/>
+        <result property="isReward" column="is_reward"/>
+        <result property="isNft" column="is_nft"/>
+        <result property="isNew" column="is_new"/>
+        <result property="isMission" column="is_mission"/>
+        <result property="useOrNot" column="use_or_not"/>
+    </resultMap>
+    
+    <select id="character_LST_SP" resultMap="characterInfo" statementType="CALLABLE">
+		CALL character_LST_SP (
+			#{userId,				jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="character_INSUDT_SP" resultType="Integer" statementType="CALLABLE">
+		CALL character_INSUDT_SP (
+			#{userId,				jdbcType=INTEGER,		mode=IN},
+			#{uid,					jdbcType=VARCHAR,		mode=IN},
+			#{characterId,			jdbcType=INTEGER,		mode=IN},
+			#{grade,				jdbcType=INTEGER,		mode=IN},
+			#{characterLevel,		jdbcType=INTEGER,		mode=IN},
+			#{characterUpgrade,		jdbcType=INTEGER,		mode=IN},
+			#{activeSkill,			jdbcType=INTEGER,		mode=IN},
+			#{isLock,				jdbcType=TINYINT,		mode=IN},
+			#{dailyearn,			jdbcType=INTEGER,		mode=IN},
+			#{dailyearnlimit,		jdbcType=INTEGER,		mode=IN},
+			#{isReward,				jdbcType=TINYINT,		mode=IN},
+			#{isNft,				jdbcType=TINYINT,		mode=IN},
+			#{isNew,				jdbcType=TINYINT,		mode=IN},
+			#{isMission,			jdbcType=TINYINT,		mode=IN},
+			#{useOrNot,				jdbcType=TINYINT,		mode=IN}
+		)
+	</select>
+	
+	<resultMap id="userItemInfo" type="com.bubbleShooter.domain.UserItem">
+        <result property="userId" column="user_id"/>
+        <result property="itemType" column="item_type"/>
+        <result property="itemId" column="item_id"/>
+        <result property="itemCount" column="item_count"/>
+    </resultMap>
+    
+    <select id="user_item_LST_SP" resultMap="userItemInfo" statementType="CALLABLE">
+		CALL user_item_LST_SP (
+			#{userId,				jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="user_item_INSUDT_SP" resultType="Integer" statementType="CALLABLE">
+		CALL user_item_INSUDT_SP (
+			#{userId,						jdbcType=BIGINT,		mode=IN},
+			#{itemType,						jdbcType=TINYINT,		mode=IN},
+			#{itemId,						jdbcType=INTEGER,		mode=IN},
+			#{itemCount,					jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="init_item_INS" statementType="CALLABLE" parameterType="hashmap">
+		INSERT INTO bbf_game.user_item(
+			user_id,item_type,item_id,item_count
+		)
+		VALUES 
+		<foreach collection="itemList" item="data"  open="(" close=")" separator="),(">
+			#{data.userId},#{data.itemType},#{data.itemId},#{data.itemCount}
+		</foreach>
+	</select>
+	
+	
+	<resultMap id="partnerInfo" type="com.bubbleShooter.domain.Partner">
+        <result property="userId" column="user_id"/>
+        <result property="uid" column="uid"/>
+        <result property="partnerId" column="partner_id"/>
+        <result property="grade" column="grade"/>
+        <result property="partnerLevel" column="partner_level"/>
+        <result property="upgrade" column="upgrade"/>
+        <result property="skill1" column="skill_1"/>
+        <result property="skill2" column="skill_2"/>
+        <result property="skill3" column="skill_3"/>
+        <result property="isLock" column="is_lock"/>
+        <result property="isNft" column="is_nft"/>
+        <result property="isNew" column="is_new"/>
+        <result property="isMission" column="is_mission"/>
+        <result property="useOrNot" column="use_or_not"/>
+    </resultMap>
+    
+    <select id="partner_LST_SP" resultMap="partnerInfo" statementType="CALLABLE">
+		CALL partner_LST_SP (
+			#{userId,				jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="partner_INSUDT_SP" resultType="Integer" statementType="CALLABLE">
+		CALL partner_INSUDT_SP (
+			#{userId,				jdbcType=INTEGER,		mode=IN},
+			#{uid,					jdbcType=VARCHAR,		mode=IN},
+			#{partnerId,			jdbcType=INTEGER,		mode=IN},
+			#{grade,				jdbcType=INTEGER,		mode=IN},
+			#{partnerLevel,			jdbcType=INTEGER,		mode=IN},
+			#{upgrade,				jdbcType=INTEGER,		mode=IN},
+			#{skill1,				jdbcType=INTEGER,		mode=IN},
+			#{skill2,				jdbcType=INTEGER,		mode=IN},
+			#{skill3,				jdbcType=INTEGER,		mode=IN},
+			#{isLock,				jdbcType=TINYINT,		mode=IN},
+			#{isNft,				jdbcType=TINYINT,		mode=IN},
+			#{isNew,				jdbcType=TINYINT,		mode=IN},
+			#{isMission,			jdbcType=TINYINT,		mode=IN},
+			#{useOrNot,				jdbcType=TINYINT,		mode=IN}
+		)
+	</select>
+	
+	
+	<resultMap id="presetInfo" type="com.bubbleShooter.domain.Preset">
+        <result property="userId" column="user_id"/>
+        <result property="characterUid" column="character_uid"/>
+        <result property="partner1Uid" column="partner1_uid"/>
+        <result property="partner2Uid" column="partner2_uid"/>
+        <result property="partner3Uid" column="partner3_uid"/>
+    </resultMap>
+    
+    <select id="preset_LST_SP" resultMap="presetInfo" statementType="CALLABLE">
+		CALL preset_LST_SP (
+			#{userId,				jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="preset_INSUDT_SP" resultType="Integer" statementType="CALLABLE">
+		CALL preset_INSUDT_SP (
+			#{userId,				jdbcType=INTEGER,		mode=IN},
+			#{characterUid,			jdbcType=VARCHAR,		mode=IN},
+			#{partner1Uid,			jdbcType=VARCHAR,		mode=IN},
+			#{partner2Uid,			jdbcType=VARCHAR,		mode=IN},
+			#{partner3Uid,			jdbcType=VARCHAR,		mode=IN}
+		)
+	</select>
+	
+	
+	<resultMap id="mailBox" type="com.bubbleShooter.domain.Mail">
+		<result property="mailId" column="id"/>
+		<result property="mailType" column="mail_type"/>
+		<result property="userId" column="user_id"/>
+		<result property="mailIdVerify" column="mail_id_verify"/>
+		<result property="title" column="title"/>
+		<result property="description" column="description"/>
+		<result property="mailItem0" column="mail_item_0"/>
+		<result property="mailItem1" column="mail_item_1"/>
+		<result property="mailItem2" column="mail_item_2"/>
+		<result property="mailItem3" column="mail_item_3"/>
+		<result property="mailItem4" column="mail_item_4"/>
+		<result property="state" column="state"/>
+		<result property="expiredTime" column="expired_time"/>
+		<result property="openTime" column="open_time"/>
+		<result property="receiveTime" column="receive_time"/>
+		<result property="is_expired" column="is_expired"/>
+		<result property="is_new" column="is_new"/>
+		<result property="createTime" column="created"/>
+	</resultMap>
+	
+	<select id="mail_LST_SP" statementType="CALLABLE" resultMap="mailBox">
+		CALL mail_LST_SP (
+			#{userId,			jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+<!-- 
+	<select id="mail_INS_SP" statementType="CALLABLE" resultType="Long">
+		CALL mail_INS_SP (
+			#{mailMonth,		jdbcType=TINYINT,		mode=IN},
+			#{type,				jdbcType=TINYINT,		mode=IN},
+			#{userId,			jdbcType=BIGINT,		mode=IN},
+			#{mailTime,			jdbcType=INTEGER,		mode=IN},
+			#{title,			jdbcType=VARCHAR,		mode=IN},
+			#{description,		jdbcType=VARCHAR,		mode=IN},
+			#{mailItem0,		jdbcType=INTEGER,		mode=IN},
+			#{mailItem1,		jdbcType=INTEGER,		mode=IN},
+			#{mailItem2,		jdbcType=INTEGER,		mode=IN},
+			#{mailItem3,		jdbcType=INTEGER,		mode=IN},
+			#{mailItem4,		jdbcType=INTEGER,		mode=IN},
+			#{state,			jdbcType=TINYINT,		mode=IN},
+			#{expiredTime,		jdbcType=BIGINT,		mode=IN},
+			#{openTime,			jdbcType=INTEGER,		mode=IN},
+			#{receiveTime,		jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="mail_new_LST_SP" statementType="CALLABLE" resultType="Integer">
+		CALL mail_new_LST_SP (
+			#{mailMonth,		jdbcType=TINYINT,		mode=IN},
+			#{userId,			jdbcType=BIGINT,		mode=IN},
+			#{mailTime,			jdbcType=BIGINT,		mode=IN},
+			#{state,			jdbcType=BIGINT,		mode=IN}
+		)
+	</select>
+	-->
+	<select id="mail_ONE_LST_SP" statementType="CALLABLE" resultMap="mailBox">
+		CALL mail_ONE_LST_SP (
+			#{mailId,			jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="mail_UDT_SP" resultType="Long" statementType="CALLABLE">
+		CALL mail_UDT_SP (
+			#{mailId,			jdbcType=INTEGER,		mode=IN},
+			#{userId,			jdbcType=INTEGER,		mode=IN},
+			#{state,			jdbcType=INTEGER,		mode=IN},
+			#{expiredTime,		jdbcType=BIGINT,		mode=IN},
+			#{openTime,			jdbcType=BIGINT,		mode=IN},
+			#{receiveTime,		jdbcType=BIGINT,		mode=IN},
+			#{is_expired,		jdbcType=TINYINT,		mode=IN},
+			#{is_new,			jdbcType=TINYINT,		mode=IN}
+		)
+	</select>
+	
+	<select id="mail_INSUDT_SP" resultType="Integer" statementType="CALLABLE">
+		CALL mail_INSUDT_SP (
+			#{mailId,			jdbcType=INTEGER,		mode=IN},
+			#{mailType,			jdbcType=TINYINT,		mode=IN},
+			#{userId,			jdbcType=INTEGER,		mode=IN},
+			#{mailIdVerify,		jdbcType=INTEGER,		mode=IN},
+			#{title,			jdbcType=VARCHAR,		mode=IN},
+			#{description,		jdbcType=VARCHAR,		mode=IN},
+			#{mailItem0,		jdbcType=VARCHAR,		mode=IN},
+			#{mailItem1,		jdbcType=VARCHAR,		mode=IN},
+			#{mailItem2,		jdbcType=VARCHAR,		mode=IN},
+			#{mailItem3,		jdbcType=VARCHAR,		mode=IN},
+			#{mailItem4,		jdbcType=VARCHAR,		mode=IN},
+			#{state,			jdbcType=INTEGER,		mode=IN},
+			#{expiredTime,		jdbcType=BIGINT,		mode=IN},
+			#{openTime,			jdbcType=BIGINT,		mode=IN},
+			#{receiveTime,		jdbcType=BIGINT,		mode=IN},
+			#{is_expired,		jdbcType=TINYINT,		mode=IN},
+			#{is_new,			jdbcType=TINYINT,		mode=IN}
+		)
+	</select>
+	
+	<resultMap id="userShopBuyLog" type="com.bubbleShooter.domain.UserShopBuyLog">
+		<result property="userId" column="user_id"/>
+		<result property="productId" column="product_id"/>
+		<result property="buyCount" column="buy_count"/>
+		<result property="limitDate" column="limit_date"/>
+		<result property="lastBuyTime" column="last_buy_time"/>
+	</resultMap>
+	
+	<select id="user_shop_buy_log_LST_SP" resultMap="userShopBuyLog" statementType="CALLABLE">
+		CALL user_shop_buy_log_LST_SP(
+			#{userId,				jdbcType=BIGINT,		mode=IN}
+		)
+	</select>
+	
+	<select id="user_shop_buy_log_INSUDP_SP" resultType="Integer" statementType="CALLABLE">
+		CALL user_shop_buy_log_INSUDP_SP(
+			#{userId,				jdbcType=BIGINT,		mode=IN},
+			#{productId,			jdbcType=INTEGER,		mode=IN},
+			#{buyCount,				jdbcType=INTEGER,		mode=IN},
+			#{limitDate,			jdbcType=BIGINT,		mode=IN},
+			#{lastBuyTime,			jdbcType=BIGINT,		mode=IN}
+		)
+	</select>
+	 
+	 <resultMap id="roomInfo" type="com.bubbleShooter.domain.Room">
+        <result property="uuid" column="uuid"/>
+        <result property="createdAt" column="created_at"/>
+        <result property="gameStartedAt" column="game_started_at"/>
+        <result property="users" column="users"/>
+        <result property="expriedAt" column="expired_at"/>
+    </resultMap>
+    
+    <select id="room_LST_SP" statementType="CALLABLE" resultMap="roomInfo">
+		CALL room_LST_SP (
+			#{uuid,				jdbcType=VARCHAR,		mode=IN}
+		)
+	</select>
+	
+	<select id="room_INSUDT_SP" resultType="Integer" statementType="CALLABLE">
+		CALL room_INSUDT_SP (
+			#{uuid,				jdbcType=VARCHAR,		mode=IN},
+			#{createdAt,		jdbcType=INTEGER,		mode=IN},
+			#{gameStartedAt,	jdbcType=INTEGER,		mode=IN},
+			#{users,			jdbcType=LONGVARCHAR,	mode=IN},
+			#{expriedAt,		jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<resultMap id="miniGameroomInfo" type="com.bubbleShooter.domain.MiniGameRoom">
+        <result property="uuid" column="uuid"/>
+        <result property="gameId" column="game_id"/>
+        <result property="createdAt" column="created_at"/>
+        <result property="gameStartedAt" column="game_started_at"/>
+        <result property="users" column="users"/>
+        <result property="expriedAt" column="expired_at"/>
+    </resultMap>
+    
+    <select id="mini_game_room_LST_SP" statementType="CALLABLE" resultMap="miniGameroomInfo">
+		CALL mini_game_room_LST_SP (
+			#{uuid,				jdbcType=VARCHAR,		mode=IN}
+		)
+	</select>
+	
+	<select id="mini_game_room_INSUDT_SP" resultType="Integer" statementType="CALLABLE">
+		CALL mini_game_room_INSUDT_SP (
+			#{uuid,				jdbcType=VARCHAR,		mode=IN},
+			#{gameId,			jdbcType=INTEGER,		mode=IN},
+			#{createdAt,		jdbcType=INTEGER,		mode=IN},
+			#{gameStartedAt,	jdbcType=INTEGER,		mode=IN},
+			#{users,			jdbcType=LONGVARCHAR,	mode=IN},
+			#{expriedAt,		jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<resultMap id="rankInfo" type="com.bubbleShooter.domain.Rank">
+		<result property="id" column="id"/>
+		<result property="roomUid" column="room_uid"/>
+		<result property="userId" column="user_id"/>
+		<result property="userUuid" column="user_uuid"/>
+		<result property="season" column="season"/>
+		<result property="previousRankPoint" column="previous_rank_point"/>
+		<result property="acquiredRankPoint" column="acquired_rank_point"/>
+		<result property="totalRankPoint" column="total_rank_point"/>
+		<result property="previousExpPoint" column="previous_exp_point"/>
+		<result property="acquiredExpPoint" column="acquired_exp_point"/>
+		<result property="totalExpPoint" column="total_exp_point"/>
+		<result property="rank" column="rank"/>
+		<result property="ticketRank" column="ticket_rank"/>
+		<result property="gold" column="gold"/>
+		<result property="ruby" column="ruby"/>
+		<result property="diamond" column="diamond"/>
+		<result property="characterUid" column="character_uid"/>
+		<result property="partnerUid1" column="partner_uid_1"/>
+		<result property="partnerUid2" column="partner_uid_2"/>
+		<result property="partnerUid3" column="partner_uid_3"/>
+	</resultMap>
+	
+	<select id="rank_LST_SP" statementType="CALLABLE" resultMap="rankInfo">
+		CALL rank_LST_SP (
+			#{userId,			jdbcType=INTEGER,		mode=IN},
+			#{roomUid,			jdbcType=VARCHAR,		mode=IN}
+		)
+	</select>
+	
+	<select id="rank_INSUDT_SP" resultType="Integer" statementType="CALLABLE">
+		CALL rank_INSUDT_SP (
+			#{roomUid,				jdbcType=VARCHAR,		mode=IN},
+			#{userId,				jdbcType=INTEGER,		mode=IN},
+			#{userUuid,				jdbcType=VARCHAR,		mode=IN},
+			#{season,				jdbcType=INTEGER,		mode=IN},
+			#{previousRankPoint,	jdbcType=INTEGER,		mode=IN},
+			#{acquiredRankPoint,	jdbcType=INTEGER,		mode=IN},
+			#{totalRankPoint,		jdbcType=INTEGER,		mode=IN},
+			#{previousExpPoint,		jdbcType=INTEGER,		mode=IN},
+			#{acquiredExpPoint,		jdbcType=INTEGER,		mode=IN},
+			#{totalExpPoint,		jdbcType=INTEGER,		mode=IN},
+			#{rank,					jdbcType=INTEGER,		mode=IN},
+			#{ticketRank,			jdbcType=INTEGER,		mode=IN},
+			#{gold,					jdbcType=INTEGER,		mode=IN},
+			#{ruby,					jdbcType=INTEGER,		mode=IN},
+			#{diamond,				jdbcType=INTEGER,		mode=IN},
+			#{characterUid,			jdbcType=VARCHAR,		mode=IN},
+			#{partnerUid1,			jdbcType=VARCHAR,		mode=IN},
+			#{partnerUid2,			jdbcType=VARCHAR,		mode=IN},
+			#{partnerUid3,			jdbcType=VARCHAR,		mode=IN}
+		)
+	</select>
+	
+	<resultMap id="noticeInfo" type="com.bubbleShooter.domain.Notice">
+        <result property="noticeId" column="notice_id"/>
+        <result property="noticeTitle" column="notice_title"/>
+        <result property="type" column="type"/>
+        <result property="text" column="text"/>
+        <result property="imageAddress" column="image_address"/>
+        <result property="startTime" column="start_time"/>
+        <result property="endTime" column="end_time"/>
+        <result property="sortNumber" column="sort_number"/>
+        <result property="valid" column="valid"/>
+    </resultMap>
+    
+    <select id="notice_LST_SP" statementType="CALLABLE" resultMap="noticeInfo">
+		CALL notice_LST_SP ()
+	</select>
+	
+	<resultMap id="missionInfo" type="com.bubbleShooter.domain.Mission">
+        <result property="userId" column="user_id"/>
+        <result property="index" column="index"/>
+        <result property="missionId" column="mission_id"/>
+        <result property="status" column="status"/>
+        <result property="heroType" column="hero_type"/>
+        <result property="heroUUid" column="hero_uuid"/>
+        <result property="missionStartTime" column="mission_start_time"/>
+        <result property="missionRewardTime" column="mission_reward_time"/>
+        <result property="missionUpdateTime" column="mission_update_time"/>
+    </resultMap>
+	 
+	 <select id="mission_LST_SP" statementType="CALLABLE" resultMap="missionInfo">
+		CALL mission_LST_SP (
+			#{userId,			jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="mission_INSUDT_SP" resultType="Integer" statementType="CALLABLE">
+		CALL mission_INSUDT_SP (
+			#{userId,				jdbcType=INTEGER,		mode=IN},
+			#{index,				jdbcType=INTEGER,		mode=IN},
+			#{missionId,			jdbcType=INTEGER,		mode=IN},
+			#{status,				jdbcType=TINYINT,		mode=IN},
+			#{heroType,				jdbcType=TINYINT,		mode=IN},
+			#{heroUUid,				jdbcType=VARCHAR,		mode=IN},
+			#{missionStartTime,		jdbcType=BIGINT,		mode=IN},
+			#{missionRewardTime,	jdbcType=BIGINT,		mode=IN},
+			#{missionUpdateTime,	jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<resultMap id="gachaInfo" type="com.bubbleShooter.domain.GachaList">
+        <result property="seq" column="seq"/>
+        <result property="gachaId" column="gacha_id"/>
+        <result property="orderIndex" column="order_index"/>
+        <result property="gradeList" column="grade_list"/>
+        <result property="startTime" column="start_time"/>
+        <result property="endTime" column="end_time"/>
+        <result property="vaild" column="valid"/>
+    </resultMap>
+    
+    <select id="gacha_list_LST_SP" statementType="CALLABLE" resultMap="gachaInfo">
+		CALL gacha_list_LST_SP ()
+	</select>
+	
+	<select id="gacha_list_INSUDT_SP" resultType="Integer" statementType="CALLABLE">
+		CALL gacha_list_INSUDT_SP (
+			#{seq,					jdbcType=INTEGER,		mode=IN},
+			#{gachaId,				jdbcType=INTEGER,		mode=IN},
+			#{orderIndex,			jdbcType=INTEGER,		mode=IN},
+			#{gradeList,			jdbcType=VARCHAR,		mode=IN},
+			#{startTime,			jdbcType=BIGINT,		mode=IN},
+			#{endTime,				jdbcType=BIGINT,		mode=IN},
+			#{vaild,				jdbcType=TINYINT,		mode=IN}
+		)
+	</select>
+	
+	<resultMap id="gachaRewardInfo" type="com.bubbleShooter.domain.GachaReward">
+        <result property="seq" column="seq"/>
+        <result property="gachaId" column="gacha_id"/>
+        <result property="grade" column="grade"/>
+        <result property="itemType" column="item_type"/>
+        <result property="itemId" column="item_id"/>
+        <result property="itemCount" column="item_count"/>
+        <result property="heroGrade" column="hero_grade"/>
+        <result property="totalCount" column="total_count"/>
+        <result property="prizeCount" column="prize_count"/>
+    </resultMap>
+    
+    <select id="gacha_reward_LST_SP" statementType="CALLABLE" resultMap="gachaRewardInfo">
+		CALL gacha_reward_LST_SP (
+			#{seq,					jdbcType=INTEGER,		mode=IN},
+			#{gachaId,				jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="gacha_reward_INSUDT_SP" resultType="Integer" statementType="CALLABLE">
+		CALL gacha_reward_INSUDT_SP (
+			#{seq,					jdbcType=INTEGER,		mode=IN},
+			#{gachaId,				jdbcType=INTEGER,		mode=IN},
+			#{grade,				jdbcType=TINYINT,		mode=IN},
+			#{itemType,				jdbcType=INTEGER,		mode=IN},
+			#{itemId,				jdbcType=INTEGER,		mode=IN},
+			#{itemCount,			jdbcType=INTEGER,		mode=IN},
+			#{heroGrade,			jdbcType=TINYINT,		mode=IN},
+			#{totalCount,			jdbcType=INTEGER,		mode=IN},
+			#{prizeCount,			jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="gacha_pick_winner_INSUDT_SP" resultType="Integer" statementType="CALLABLE">
+		CALL gacha_pick_winner_INSUDT_SP (
+			#{seq,					jdbcType=INTEGER,		mode=IN},
+			#{gachaId,				jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<resultMap id="ContentsAdminssionInfo" type="com.bubbleShooter.domain.ContentsAdminssion">
+        <result property="idx" column="idx"/>
+        <result property="contentsId" column="contents_id"/>
+        <result property="value" column="value"/>
+    </resultMap>
+    
+     <select id="contents_admission_LST_SP" statementType="CALLABLE" resultMap="ContentsAdminssionInfo">
+		CALL contents_admission_LST_SP (
+			#{contentsId,			jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	
+	<resultMap id="eventInfo" type="com.bubbleShooter.domain.Event">
+        <result property="eventId" column="event_id"/>
+        <result property="eventType" column="event_type"/>
+        <result property="eventName" column="event_name"/>
+        <result property="startTime" column="start_time"/>
+        <result property="endTime" column="end_time"/>
+        <result property="item0" column="item_0"/>
+        <result property="item1" column="item_1"/>
+        <result property="item2" column="item_2"/>
+        <result property="item3" column="item_3"/>
+        <result property="item4" column="item_4"/>
+        <result property="valid" column="valid"/>
+    </resultMap>
+	
+	<select id="event_LST_SP" statementType="CALLABLE" resultMap="eventInfo">
+		CALL event_LST_SP ()
+	</select>
+	
+	<resultMap id="nftInfo" type="com.bubbleShooter.domain.NFT">
+        <result property="id" column="id"/>
+        <result property="hash" column="hash"/>
+        <result property="secret" column="secret"/>
+        <result property="unique" column="unique"/>
+        <result property="logId" column="log_id"/>
+        <result property="isValid" column="is_valid"/>
+    </resultMap>
+    
+    <select id="nft_LST_SP" statementType="CALLABLE" resultMap="nftInfo">
+		CALL nft_LST_SP (
+			#{hash,					jdbcType=VARCHAR,		mode=IN}
+		)
+	</select>
+	
+	<select id="nft_INSUDT_SP" resultType="Integer" statementType="CALLABLE">
+		CALL nft_INSUDT_SP (
+			#{hash,					jdbcType=VARCHAR,		mode=IN},
+			#{secret,				jdbcType=VARCHAR,		mode=IN},
+			#{unique,				jdbcType=VARCHAR,		mode=IN},
+			#{logId,				jdbcType=INTEGER,		mode=IN},
+			#{isValid,				jdbcType=TINYINT,		mode=IN}
+		)
+	</select>
+	
+	<select id="nft_UDT_SP" resultType="Integer" statementType="CALLABLE">
+		CALL nft_UDT_SP (
+			#{hash,					jdbcType=VARCHAR,		mode=IN},
+			#{isValid,				jdbcType=TINYINT,		mode=IN}
+		)
+	</select>
+	
+	<resultMap id="balanceExportLog" type="com.bubbleShooter.domain.UserBalanceExportLog">
+        <result property="userId" column="user_id"/>
+        <result property="itemType" column="item_type"/>
+        <result property="itemId" column="item_id"/>
+        <result property="itemCount" column="item_count"/>
+        <result property="updateDate" column="update_date"/>
+    </resultMap>
+    
+    <select id="user_balance_export_log_LST_SP" statementType="CALLABLE" resultMap="balanceExportLog">
+		CALL user_balance_export_log_LST_SP (
+			#{userId,				jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="user_balance_export_log_INSUDT_SP" resultType="Integer" statementType="CALLABLE">
+		CALL user_balance_export_log_INSUDT_SP (
+			#{userId,				jdbcType=INTEGER,		mode=IN},
+			#{itemType,				jdbcType=TINYINT,		mode=IN},
+			#{itemId,				jdbcType=INTEGER,		mode=IN},
+			#{itemCount,			jdbcType=INTEGER,		mode=IN},
+			#{updateDate,			jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+
+	<resultMap id="profileInfo" type="com.bubbleShooter.domain.Profile">
+        <result property="userId" column="user_id"/>
+		<result property="profileId" column="profile_id"/>
+        <result property="itemType" column="item_type"/>
+		<result property="characterId" column="character_id"/>
+        <result property="isNew" column="is_new"/>
+        <result property="isHave" column="is_have"/>
+        <result property="isUse" column="is_use"/>
+    </resultMap>
+    
+    <select id="profile_LST_SP" statementType="CALLABLE" resultMap="profileInfo">
+		CALL profile_LST_SP (
+			#{userId,				jdbcType=INTEGER,		mode=IN}
+		)
+	</select>
+	
+	<select id="profile_INSUDT_SP" resultType="Integer" statementType="CALLABLE">
+		CALL profile_INSUDT_SP (
+			#{userId,				jdbcType=INTEGER,		mode=IN},
+			#{profileId,			jdbcType=INTEGER,		mode=IN},
+			#{itemType,				jdbcType=INTEGER,		mode=IN},
+			#{characterId,			jdbcType=INTEGER,		mode=IN},
+			#{isNew,				jdbcType=TINYINT,		mode=IN},
+			#{isHave,				jdbcType=TINYINT,		mode=IN},
+			#{isUse,				jdbcType=TINYINT,		mode=IN}
+		)
+	</select>
+
+	<select id="init_profile_INS" statementType="CALLABLE" parameterType="hashmap">
+		INSERT INTO bbf_game.profile(
+			user_id,profile_id,item_type,character_id,is_new,is_have,is_use
+		)
+		VALUES 
+		<foreach collection="profileList" item="data"  open="(" close=")" separator="),(">
+			#{data.userId},#{data.profileId},#{data.itemType},#{data.characterId},#{data.isNew},#{data.isHave},#{data.isUse}
+		</foreach>
+	</select>
+    
+</mapper>

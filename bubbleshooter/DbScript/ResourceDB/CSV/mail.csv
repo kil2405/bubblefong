@@ -1,0 +1,16 @@
+﻿index,MAIL_TITLE_KR,MAIL_CONTENTS_KR,MAIL_TITLE_EN,MAIL_CONTENTS_EN,desc
+1,이용에 불편을 드려 죄송합니다.,보상 아이템을 지급해드립니다.,Sorry for the inconvenience,"As an apology, we will give to all users.",서비스 이용에 문제가 생겼을 때
+2,서비스 점검 보상,기다려 주셔서 감사합니다.,Maintanance Reward,Thank you for your patience.,점검 보상
+3,출석체크 보상,출석체크 보상입니다.,Check-in Reward,Received as daily check-in reward.,출석 체크 보상
+4,골드 구매,상점에서 구매한 골드입니다.,Purchase Gold,Received from Gold purchase.,[상점] 골드 구매 시
+5,패키지 구매,상점에서 구매한 패키지 아이템입니다.,Purchase Package,Received from Package purchase.,[상점] 패키지 구매 시
+6,프렌즈팩 구매,상점에서 구매한 프렌즈팩 아이템입니다.,Purchase Friends Pack,Received from Friends Pack purchase.,[상점] 프렌즈 팩 구매 시
+7,아이템 구매,상점에서 구매한 아이템입니다.,Purchase Item,Received from Item purchase.,[상점] 아이템 구매 시
+8,랭킹 보상,랭킹전 티어 보상입니다.,Tier Reward,Received as tier reward.,[랭킹전] 새시즌 시작 시 획득한 티어 보상
+9,순위 보상,랭킹전 순위 보상입니다.,Ranking Reward,Received as ranking reward.,[랭킹전] 새시즌 시작 시 획득한 순위 보상
+10,이벤트 보상,이벤트로 획득한 아이템입니다.,Event Reward,Received as event reward.,[이벤트] 아이템 획득 시
+11,스타팩 구매,스타팩에서 획득한 아이템입니다,Purchase Star Pack,Received from Star Pack,[스타팩] 스타팩 구매 시
+12,NFT 가져오기,마켓에서 가져온 아이템입니다,Call NFT,Called from NFT Market,[NFT] 마켓 > 인게임 가져오기 했을 때
+13,쿠폰 사용,쿠폰으로 획득한 아이템입니다.,Use Coupon,Received with Coupon,[쿠폰] 쿠폰 사용 시
+14,스타박스 당첨금,스타박스에서 당첨된 아이템입니다.,Starbox,Received from Starbox,[스타박스] 스타박스 당첨금
+15,슈퍼 스타팩 구매,슈퍼 스타팩에서 획득한 아이템입니다.,Purchase Super Star Pack,Received from Super Star Pack,[스타팩] 슈퍼 스타팩 구매 시

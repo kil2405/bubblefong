@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="resource">
+	<select id="initQry" resultType="Integer" statementType="CALLABLE">
+		SELECT 1
+	</select>
+	
+	<select id="attendance_daily_LST_SP" resultType="com.bubbleShooter.resource.AttendanceDailyResource" statementType="CALLABLE">
+		CALL attendance_daily_LST_SP ()
+	</select>
+	
+	<select id="attendance_event_LST_SP" resultType="com.bubbleShooter.resource.AttendanceEventResource" statementType="CALLABLE">
+		CALL attendance_event_LST_SP ()
+	</select>
+	
+	<select id="character_dia_LST_SP" resultType="com.bubbleShooter.resource.CharacterDiaResource" statementType="CALLABLE">
+		CALL character_dia_LST_SP ()
+	</select>
+	
+	<select id="character_LST_SP" resultType="com.bubbleShooter.resource.CharacterResource" statementType="CALLABLE">
+		CALL character_LST_SP ()
+	</select>
+	
+	<select id="character_level_LST_SP" resultType="com.bubbleShooter.resource.CharacterLevelResource" statementType="CALLABLE">
+		CALL character_level_LST_SP ()
+	</select>
+	
+	<select id="character_upgrade_LST_SP" resultType="com.bubbleShooter.resource.CharacterUpgradeResource" statementType="CALLABLE">
+		CALL character_upgrade_LST_SP ()
+	</select>
+	
+	<select id="error_code_LST_SP" resultType="com.bubbleShooter.resource.ErrorCodeResource" statementType="CALLABLE">
+		CALL error_code_LST_SP ()
+	</select>
+	
+	<select id="event_LST_SP" resultType="com.bubbleShooter.resource.EventResource" statementType="CALLABLE">
+		CALL event_LST_SP ()
+	</select>
+	
+	<select id="forbidden_words_LST_SP" resultType="com.bubbleShooter.resource.ForbiddenWordsResource" statementType="CALLABLE">
+		CALL forbidden_words_LST_SP ()
+	</select>
+	
+	<select id="game_reward_LST_SP" resultType="com.bubbleShooter.resource.GameRewardResource" statementType="CALLABLE">
+		CALL game_reward_LST_SP ()
+	</select>
+	
+	<select id="global_LST_SP" resultType="com.bubbleShooter.resource.GlobalResource" statementType="CALLABLE">
+		CALL global_LST_SP ()
+	</select>
+	
+	<select id="gacha_list_LST_SP" resultType="com.bubbleShooter.resource.GachaListResource" statementType="CALLABLE">
+		CALL gacha_list_LST_SP ()
+	</select>
+	
+	<select id="gacha_reward_LST_SP" resultType="com.bubbleShooter.resource.GachaRewardResource" statementType="CALLABLE">
+		CALL gacha_reward_LST_SP ()
+	</select>
+	
+	<select id="id_list_LST_SP" resultType="com.bubbleShooter.resource.IdListResource" statementType="CALLABLE">
+		CALL id_list_LST_SP ()
+	</select>
+	
+	<select id="item_LST_SP" resultType="com.bubbleShooter.resource.ItemResource" statementType="CALLABLE">
+		CALL item_LST_SP ()
+	</select>
+	
+	<select id="mail_LST_SP" resultType="com.bubbleShooter.resource.MailResource" statementType="CALLABLE">
+		CALL mail_LST_SP ()
+	</select>
+	
+	<select id="mission_LST_SP" resultType="com.bubbleShooter.resource.MissionResource" statementType="CALLABLE">
+		CALL mission_LST_SP ()
+	</select>
+	
+	<select id="partner_LST_SP" resultType="com.bubbleShooter.resource.PartnerResource" statementType="CALLABLE">
+		CALL partner_LST_SP ()
+	</select>
+	
+	<select id="partner_level_LST_SP" resultType="com.bubbleShooter.resource.PartnerLevelResource" statementType="CALLABLE">
+		CALL partner_level_LST_SP ()
+	</select>
+	
+	<select id="partner_upgrade_LST_SP" resultType="com.bubbleShooter.resource.PartnerUpgradeResource" statementType="CALLABLE">
+		CALL partner_upgrade_LST_SP ()
+	</select>
+
+	<select id="profile_LST_SP" resultType="com.bubbleShooter.resource.ProfileResource" statementType="CALLABLE">
+		CALL profile_LST_SP ()
+	</select>
+	
+	<select id="ranking_reward_LST_SP" resultType="com.bubbleShooter.resource.RankingRewardResource" statementType="CALLABLE">
+		CALL ranking_reward_LST_SP ()
+	</select>
+	
+	<select id="ranking_season_LST_SP" resultType="com.bubbleShooter.resource.RankingSeasonResource" statementType="CALLABLE">
+		CALL ranking_season_LST_SP ()
+	</select>
+	
+	<select id="ranking_tier_LST_SP" resultType="com.bubbleShooter.resource.RankingTierResource" statementType="CALLABLE">
+		CALL ranking_tier_LST_SP ()
+	</select>
+	
+	<select id="shop_LST_SP" resultType="com.bubbleShooter.resource.ShopResource" statementType="CALLABLE">
+		CALL shop_LST_SP ()
+	</select>
+	
+	<select id="shop_random_LST_SP" resultType="com.bubbleShooter.resource.ShopRandomResource" statementType="CALLABLE">
+		CALL shop_random_LST_SP ()
+	</select>
+	
+	<select id="shop_reward_LST_SP" resultType="com.bubbleShooter.resource.ShopRewardResource" statementType="CALLABLE">
+		CALL shop_reward_LST_SP ()
+	</select>
+	
+	<select id="skill_character_active_LST_SP" resultType="com.bubbleShooter.resource.SkillCharacterActiveResource" statementType="CALLABLE">
+		CALL skill_character_active_LST_SP ()
+	</select>
+	
+	<select id="skill_partner_LST_SP" resultType="com.bubbleShooter.resource.SkillPartnerResource" statementType="CALLABLE">
+		CALL skill_partner_LST_SP ()
+	</select>
+	
+	<select id="skill_partner_group_LST_SP" resultType="com.bubbleShooter.resource.SkillPartnerGroupResource" statementType="CALLABLE">
+		CALL skill_partner_group_LST_SP ()
+	</select>
+	
+	<select id="synthesisitem_LST_SP" resultType="com.bubbleShooter.resource.SynthesisitemResource" statementType="CALLABLE">
+		CALL synthesisitem_LST_SP ()
+	</select>
+
+	<select id="text_LST_SP" resultType="com.bubbleShooter.resource.TextResource" statementType="CALLABLE">
+		CALL text_LST_SP ()
+	</select>
+	
+	<select id="user_exp_LST_SP" resultType="com.bubbleShooter.resource.UserExpResource" statementType="CALLABLE">
+		CALL user_exp_LST_SP ()
+	</select>
+	
+</mapper>

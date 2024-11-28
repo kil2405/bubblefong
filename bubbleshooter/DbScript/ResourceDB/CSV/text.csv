@@ -1,0 +1,984 @@
+﻿INDEX,ID,KR,US,DESC
+0,1,아기 상어 버블퐁 프렌즈,BabyShark Bubblefong Friends,게임 타이틀
+1,9000001,NONE,NONE,[UI] 한국 전용 NONE NFT
+2,9000002,NONE NFT,NONE NFT,[UI] 글로벌용 NONE NFT
+3,9010000,루아,Rua,[캐릭터 이름] 루아
+4,9010001,핑크퐁,Pinkfong,[캐릭터 이름] 핑크퐁
+5,9010002,호기,Hogi,[캐릭터 이름] 호기
+6,9010003,제니,Jeni,[캐릭터 이름] 제니
+7,9010004,포키,Poki,[캐릭터 이름] 포키
+8,9010005,레이첼,Rachel,[캐릭터 이름] 레이첼
+9,9010006,마이언,Myan,[캐릭터 이름] 마이언
+10,9010007,빌리,Billy,[캐릭터 이름] 빌리
+11,9010008,코코,Coco,[캐릭터 이름] 코코
+12,9020000,인형옷을 좋아하는 꼬마친구 루아! 핑크퐁과 친구들이 상어가족과 즐겁게 노는 모습을 보고 같이 놀고싶어서 상어옷을 입고 찾아왔어요!,"Little Friend Rua who likes doll clothes! Seeing Pinkfong and friends playing and having fun with the shark family, Rua dressed up in a shark costume to come over and play too!",[캐릭터 설명] 루아
+13,9020001,별나라에서 온 초능력 친구 핑크퐁!\n신비한 초능력으로 버블을 강화하여 버블을 터뜨립니다!,"Pinkfong from Starland, our friend with supernatural powers!\nPinkfong pops bubbles by strengthening one into a super bubble using his mysterious superpowers to pop the rest!",[캐릭터 설명] 핑크퐁
+14,9020002,별 보기와 책 읽기를 좋아하는 똑똑한 고슴도치 호기!\n호기의 뛰어난 지식은 중요한 순간에 빛을 발합니다!,"Hogi, the intelligent hedgehog, loves staring at the stars and reading books!\nHogi's knowledge shines bright in times of trouble!",[캐릭터 설명] 호기
+15,9020003,"반짝이는 물건을 모으는 귀여운 토끼, 제니!\n누구보다 빠른 제니는 운동 신경도 뛰어나고, 민첩해서 언제든 행동할 준비가 되어있죠!","Jeni the cute bunny collects shiny things!\nJeni is an athlete, fully prepared to show off her agility and nimble movements!",[캐릭터 설명] 제니
+16,9020004,"유쾌한 원숭이, 발명왕 포키!\n포키의 뛰어난 발명품은 매우 강력한 힘을 발휘합니다!","A fun monkey, Poki is a great inventor!\nPoki's marvelous inventions always come in handy!",[캐릭터 설명] 포키
+17,9020005,평화를 사랑하는 자유로운 영혼의 소유자 레이첼!\n음악만이 레이첼의 안식처죠. 모두 레이첼의 음악을 좋아해요!\n오늘도 레이첼은 친구들에게 좋은 노래를 들려주기 위해 노력합니다.,Rachel is a free spirit who is always pursuing peace!\nMusic can is her only refuge. Everyone loves Rachel's music!\nRachel does her best to play good music for her friends!,[캐릭터 설명] 레이첼
+18,9020006,세상 모든 치즈를 사랑하는 마이언.\n집 안은 온통 치즈로 가득해요. 치즈의 멋과 향에 빠져볼까요?,Myan is loves every type of cheese there is.\nHis place is filled with all kinds of cheese. Wanna dive into the charming and tasty world of cheese?,[캐릭터 설명] 마이언
+19,9020007,원더마을 최고의 장난꾸러기 빌리!\n오늘도 빌리는 원더마을 친구들에게 장난 칠 궁리를 합니다.,"Billy, the most mischievous boy in Wonder Village.\nBilly always tries to play pranks on the rest of the Wonder Village friends!",[캐릭터 설명] 빌리
+20,9020008,시 짓기를 좋아하는 감수성이 풍부한 코코!\n언제나 시가 떠오르는 코코의 세상은 이야기로 가득하답니다.,"Sensitive Coco absolutely loves poetry!\nCoco's world, where poetry always comes to mind, is full of stories!",[캐릭터 설명] 코코
+21,9030000,길어져랏!,Get Longer!,[액티브 스킬 이름] 루아
+22,9030001,호이포이! 핑크퐁!,Hoi Poi! Pinkfong!,[액티브 스킬 이름] 핑크퐁
+23,9030002,색칠 놀이,Coloring Game,[액티브 스킬 이름] 호기
+24,9030003,슝슝~ 달려볼까?,Vroom Vroom~ Shall We Run?,[액티브 스킬 이름] 제니
+25,9030004,찌릿찌릿! 폭탄 버블!,Tizzling! Bubble Bomb!,[액티브 스킬 이름] 포키
+26,9030005,평화의 노래,Harmony of Peace,[액티브 스킬 이름] 레이첼
+27,9030006,치즈가 제일 좋아!,I Love Cheese!,[액티브 스킬 이름] 마이언
+28,9030007,널 위한 선물이야!,This Present is For You!,[액티브 스킬 이름] 빌리
+29,9030008,레인보우 매직!,Rainbow Magic!,[액티브 스킬 이름] 코코
+30,9040000,스킬 사용 시 가이드 라인이 최대치까지 길어집니다.,The guidelines are extended to the maximum when using the skill.,[액티브 스킬 설명] 루아
+31,9040001,지우개 버블로 강화하여 버블을 터트리면 무작위 위치의 같은 색의 버블을 3개 터트립니다.,Enhance the bubble into an eraser bubble and burst three bubbles of the same color in a random location.,[액티브 스킬 설명] 핑크퐁
+32,9040002,페인트 버블로 변경하여 주변 2칸의 모든 버블을 페인트 버블과 같은 색으로 바꿉니다.,Change to paint bubble to change all bubbles in the surrounding 2 spaces to the same color as the paint bubble.,[액티브 스킬 설명] 호기
+33,9040003,버블을 강화하여 해당 버블을 기준으로 세로로 4칸의 버블을 제거합니다.,Enhance the bubble to remove 4 spaces of bubbles vertically based on the enhanced bubble.,[액티브 스킬 설명] 제니
+34,9040004,폭탄 버블로 강화하여 주변 1칸의 모든 버블을 제거합니다.,Enhance the bubble into a bomb bubble to remove all bubbles in the surrounding 1 space.,[액티브 스킬 설명] 포키
+35,9040005,버블을 강화하여 가로 한줄을 터트립니다.,Enhance the bubble and burst a row across it.,[액티브 스킬 설명] 레이첼
+36,9040006,물감 버블로 변경하여 주변 2칸의 모든 버블을 물감 버블과 같은 색으로 바꿉니다.,Change the bubble into to a paint bubble to change all the bubbles in the surrounding 2 spaces to the same color as the paint bubble.,[액티브 스킬 설명] 마이언
+37,9040007,버블을 강화하여 주변 1칸의 모든 버블을 제거합니다.,Enhance the bubble to remove all bubbles in the surrounding 1 space.,[액티브 스킬 설명] 빌리
+38,9040008,레인보우 버블로 강화하여 모든 색의 버블과 매칭할 수 있습니다.,Enhance the bubble into a rainbow bubble and match bubbles of all colors.,[액티브 스킬 설명] 코코
+39,9050001,스킬 사용 시 {0}% 확률로 슈퍼 버블로 버블을 터뜨렸을 때 상대에게 입히는 피해량이 추가로 <color=#ffd138>{1}</color>증가합니다.,"Has a {0}% chance to enhance bubbles upon using a skill, launching pink stars with damage increased by <color=#ffd138>{1}</color> when bubbles are popped.",[패시브 스킬 설명] 핑크퐁
+40,9050002,스킬 사용 시 {0}% 확률로 효과 범위가 추가로 {1}칸 증가하며 해당 범위의 무작위 버블 <color=#ffd138>{2}</color>개의 색깔을 변경합니다.,"Has a {0}% chance to enhance bubbles upon using a skill, additionally changing the color of random <color=#ffd138>{2}</color> bubble in the neighboring {1} space.",[패시브 스킬 설명] 호기
+41,9050003,스킬 사용 시 {0}% 확률로 무작위 대상 {1}명을 방해하며 버블 생성 시간을 <color=#ffd138>{2}</color>%만큼 추가로 가속시킵니다.\n남은 인원수가 {0}보다 적을 경우 남은 인원 수 만큼만 적용됩니다.,"Has a {0}% chance to additionally increase {1} the players' line creating speed by <color=#ffd138>{2}</color>% upon using a skill.(If the remaining players are {0} or less, it applies only to the remaining ones.)",[패시브 스킬 설명] 제니
+42,9050004,스킬 사용 시 {0}% 확률로 포키 버블로 버블을 터뜨렸을 때 콤보가 추가로 <color=#ffd138>{1}</color>증가합니다.,"Has a {0}% chance to enhance bubbles upon using a skill, additionally increasing combos by <color=#ffd138>{1}</color> when launching bubbles.",[패시브 스킬 설명] 포키
+43,9050005,스킬 사용 시 {0}% 확률로 추가 효과가 발생하여 <color=#ffd138>{1}</color>초 동안 상대에게 피해를 받지 않습니다.,"Has a {0}% chance to activate additional effects upon using a skill, gaining a buff to become invincible for <color=#ffd138>{1}</color> seconds.",[패시브 스킬 설명] 레이첼
+44,9050006,스킬 사용 시 {0}% 확률로 무작위 대상 {1}명을 방해하며 치즈 개수가 <color=#ffd138>{2}</color>개 증가한다.\n남은 인원수가 {1}명보다 적을 경우 남은 인원 수 만큼만 적용됩니다.,"Has a {0}% chance to launch additional cheese to {1} players upon using a skill increasing the number of cheese cubes being created by <color=#ffd138>{2}</color>.(If the remaining players are {1} or less, it applies only to the remaining ones.)",[패시브 스킬 설명] 마이언
+45,9050007,스킬 사용 시 {0}% 확률로 무작위 {1}명을 방해하며 검은 안개의 지속시간이 <color=#ffd138>{2}</color>초 증가한다.\n남은 인원이 {1}명보다 적을 경우 남은 인원만 적용됩니다.,"Has a {0}% chance to launch a missile at {1} more players upon using a skill, increasing the duration of fog by <color=#ffd138>{2}</color>seconds.\n(If the remaining players are {1} or less, it applies only to the remaining ones.)",[패시브 스킬 설명] 빌리
+46,9050008,스킬 사용 시 {0}% 확률로 무작위 {1}명을 방해하여 효과에 적용된 대상은 추가 효과가 발생하여 콤보가 <color=#ffd138>{2}</color>감소합니다.\n남은 인원이 {1}명보다 적을 경우 남은 인원만 적용됩니다.,"Has a {0}% chance to decrease {1} random player's combo stacks upon using a skill by <color=#ffd138>{2}</color>.(If the remaining players are {1} or less, it applies only to the remaining ones.)",[패시브 스킬 설명] 코코
+47,9060001,아기 상어,Brooklyn,[동료 이름]
+48,9060002,소라게,Hermit Crab,[동료 이름]
+49,9060003,롱노우즈,Longnose,[동료 이름]
+50,9060004,딱총새우,Snapping Shrimp,[동료 이름]
+51,9060005,우무문어,Dora,[동료 이름]
+52,9060006,넙치,Flatfish,[동료 이름]
+53,9060007,엄마 상어,Mommy Shark,[동료 이름]
+54,9060008,바다거북,Sea Turtle,[동료 이름]
+55,9060009,신사복어,Gentle Blowfish,[동료 이름]
+56,9060010,폼폼게,Pom-pom Crab,[동료 이름]
+57,9060011,가오리,Manta Ray,[동료 이름]
+58,9060012,문어,Octopus,[동료 이름]
+59,9060013,아빠 상어,Daddy Shark,[동료 이름]
+60,9060014,메기,Catfish,[동료 이름]
+61,9060015,청소청줄놀래기,Bluestreak Cleaner Wrasse,[동료 이름]
+62,9060016,미드쉽맨 물고기,Midshipman Fish,[동료 이름]
+63,9060017,나뭇잎해룡,Leafy Sea Dragon,[동료 이름]
+64,9060018,뿔달팽이,Cone Snail,[동료 이름]
+65,9060019,개복치,Mola mola,[동료 이름]
+66,9060020,복어,Blowfish,[동료 이름]
+67,9060021,졸립게,Sleepy Crab,[동료 이름]
+68,9060022,분홍해마,Pink Seahorse,[동료 이름]
+69,9060023,보라해마,Purple Seahorse,[동료 이름]
+70,9060024,윌리엄,William,[동료 이름]
+71,9070001,우리의 바닷속 마스코트 아기상어!\n세상 모든 것이 재미있는 긍정 대장 호기심쟁이랍니다.,"Baby Shark Brooklyn, the mascot of the ocean!\nBrooklyn is full of curiosity and thinks everyhing is fun!",[동료 설명] 아기 상어
+72,9070002,소라게의 껍데기는 바위처럼 튼튼해 어떤 위험에서도 안전하다고 합니다.,Hermit Crab has a shell as sturdy as a rock that keeps him safe from danger.,[동료 설명] 소라게
+73,9070003,코가 길~쭉한 롱노우즈는 거짓말을 못하는 착한 아이랍니다.,Longnose has a long nose and never lies.,[동료 설명] 롱노우즈
+74,9070004,딱총새우는 바닷속에서 천하장사라고 소문이 자자합니다.,Snapping shrimp is said to be the one of the mightiest under the sea.,[동료 설명] 딱총새우
+75,9070005,음악을 사랑하는 바닷속 귀염둥이 Dora는 친구들과 노래 부르는 것을 즐깁니다.,"Dora, a marine cutie pie, is a music lover who loves singing with friends.",[동료 설명] 우무문어(= 도라)
+76,9070006,넙치는 모래바닥 속에 숨겨진 보물 찾기에 매우 능하다고합니다.,Halibut is great at hunting for treasure hidden in the sand.,[동료 설명] 넙치
+77,9070007,엄마상어는 언제나 새로운 도전을 즐겨요.\n아기 상어의 바닷속 모험도 격려와 응원을 보내준답니다.,Mommy Shark enjoys new challenges.\nShe always supports Brooklyn's adventures.,[동료 설명] 엄마 상어
+78,9070008,뛰어난 균형 감각을 가진 바다거북은 등껍질로 파도 타는 것을 즐깁니다.,Sea Turtle has a great sense of balance and enjoys surfing with its shell on the surface.,[동료 설명] 바다거북
+79,9070009,신사복어는 멋진 겉모습뿐만 아니라 말투나 행동에도 젠틀함이 묻어있다고합니다.,"Gentle Blowfish is not only good-looking, but gentle to boot.",[동료 설명] 신사복어
+80,9070010,항상 밝고 기운이 넘치는 폼폼게는 바닷속 분위기 메이커입니다.,"Pom-pom Crab is the mood maker of the ocean, full of cheerful energy.",[동료 설명] 폼폼게
+81,9070011,웃는 얼굴이 매력적인 가오리는 그 어떤 순간에도 미소를 잃지 않습니다.,Manta Ray has a charming smile that never vanishes from its face.,[동료 설명] 가오리
+82,9070012,문어는 바닷속에서 가장 유명한 피아니스트라고 합니다.\n긴 다리를 이용한 피아노 연주는 처음 듣는 친구들도 빠져들게 만든다고 하네요.,The Octopus is known as the famous Pianist.\nPlaying the piano with long legs makes even new friends fall in love.,[동료 설명] 문어
+83,9070013,아빠상어는 항상 가족들의 안전을 생각하는 든든한 아빠랍니다.,Daddy Shark is the protector of his family.,[동료 설명] 아빠 상어
+84,9070014,메기 아저씨는 친구들에게 선물하는 것을 아주아주 좋아한다고 합니다.,Catfish loves giving presents to his friends!,[동료 설명] 메기
+85,9070015,바닷속 살림꾼 청소청줄놀래기는 상어와 물고기들을 깨끗하게 청소해 준답니다. ,Underwater housekeeper cleaner wrasse clean up sharks and fish.,[동료 설명] 청소청줄놀래기
+86,9070016,바닷속 최고의 패셔니스타 미드쉽맨!\n패션감각이 뛰어난 미드쉽맨은 주변 친구들에게 멋쟁이라고 불린답니다.,Midshipman Fish is the best dresser under the sea!\nEveryone calls him stylish and fashionable.,[동료 설명] 미드쉽맨 물고기
+87,9070017,나뭇잎해룡은 술래잡기를 매우 좋아한다고합니다.\n나뭇잎해룡이 마음 먹으면 아무도 찾을 수 없다고 하네요.,Leafy Sea Dragon likes playing hide and seek. It is so good at hiding that no one can find him.,[동료 설명] 나뭇잎해룡
+88,9070018,등산을 즐기는 뿔달팽이는 아무리 가파른 절벽이라도 가뿐하게 올라갈 수 있다고하네요.,Cone Snail enjoys hiking and can even easily climb steep cliffs.,[동료 설명] 뿔달팽이
+89,9070019,Mola mola는 바닷속 친구들과 오래오래 살기위해 항상 건강관리에 신경 쓴다고합니다.,Mola Mola is careful with it health so it can live a long time along with his marine friends.,[동료 설명] 개복치
+90,9070020,겁이 많고 소심한 복어는 깜짝 놀라면 몸을 부풀린다고 합니다.,The cowardly and timid puffer fish inflates its body when startled.,[동료 설명] 복어
+91,9070021,졸립게는 자도 자도 졸음이 쏟아지지만 친구들과 노는 것을 더 좋아한답니다.,Sleepy Crab is a sleepyhead but still likes to play with its friends more.,[동료 설명] 졸립게
+92,9070022,분홍해마와 보라해마는 둘도 없는 영혼의 단짝 친구라고 합니다.,Pink Seahorse and Purple Seahorse are soulmates for each other.,[동료 설명] 분홍해마
+93,9070023,보라해마와 분홍해마는 둘도 없는 영혼의 단짝 친구라고 합니다.,Purple Seahorse and Pink Seahorse are soulmates for each other.,[동료 설명] 보라해마
+94,9070024,아기 상어의 단짝 친구 윌리엄은 올리와 함께 바다속 이곳저곳 모험을 떠나는 것을 즐긴다고합니다.,"William is Baby Shark Brooklyn's best friend, and they enjoy exploring the ocean together.",[동료 설명] 윌리엄
+95,9080001,발사대의 회전 속도가 {0}% 증가,Increase Bubble Launcher rotation speed by {0}%,[동료 효과 상세 설명]
+96,9080002,발사대 회전 속도 증가,Increase Bubble Launcher rotation speed,[동료 효과 요약 설명]
+97,9080003,발사대의 가이드라인의 길이가 {0}% 증가,Extend a guideline length from Bubble Launcher by {0}%,[동료 효과 상세 설명]
+98,9080004,발사대 가이드라인 길이 증가,Extend a guideline length from Bubble Launcher,[동료 효과 요약 설명]
+99,9080005,발사한 버블의 이동속도가 {0}% 증가,Increase moving speed of shooted Bubbles by {0}%,[동료 효과 상세 설명]
+100,9080006,발사한 버블의 이동속도 증가,Increase moving speed of shooted Bubbles,[동료 효과 요약 설명]
+101,9080007,상대에게 주는 대미지가 {0}% 증가,Increase damage giving to opponents by {0}%,[동료 효과 상세 설명]
+102,9080008,주는 대미지 증가,Increase damage giving,[동료 효과 요약 설명]
+103,9080009,자신이 받는 대미지가 {0}% 감소 ,Decrease damage you take from opponents by {0}% ,[동료 효과 상세 설명]
+104,9080010,받는 대미지 감소,Decrease damage taken,[동료 효과 요약 설명]
+105,9080011,모든 게이지의 획득량이 {0}% 증가,Increase acquisition amount of all gauges by {0}%,[동료 효과 상세 설명]
+106,9080012,모든 게이지 획득량 증가,Increase acquisition amount of all gauges,[동료 효과 요약 설명]
+107,9080013,버블을 터트릴때 획득하는 게이지 {0} 증가,"When popping Bubbles, gaining gauges increase {0}",[동료 효과 상세 설명]
+108,9080014,버블이 터질때 게이지 증가,"When popping Bubbles, gauges increase",[동료 효과 요약 설명]
+109,9080015,상단에 버블의 생성속도가 {0}% 감소,Spawn rate of Bubbles on top reduces by {0}%,[동료 효과 상세 설명]
+110,9080016,버블의 생성속도 감소,Spawn rate of Bubbles reduces,[동료 효과 요약 설명]
+111,9080017,주황색 버블 등장 확률 {0}%증가 / 주황색 버블 게이지 획득량 {1}증가,Increase appearing rate of Orange Bubble by {0}% / Increase acquisition amount of Orange Bubble gauge by {1},[동료 효과 상세 설명]
+112,9080018,주황색 버블 등장 확률 증가 / 주황색 버블 게이지 획득량 증가,Increase appearing rate of Orange Bubble / Increase acquisition amount of Orange Bubble gauge,[동료 효과 요약 설명]
+113,9080019,파란색 버블 등장 확률 {0}%증가 / 파란색 버블 게이지 획득량 {1}증가,Increase appearing rate of Blue Bubble by {0}% / Increase acquisition amount of Blue Bubble gauge by {1},[동료 효과 상세 설명]
+114,9080020,파란색 버블 등장 확률 증가 / 파란색 버블 게이지 획득량 증가,Increase appearing rate of Blue Bubble / Increase acquisition amount of Blue Bubble gauge,[동료 효과 요약 설명]
+115,9080021,보라색 버블 등장 확률 {0}%증가 / 보라색 버블 게이지 획득량 {1}증가,Increase appearing rate of Purple Bubble by {0}% / Increase acquisition amount of Purple Bubble gauge by {1},[동료 효과 상세 설명]
+116,9080022,보라색 버블 등장 확률 증가 / 보라색 버블 게이지 획득량 증가,Increase appearing rate of Purple Bubble / Increase acquisition amount of Purple Bubble gauge,[동료 효과 요약 설명]
+117,9080023,초록색 버블 등장 확률 {0}%증가 / 초록색 버블 게이지 획득량 {1}증가,Increase appearing rate of Green Bubble by {0}% / Increase acquisition amount of Green Bubble gauge by {1},[동료 효과 상세 설명]
+118,9080024,초록색 버블 등장 확률 증가 / 초록색 버블 게이지 획득량 증가,Increase appearing rate of Green Bubble / Increase acquisition amount of Green Bubble gauge,[동료 효과 요약 설명]
+119,9080025,빨간색 버블 등장 확률 {0}%증가 / 빨간색 버블 게이지 획득량 {1}증가,Increase appearing rate of Red Bubble by {0}% / Increase acquisition amount of Red Bubble gauge by {1},[동료 효과 상세 설명]
+120,9080026,빨간색 버블 등장 확률 증가 / 빨간색 버블 게이지 획득량 증가,Increase appearing rate of Red Bubble / Increase acquisition amount of Red Bubble gauge,[동료 효과 요약 설명]
+121,9080027,노란색 버블 등장 확률 {0}%증가 / 노란색 버블 게이지 획득량 {1}증가,Increase appearing rate of Yellow Bubble by {0}% / Increase acquisition amount of Yellow Bubble gauge by {1},[동료 효과 상세 설명]
+122,9080028,노란색 버블 등장 확률 증가 / 노란색 버블 게이지 획득량 증가,Increase appearing rate of Yellow Bubble / Increase acquisition amount of Yellow Bubble gauge,[동료 효과 요약 설명]
+123,9080029,주황색 버블 등장 확률 {0}%증가 / 주황색 버블 공격력 {1}%증가,Increase appearing rate of Orange Bubble by {0}% / Increase Attack Power of Orange Bubble by {1},[동료 효과 상세 설명]
+124,9080030,주황색 버블 등장 확률 증가 / 주황색 버블 공격력 증가,Increase appearing rate of Orange Bubble / Increase acquisition amount of Orange Bubble gauge,[동료 효과 요약 설명]
+125,9080031,파란색 버블 등장 확률 {0}%증가 / 파란색 버블 공격력 {1}%증가,Increase appearing rate of Blue Bubble by {0}% / Increase Attack Power of Blue Bubble by {1},[동료 효과 상세 설명]
+126,9080032,파란색 버블 등장 확률 증가 / 파란색 버블 공격력 증가,Increase appearing rate of Blue Bubble / Increase acquisition amount of Blue Bubble gauge,[동료 효과 요약 설명]
+127,9080033,보라색 버블 등장 확률 {0}%증가 / 보라색 버블 공격력 {1}%증가,Increase appearing rate of Purple Bubble by {0}% / Increase Attack Power of Purple Bubble by {1},[동료 효과 상세 설명]
+128,9080034,보라색 버블 등장 확률 증가 / 보라색 버블 공격력 증가,Increase appearing rate of Purple Bubble / Increase acquisition amount of Purple Bubble gauge,[동료 효과 요약 설명]
+129,9080035,초록색 버블 등장 확률 {0}%증가 / 초록색 버블 공격력 {1}%증가,Increase appearing rate of Green Bubble by {0}% / Increase Attack Power of Green Bubble by {1},[동료 효과 상세 설명]
+130,9080036,초록색 버블 등장 확률 증가 / 초록색 버블 공격력 증가,Increase appearing rate of Green Bubble / Increase acquisition amount of Green Bubble gauge,[동료 효과 요약 설명]
+131,9080037,빨간색 버블 등장 확률 {0}%증가 / 빨간색 버블 공격력 {1}%증가,Increase appearing rate of Red Bubble by {0}% / Increase Attack Power of Red Bubble by {1},[동료 효과 상세 설명]
+132,9080038,빨간색 버블 등장 확률 증가 / 빨간색 버블 공격력 증가,Increase appearing rate of Red Bubble / Increase acquisition amount of Red Bubble gauge,[동료 효과 요약 설명]
+133,9080039,노란색 버블 등장 확률 {0}%증가 / 노란색 버블 공격력 {1}%증가,Increase appearing rate of Yellow Bubble by {0}% / Increase Attack Power of Yellow Bubble by {1},[동료 효과 상세 설명]
+134,9080040,노란색 버블 등장 확률 증가 / 노란색 버블 공격력 증가,Increase appearing rate of Yellow Bubble / Increase acquisition amount of Yellow Bubble gauge,[동료 효과 요약 설명]
+135,9080041,[핑크퐁 전용] 액티브 스킬 발동시 {0}개의 버블이 추가로 터짐,[Only for Pinkfong] Pop an additional {0} bubbles when activating an active skill,[동료 효과 상세 설명]
+136,9080042,[핑크퐁 전용] 액티브 스킬 발동시 {0}개의 버블이 추가로 터짐,[Only for Pinkfong] Pop an additional {0} bubbles when activating an active skill,[동료 효과 요약 설명]
+137,9080043,[호기 전용] 액티브 스킬 발동시 주변 버블 {0}개도 변경,[Only for Hogi] Change {0} neighboring bubbles when activating an active skill,[동료 효과 상세 설명]
+138,9080044,[호기 전용] 액티브 스킬 발동시 주변 버블 {0}개도 변경,[Only for Hogi] Change {0} neighboring bubbles when activating an active skill,[동료 효과 요약 설명]
+139,9080045,[제니 전용] 한번에 같은 색의 버블 {0}개 이상 터트리면 {1}명에게 당근 {2}개 발사,[Only for Jenny] Pop {0} or more bubbles of the same color at once to launch {2} carrots to {1} person,[동료 효과 상세 설명]
+140,9080046,[제니 전용] 한번에 같은 색의 버블 {0}개 이상 터트리면 {1}명에게 당근 {2}개 발사,[Only for Jenny] Pop {0} or more bubbles of the same color at once to launch {2} carrots to {1} person,[동료 효과 요약 설명]
+141,9080047,[포키 전용] 낮은 확률로 화면에 범위 {0}칸의 폭탄이 등장. 포키의 스킬로 터트리면 연속적으로 터짐,"[Only for Poki] A bomb with a range of {0} spaces has a low chance of appearing on the screen. When popping with Poki's skill, bubbles will pop in succession",[동료 효과 상세 설명]
+142,9080048,[포키 전용] 낮은 확률로 화면에 범위 {0}칸의 폭탄이 등장. 포키의 스킬로 터트리면 연속적으로 터짐,"[Only for Poki] A bomb with a range of {0} spaces has a low chance of appearing on the screen. When popping with Poki's skill, bubbles will pop in succession",[동료 효과 요약 설명]
+143,9080049,[레이첼 전용] 마지막 줄까지 내려와 있을때 버블 생성 억제,[Only for Rachel] Prevent bubble creation when you are down to the last row,[동료 효과 상세 설명]
+144,9080050,[레이첼 전용] 마지막 줄까지 내려와 있을때 버블 생성 억제,[Only for Rachel] Prevent bubble creation when you are down to the last row,[동료 효과 요약 설명]
+145,9080051,[마이언 전용] 한번에 같은 색의 버블을 {0}개 이상 터트리면 {1}명에게 치즈 {2}개 발사,[Only for Myan] Pop {0} or more bubbles of the same color at once to launch {2} cheeses to {1} person,[동료 효과 요약 설명]
+146,9080052,[마이언 전용] 한번에 같은 색의 버블을 {0}개 이상 터트리면 {1}명에게 치즈 {2}개 발사,[Only for Myan] Pop {0} or more bubbles of the same color at once to launch {2} cheeses to {1} person,[동료 효과 요약 설명]
+147,9080053,[빌리 전용] 한번에 같은 색의 버블을 {0}개 이상 터트리면 {1}명에게 로켓 발사,[Only for Billy] Pop {0} or more bubbles of the same color at once to launch {2} rockets to {1} person,[동료 효과 요약 설명]
+148,9080054,[빌리 전용] 한번에 같은 색의 버블을 {0}개 이상 터트리면 {1}명에게 로켓 발사,[Only for Billy] Pop {0} or more bubbles of the same color at once to launch {2} rockets to {1} person,[동료 효과 요약 설명]
+149,9080055,[코코 전용] {0}회 발사할때마다 레인보우 버블 등장,[Only for Coco] Rainbow bubbles appear every {0} launches,[동료 효과 요약 설명]
+150,9080056,[코코 전용] {0}회 발사할때마다 레인보우 버블 등장,[Only for Coco] Rainbow bubbles appear every {0} launches,[동료 효과 요약 설명]
+151,9090001,상어 가족의 응원,Cheer the Shark Family,[동료 조합 효과 이름]
+152,9090002,운명의 타이머,Timer of Fate,[동료 조합 효과 이름]
+153,9090003,병주고 약주고,Carrot and stick,[동료 조합 효과 이름]
+154,9090004,헤롱헤롱,Dizzy,[동료 조합 효과 이름]
+155,9090005,자연 충전,Natural recharge,[동료 조합 효과 이름]
+156,9090006,화르륵 타오른다,Flare up,[동료 조합 효과 이름]
+157,9090007,악으로 깡으로,On the very last stand,[동료 조합 효과 이름]
+158,9090008,승리의 길,Billionaire,[동료 조합 효과 이름]
+159,9100001,[핑크퐁 전용] 액티브 스킬 사용시 버블이 3개가 아니여도 매칭이 성공하여 버블이 터짐,"[Only for Pinkfong] When using an active skill, even if there are not 3 bubbles, the bubble will pop when the match is successful.",[동료 조합 효과 설명] 상어 가족의 응원
+160,9100002,,,[동료 조합 추가 효과 설명] 상어 가족의 응원
+161,9100003,[호기 전용] 다음 대기 버블이 현재와 같은 색으로 변경,[Only for Hogi] Next stand-by bubble changes to the same color as the current one,[동료 조합 효과 설명] 운명의 타이머
+162,9100004,,,[동료 조합 추가 효과 설명] 운명의 타이머
+163,9100005,[제니 전용] 액티브 스킬 발사 후 터질때 상대에게 당근 발사 - 당근에 맞은 유저는 1줄 추가,"[Only for Jenny] Fire a carrot to an opponent when active skill activates - A user hit by a carrot, add 1 extra row",[동료 조합 효과 설명] 병주고 약주고
+164,9100006,,,[동료 조합 추가 효과 설명] 병주고 약주고
+165,9100007,[포키 전용] 액티브 스킬 범위 한칸 증가,[Only for Poki] expand active skill range by 1 space,[동료 조합 효과 설명] 헤롱헤롱
+166,9100008,,,[동료 조합 추가 효과 설명] 헤롱헤롱
+167,9100009,[레이첼 전용] 현재 화면을 한줄 위로 올림,[Only for Rachel] Move the current screen up 1 row,[동료 조합 효과 설명] 자연 충전
+168,9100010,,,[동료 조합 추가 효과 설명] 자연 충전
+169,9100011,[마이언 전용] 액티브 스킬 발사 후 상대방에게 치즈 3개 발사,[Only for Myan] Fire 3 cheeses to an opponent after activating an active skill,[동료 조합 효과 설명] 화르륵 타오른다
+170,9100012,,,[동료 조합 추가 효과 설명] 화르륵 타오른다
+171,9100013,[빌리 전용] 액티브 스킬 발사 후 터질때 상대에게 화면을 가리는 로켓 발사,[Only for Billy] Fire a rocket that covers opponent's screen when it pops after activating an active skill,[동료 조합 효과 설명] 악으로 깡으로
+172,9100014,,,[동료 조합 추가 효과 설명] 악으로 깡으로
+173,9100015,[코코 전용] 스왑버블도 레인보우 버블로 교체,[Only for Coco] Swap bubbles change to rainbow bubbles,[동료 조합 효과 설명] 승리의 길
+174,9100016,,,[동료 조합 추가 효과 설명] 승리의 길
+175,9110001,골드,Gold,[아이템 이름] 골드
+176,9110002,루비,Ruby,[아이템 이름] 루비
+177,9110003,다이아,Diamond,[아이템 이름] 다이아
+178,9110004,"NFT 캐릭터로 게임 플레이 시 획득 가능한 재화입니다. 캐릭터 성장, 아이템 구매 등 다양한 곳에 사용됩니다.","Currency that can be obtained by playing the game as an NFT character. Used for character growth, item purchases, etc.",[아이템 설명] 루비
+179,9110005,푸른 다이아,Blue diamond,[아이템 이름] 푸른 다이아
+180,9110006,특정 방법으로 획득 가능한 특수 재화입니다. BBF로 교환할 수 있습니다.,Special currency that can be obtained through special ways. Can be exchanged for BBFs.,[아이템 설명] 푸른 다이아
+181,9110007,경쟁전 참여권,Competition ticket,[아이템 이름] 경쟁전 참여권
+182,9110008,게임 플레이 시 획득 가능한 재화입니다. 스타 팩 구매에 사용됩니다.,Can be obtained by playing the game. Used to purchase a Star Pack.,[아이템 설명] 스타
+183,9110009,뽑기 코인,Drawing lot coin,[아이템 이름] 뽑기 코인
+184,9110010,동료 승급 시 해당 아이템을 소모하여 원하는 효과를 선택 가능하며 승급 성공 시 선택한 효과가 유지된 채로 승급합니다.,Use this item to select an effect you don't want to change when upgrading.,[아이템 설명] 효과 유지권
+185,9110011,미니 게임 칩,Mini game chip,[아이템 이름] 미니 게임 칩
+186,9110012,해당 아이템을 소모하여 원하는 효과를 무작위 효과로 변경합니다.,Use this item to change the selected effect into a random one.,[아이템 설명] 효과 변경권
+187,9110013,핑크퐁의 망원경,Pinkfong's Scope,[아이템 이름] 핑크퐁 전용 아이템
+188,9110014,레벨업 및 강화에 사용되는 핑크퐁 전용 아이템입니다.,An item exclusively used to level up and enhance Pinkfong.,[아이템 설명] 핑크퐁 전용 아이템
+189,9110015,호기의 브러쉬,Hogi's Brush,[아이템 이름] 호기 전용 아이템
+190,9110016,레벨업 및 강화에 사용되는 호기 전용 아이템입니다.,An item exclusively used to level up and enhance Hogi.,[아이템 설명] 호기 전용 아이템
+191,9110017,제니의 당근,Jeni's Carrot,[아이템 이름] 제니 전용 아이템
+192,9110018,레벨업 및 강화에 사용되는 제니 전용 아이템입니다.,An item exclusively used to level up and enhance Jeni.,[아이템 설명] 제니 전용 아이템
+193,9110019,포키의 몽키 스패너,Poki's Rench,[아이템 이름] 포키 전용 아이템
+194,9110020,레벨업 및 강화에 사용되는 포키 전용 아이템입니다.,An item exclusively used to level up and enhance Poki.,[아이템 설명] 포키 전용 아이템
+195,9110021,레이첼의 기타,Rachel's Guitar,[아이템 이름] 레이첼 전용 아이템
+196,9110022,레벨업 및 강화에 사용되는 레이첼 전용 아이템입니다.,An item exclusively used to level up and enhance Rachel.,[아이템 설명] 레이첼 전용 아이템
+197,9110023,마이언의 치즈,Myan's Cheese,[아이템 이름] 마이언 전용 아이템
+198,9110024,레벨업 및 강화에 사용되는 마이언 전용 아이템입니다.,An item exclusively used to level up and enhance Myan.,[아이템 설명] 마이언 전용 아이템
+199,9110025,빌리의 기름통,Billy's Oil,[아이템 이름] 빌리 전용 아이템
+200,9110026,레벨업 및 강화에 사용되는 빌리 전용 아이템입니다.,An item exclusively used to level up and enhance Billy.,[아이템 설명] 빌리 전용 아이템
+201,9110027,코코의 노트,Coco's Note,[아이템 이름] 코코 전용 아이템
+202,9110028,레벨업 및 강화에 사용되는 코코 전용 아이템입니다.,An item exclusively used to level up and enhance Coco.,[아이템 설명] 코코 전용 아이템
+203,9110029,R등급 재료,R grade item,[아이템 이름] 동료(N) 전용 아이템
+204,9110030,R등급 동료의 레벨업 및 승급에 사용되는 전용 아이템입니다.,An item exclusively used to level up and enhance an R-grade partner.,[아이템 설명] 동료(N) 전용 아이템
+205,9110031,SR등급 재료,SR grade item,[아이템 이름] 동료(R) 전용 아이템
+206,9110032,SR등급 동료의 레벨업 및 승급에 사용되는 전용 아이템입니다.,An item exclusively used to level up and enhance an SR-grade partner.,[아이템 설명] 동료(R) 전용 아이템
+207,9110033,SSR등급 재료,SSR grade item,[아이템 이름] 동료(SR) 전용 아이템
+208,9110034,SSR등급 동료의 레벨업 및 승급에 사용되는 전용 아이템입니다.,An item exclusively used to level up and enhance an SSR-grade partner.,[아이템 설명] 동료(SR) 전용 아이템
+209,9110035,노말 프렌즈팩,Nomal Friends Pack,[아이템 이름] 노말 프렌즈팩
+210,9110036,해당 아이템 획득 또는 구매 시 확률에 따라 캐릭터 및 동료 전용 아이템을 획득할 수 있습니다.,Obtain or purchase this item to have a chance to earn a exclusive item for character or partner.,[아이템 설명] 노말 프렌즈팩
+211,9110037,레어 프렌즈팩,Rare Friedns Pack,[아이템 이름] 레어 프렌즈팩
+212,9110038,해당 아이템 획득 또는 구매 시 확률에 따라 캐릭터 및 동료 전용 아이템을 획득할 수 있습니다.,Obtain or purchase this item to have a chance to earn a exclusive item for character or partner.,[아이템 설명] 레어 프렌즈팩
+213,9110039,스타 열쇠,Starkey,[아이템 이름] 스타 열쇠
+214,9110040,스타 박스 오픈에 사용되는 아이템입니다.,This item is used to open a star box.,[아이템 설명] 스타 열쇠
+215,9110041,1st TROPHY,1st TROPHY,[아이템 이름] 랭킹전 시즌 1등 트로피
+216,9110042,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 설명] 랭킹전 시즌 1등 트로피
+217,9110043,2nd TROPHY,2nd TROPHY,[아이템 이름] 랭킹전 시즌 2등 트로피
+218,9110044,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 설명] 랭킹전 시즌 2등 트로피
+219,9110045,3rd TROPHY,3rd TROPHY,[아이템 이름] 랭킹전 시즌 3등 트로피
+220,9110046,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 설명] 랭킹전 시즌 3등 트로피
+221,9110047,4-10th TROPHY,4-10th TROPHY,[아이템 이름] 랭킹전 시즌 4-10등 트로피
+222,9110048,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 설명] 랭킹전 시즌 4-10등 트로피
+223,9110049,11-30th TROPHY,11-30th TROPHY,[아이템 이름] 랭킹전 시즌 11-30등 트로피
+224,9110050,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 설명] 랭킹전 시즌 11-30등 트로피
+225,9110051,31-50th TROPHY,31-50th TROPHY,[아이템 이름] 랭킹전 시즌 31-50등 트로피
+226,9110052,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 설명] 랭킹전 시즌 31-50등 트로피
+227,9110053,51-70th TROPHY,51-70th TROPHY,[아이템 이름] 랭킹전 시즌 51-70등 트로피
+228,9110054,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 설명] 랭킹전 시즌 51-70등 트로피
+229,9110055,71-100th TROPHY,71-100th TROPHY,[아이템 이름] 랭킹전 시즌 71-100등 트로피
+230,9110056,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 설명] 랭킹전 시즌 71-100등 트로피
+231,9110057,101-200th  TROPHY,101-200th  TROPHY,[아이템 이름] 랭킹전 시즌 101-200등 트로피
+232,9110058,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 설명] 랭킹전 시즌 101-200등 트로피
+233,9110059,201-300th TROPHY,201-300th TROPHY,[아이템 이름] 랭킹전 시즌 201-300 트로피
+234,9110060,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 설명] 랭킹전 시즌 201-300 트로피
+235,9110061,301-400th TROPHY,301-400th TROPHY,[아이템 이름] 랭킹전 시즌 301-400등 트로피
+236,9110062,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 설명] 랭킹전 시즌 301-400등 트로피
+237,9110063,401-500th TROPHY,401-500th TROPHY,[아이템 이름] 랭킹전 시즌 401-500등 트로피
+238,9110064,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 설명] 랭킹전 시즌 401-500등 트로피
+239,9110065,R등급 동료상자,R Partner Box,[아이템 이름] R등급 동료상자
+240,9110066,R등급 동료 중 1종을 획득할 수 있는 팩입니다.,This box allows you to obtain one type of R Partner.,[아이템 설명] R등급 동료상자
+241,9110067,SR등급 동료상자,SR Partner Box,[아이템 이름] SR등급 동료상자
+242,9110068,SR등급 동료 중 1종을 획득할 수 있는 팩입니다.,This box allows you to obtain one type of SR Partner.,[아이템 설명] SR등급 동료상자
+243,9110069,캐릭터 강화팩,Character Upgrade Pack,[아이템 이름] 캐릭터 강화팩
+244,9110070,캐릭터 강화에 필요한 전용 아이템 1종을 획득할 수 있습니다.,You can obtain one type of exclusive item needed to upgrade your character.,[아이템 설명] 캐릭터 강화팩
+245,9110071,동료 강화팩,Partner Upgrade Pack,[아이템 이름] 동료 강화팩
+246,9110072,동료 강화에 필요한 등급 아이템 1종을 획득할 수 있습니다.,You can obtain one type of grade item needed to upgrade your partner.,[아이템 설명] 동료 강화팩
+247,9110073,R등급 캐릭터 상자,R Character Box,[아이템 이름] R등급 캐릭터상자
+248,9110074,R등급 캐릭터 중 1종을 획득할 수 있는 팩입니다.,This box allows you to obtain one type of R Character.,[아이템 설명] R등급 캐릭터상자
+249,9110075,SR등급 캐릭터 상자,SR Character Box,[아이템 이름] SR등급 캐릭터상자
+250,9110076,SR등급 캐릭터 중 1종을 획득할 수 있는 팩입니다.,This box allows you to obtain one type of SR Character.,[아이템 설명] SR등급 캐릭터상자
+251,9110077,슈퍼 레어 프렌즈팩,Super Rare Friedns Pack,[아이템 이름] 슈퍼 레어 프렌즈팩
+252,9110078,해당 아이템 획득 또는 구매 시 확률에 따라 캐릭터 및 동료 전용 아이템을 획득할 수 있습니다.,Obtain or purchase this item to have a chance to earn a exclusive item for character or partner.,[아이템 설명] 슈퍼 레어 프렌즈팩
+253,9110079,새 친구 모집 팩(캐릭터),New Friends Recruit(Character),[아이템 이름] 새 친구 모집 팩(캐릭터)
+254,9110080,각 등급의 캐릭터 중 1종을 획득할 수 있는 팩입니다.,This is a pack that allows you to acquire one type of character from each grade.,[아이템 설명] 새 친구 모집 팩(캐릭터)
+255,9110081,새 친구 모집 팩(동료),New Friends Recruit(Partner),[아이템 이름] 새 친구 모집 팩(동료)
+256,9110082,각 등급의 동료 중 1종을 획득할 수 있는 팩입니다.,This is a pack that allows you to acquire one type of partner from each grade.,[아이템 설명] 새 친구 모집 팩(동료)
+257,9110083,1st TROPHY,1st TROPHY,[아이템 이름] 랭킹전 시즌 1등 트로피
+258,9110084,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 설명] 랭킹전 시즌 1등 트로피
+259,9110085,2nd TROPHY,2nd TROPHY,[아이템 이름] 랭킹전 시즌 2등 트로피
+260,9110086,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 설명] 랭킹전 시즌 2등 트로피
+261,9110087,3rd TROPHY,3rd TROPHY,[아이템 이름] 랭킹전 시즌 3등 트로피
+262,9110088,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 설명] 랭킹전 시즌 3등 트로피
+263,9110089,4-5th TROPHY,4-5th TROPHY,[아이템 이름] 랭킹전 시즌 4-5등 트로피
+264,9110090,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 이름] 랭킹전 시즌 4-5등 트로피
+265,9110091,6-8th TROPHY,6-8th TROPHY,[아이템 이름] 랭킹전 시즌 6-8등 트로피
+266,9110092,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 이름] 랭킹전 시즌 6-8등 트로피
+267,9110093,9-12th TROPHY,9-12th TROPHY,[아이템 이름] 랭킹전 시즌 9-12등 트로피
+268,9110094,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 이름] 랭킹전 시즌 9-12등 트로피
+269,9110095,13-20th TROPHY,13-20th TROPHY,[아이템 이름] 랭킹전 시즌 13-20등 트로피
+270,9110096,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 이름] 랭킹전 시즌 13-20등 트로피
+271,9110097,21-30th TROPHY,21-30th TROPHY,[아이템 이름] 랭킹전 시즌 21-30등 트로피
+272,9110098,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 이름] 랭킹전 시즌 21-30등 트로피
+273,9110099,31-40th  TROPHY,31-40th  TROPHY,[아이템 이름] 랭킹전 시즌 31-40등 트로피
+274,9110100,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 이름] 랭킹전 시즌 31-40등 트로피
+275,9110101,41-60th TROPHY,41-60th TROPHY,[아이템 이름] 랭킹전 시즌 41-60 트로피
+276,9110102,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 이름] 랭킹전 시즌 41-60 트로피
+277,9110103,61-80th TROPHY,61-80th TROPHY,[아이템 이름] 랭킹전 시즌 61-80등 트로피
+278,9110104,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 이름] 랭킹전 시즌 61-80등 트로피
+279,9110105,81-100th TROPHY,81-100th TROPHY,[아이템 이름] 랭킹전 시즌 81-100등 트로피
+280,9110106,인게임에서 획득 가능한 트로피입니다. 마켓 플레이스에서 트로피 종류에 따라 BBF로 교환 가능합니다.,This is a trophy that can be obtained in-game. You can exchange it to BBF depending on the type of trophy at the marketplace.,[아이템 이름] 랭킹전 시즌 81-100등 트로피
+281,9110107,추가 보상 박스 (1단계),Additional Rewards (step 1),mission_randomGR_1_Reward
+282,9110108,추가 보상 박스 (2단계),Additional Rewards (step 2),mission_randomGR_2_Reward
+283,9110109,추가 보상 박스 (3단계),Additional Rewards (step 3),mission_randomGR_3_Reward
+284,9120001,101 개인전(일반),101 Solo (Normal),[매칭 화면] 101 개인전(일반) > 알림판
+285,9120002,101 개인전(랭크),101 Solo (Rank),[매칭화면] 101 개인전(랭크) > 알림판
+286,9120003,4vs4 팀전,4vs4 Team (Normal),[매칭화면] 4vs4 팀전(일반) > 알림판
+287,9120004,4vs4 팀전(랭크),4vs4 Team (Rank),[매칭화면] 4vs4 팀전(랭크) > 알림판
+288,9120005,매칭 중...\n({0}/101),Matching...\n({0}/101),[매칭화면] 101 개인전(공통) > 알림판
+289,9120006,매칭 완료!,Matched!,[매칭화면] 101 개인전(공통) > 알림판
+290,9120007,대기 중,Waiting...,[매칭화면] 4vs4 팀전(공통) > 알림판
+291,9120008,게임 시작!,Start!,[매칭화면] 4vs4 팀전(공통) > 알림판
+292,9120009,BLUE TEAM,BLUE TEAM,[매칭화면] 4vs4 팀전(공통) > 팀 이름
+293,9120010,RED TEAM,RED TEAM,[매칭화면] 4vs4 팀전(공통) > 팀 이름
+294,9120011,상대 팀 : {0},Opponent team : {0},[매칭화면] 4vs4 팀전(공통) > 남은 인원
+295,9120012,대화를 입력해주세요.,Enter a message.,[매칭 화면 / 결과 화면] 채팅창
+296,9120013,팀 변경,Change Team,[매칭 화면] 팀전 팀 변경 버튼
+297,9120014,매칭중,Matching,[매칭 화면] 매칭 완료
+298,9120015,매칭 완료!,Matching complete!,[매칭 화면] 매칭 완료
+299,9120016,TIP,TIP,[매칭 화면] 툴팁 표시
+300,9120017,뒤로가기,Back,[매칭 화면] 뒤로가기 버튼 텍스트
+301,9130001,시작,START,[게임 화면] > 시작 버튼
+302,9130002,나가기,EXIT,[게임 화면] > 나가기 버튼
+303,9130003,남은 플레이어,Players,[게임 화면] 101 개인전(공통) > 남은 인원
+304,9130004,next,NEXT,[게임 화면] 모드 공통 > 다음 버블 표시
+305,9130005,공격을 가했습니다!,Damage dealt!,[게임 화면] 모드 공통 > 피해 로그
+306,9130006,<color=#ffff00ff>강력한 공격</color>을 가했습니다!!!,<color=#ffff00ff>Heavy damage</color> has been dealt!!!,[게임 화면] 모드 공통 > 피해 로그
+307,9140001,보상,REWARD,[결과 화면] 보상
+308,9140002,계정,ACCOUNT,[결과 화면] 계정
+309,9140003,배틀 패스,BATTLE PASS,[결과 화면] 배틀 패스
+310,9140004,전투 통계,BATTLE LOG,[결과 화면] 전투 통계 버튼 텍스트 및 팝업 이름
+311,9140005,순위,Ranking,[결과 화면] 전투 통계 팝업
+312,9140006,이름,Name,[결과 화면] 전투 통계 팝업
+313,9140007,발사한 버블,Bubbles\nshot :,[결과 화면] 전투 통계 팝업
+314,9140008,터뜨린 버블,Bubbles\npopped :,[결과 화면] 전투 통계 팝업
+315,9140009,통계,STATS,[결과 화면] 통계 팝업 이름
+316,9140010,종합,Total,[결과 화면] 순위 구분
+317,9140011,경쟁,Competition,[결과 화면] 순위 구분
+318,9150001,101 우승,101 Winner,[랭킹전 결과 화면] Ranking Points > 101 우승 시
+319,9150002,101 TOP3,101 TOP 3,"[랭킹전 결과 화면] Ranking Points > 101 2,3등"
+320,9150003,101 TOP10,101 TOP 10,[랭킹전 결과 화면] Ranking Points > 101 4~10등
+321,9150004,101 TOP30,101 TOP 30,[랭킹전 결과 화면] Ranking Points > 101 11~30등
+322,9150005,101 TOP50,101 TOP 50,[랭킹전 결과 화면] Ranking Points > 101 31~50등
+323,9150006,101 TOP70,101 TOP 70,[랭킹전 결과 화면] Ranking Points > 101 51~70등
+324,9150007,101 TOP90,101 TOP 90,[랭킹전 결과 화면] Ranking Points > 101 71~90등
+325,9150008,101 TOP101,101 TOP 101,[랭킹전 결과 화면] Ranking Points > 101 91~101등
+326,9150009,팀전 승리,Team match victory,[랭킹전 결과 화면] Ranking Points > 4VS4 승리 시
+327,9150010,팀전 패배,Team match defeat,[랭킹전 결과 화면] Ranking Points > 4VS4 패배 시
+328,9150011,보너스,Bouns,[랭킹전 결과 화면] Ranking Points > 보너스
+329,9150012,{0}등,Ranking {0},[랭킹전 결과 화면] Ranking Points > 내 순위 / {0} : 내 순위 값
+330,9150013,랭킹 없음,No Rank,[랭킹] 본인 랭크 표시
+331,9160001,신규 업데이트 확인중,Checking for new updates.,[로그인] 버전 확인 > 안내 문구
+332,9160002,신규 업데이트를 발견했습니다. 총 {0}MB\nWi-Fi 환경에서 다운로드를 권장합니다.,New updates found. Total {0}MB\nDownloading with Wi-Fi is recommended.,[로그인] 업데이트 > 안내 문구
+333,9160003,신규 업데이트 다운로드 중. ({0}MB / {1}MB),Downloading new updates. ({0}MB / {1}MB),[로그인] 업데이트 > 진행정도
+334,9160004,시작하려면 화면을 터치하세요.,Tab the screen to start.,[로그인] 로그인 > 안내 문구
+335,9160005,로그아웃 하시겠습니까?\n로그아웃 시 로그인 화면으로 이동합니다.,Are you sure you want to log out?\n You will be redirected to the login screen after logging out.,[로그인] 로그아웃 알림 메시지
+336,9160006,*지갑 연결은 로그아웃 시에도 현재 계정에 유지됩니다.,*Your wallet will still be connected to the current account even after logging out.,[로그인] 로그아웃 알림 메시지
+337,9160007,게임 이용 약관,Game Terms and Conditions,[로그인] 약관 동의 > 타이틀
+338,9160008,모두 동의,Consent All,[로그인] 약관 동의 > 모두 동의
+339,9160009,이용 약관 동의,Consent to Terms and Conditions,[로그인] 약관 동의 > 게임 이용 약관
+340,9160010,개인 정보 수집 이용,Access to personal information collection,[로그인] 약관 동의 > 개인 정보 수집 이용
+341,9160011,(선택)광고성 알림 수신,(Optional) Receive Advertising Notifications,[로그인] 약관 동의 > (선택)광고성 알림 수신
+342,9160012,(선택)광고성 야간 알림 수신(21:00~06:00),(Optional) Receive Night Time Advertising Notifications (21:00-06:00),[로그인] 약관 동의 > (선택)광고성 야간 알림 수신
+343,9160013,확인,Confirm,[로그인] 약관 동의 > 확인 버튼 텍스트
+344,9160014,LOADING...,LOADING...,[로그인] 로딩 텍스트
+345,9160015,안내,Announcement,[로그인] 버전업 안내 팝업 이름
+346,9160016,최신버전 앱으로 업데이트를 위해 스토어로 이동합니다.,Go to the store to update to the latest version of the app.,[로그인] 버전업 안내 팝업 내용
+347,9160017,현재 게임 점검중입니다.\n점검 완료 후 이용해주세요.,The game is currently being checked.\nPlease use it when the inspection is completed.,[로그인] 점검 안내 텍스트
+348,9160018,에셋 번들 다운로드,AssetBundle Download,[로그인] 에셋 다운로드 팝업
+349,9160019,구글 계정 연동,Link to Google,[로그인] 구글 아이디 연결 팝업
+350,9160020,로그아웃,Logout,[로그인] 구글 아이디 연결 팝업
+351,9160021,계정 연동,Linked Account,[로그인] 구글 아이디 연결 팝업
+352,9160022,애플 계정 연동,Link to Apple,[로그인] iOS 아이디 연결 팝업
+353,9170001,구매하기,Purchase,[시즌 패스] 구매하기 버튼 텍스트
+354,9170002,시즌 종료까지 :,Until the end of the season:,[시즌 패스] 시즌 종료까지 남은 시간
+355,9170003,패스 보상,Pass rewards,[시즌 패스] 탭 > 패스 보상
+356,9170004,패스 미션,Pass mission,[시즌 패스] 탭 > 패스 미션
+357,9170005,시즌 패스 구매,Purchase season pass,[시즌 패스] 구매 팝업 이름
+358,9170006,시즌 패스를 구매하고 특별한 보상을 획득하세요!,Buy a battle pass to obtain special rewards!,[시즌 패스] 패스 구매 팝업 창 소개 문구
+359,9170007,패스 레벨업,Pass level up,[시즌 패스] 패스 레벨 구매 팝업 이름
+360,9170008,다음 레벨 :,Next level :,[시즌 패스] 패스 레벨 구매 > 다음 레벨 표시
+361,9170009,다이아 {0}을 소모하여 레벨업 하시겠습니까?,Spend {0}x Dia to level up?,[시즌 패스] XP 구매 팝업 내용 / {0} : 다이아 소모량
+362,9170010,완료가능,Can be completed.,[시즌 패스] 패스 미션 > 완료 가능 표시
+363,9170011,완료,Complete,[시즌 패스] 패스 미션 > 완료 표시
+364,9170012,시즌 패스 구매 시 활성화,Activate when the season pass is purchased,[시즌 패스] 패스 미션 > 구매 안내 문구
+365,9170013,게임 {0}회 플레이,Play the game {0} times,[시즌 패스] 일일 미션1 / {0} : 조건(=pass_condition)
+366,9170014,버블 {0}회 발사,Shoot bubbles {0} times,[시즌 패스] 일일 미션2 / {0} : 조건(=pass_condition)
+367,9170015,버블 {0}회 터뜨리기,Pop bubbles {0} times,[시즌 패스] 일일 미션3 / {0} : 조건(=pass_condition)
+368,9170016,스킬 {0}회 사용하기,Use skills {0} times,[시즌 패스] 일일 미션4 / {0} : 조건(=pass_condition)
+369,9170017,101 개인전 {0}회 플레이,Play 101 Solo {0} times,[시즌 패스] 일일 미션5 / {0} : 조건(=pass_condition)
+370,9170018,4vs4 팀전 {0}회 플레이,Play 4 vs. 4 Team {0} times,[시즌 패스] 일일 미션6 / {0} : 조건(=pass_condition)
+371,9170019,게임 {0}회 접속하기,Log in {0} times,[시즌 패스] 주간 출석 미션 / {0} : 조건(=pass_condition)
+372,9170020,버블 {0}회 발사,Shoot bubbles {0} times,[시즌 패스] 주간 구매자 전용 미션1 / {0} : 조건(=pass_condition)
+373,9170021,버블 {0}회 터뜨리기,Pop bubbles {0} times,[시즌 패스] 주간 구매자 전용 미션2 / {0} : 조건(=pass_condition)
+374,9170022,스킬 {0}회 사용하기,Use skills {0} times,[시즌 패스] 주간 구매자 전용 미션3 / {0} : 조건(=pass_condition)
+375,9170023,101 개인전 {0}회 플레이,Play 101 Solo {0} times,[시즌 패스] 주간 구매자 전용 미션4 / {0} : 조건(=pass_condition)
+376,9170024,4vs4 팀전 {0}회 플레이,Play 4 vs. 4 Team {0} times,[시즌 패스] 주간 구매자 전용 미션5 / {0} : 조건(=pass_condition)
+377,9170025,101 개인전 우승 {0}회,Win 101 Solo {0} times,[시즌 패스] 주간 일반 미션1 / {0} : 조건(=pass_condition)
+378,9170026,101 개인전 TOP10 {0}회,Record 101 Solo TOP 10 {0} times,[시즌 패스] 주간 일반 미션2 / {0} : 조건(=pass_condition)
+379,9170027,4vs4 팀전 MVP {0}회,Win 4 vs. 4 Team MVP {0} times,[시즌 패스] 주간 일반 미션3 / {0} : 조건(=pass_condition)
+380,9170028,4vs4 팀전 {0}연승 달성하기,Record {0} consecutive wins in 4 vs. 4 Team MVP,[시즌 패스] 주간 일반 미션4 / {0} : 조건(=pass_condition)
+381,9170029,게임 {0}회 플레이,Play the game {0} times,[시즌 패스] 주간 일반 미션5 / {0} : 조건(=pass_condition)
+382,9180001,7일 출석체크 EVENT,7 Day Attendance Check EVENT,[출석체크] 가제
+383,9180002,매일매일 출석하고 아이템 받아가세요!,Attend every day and get your items!,[출석체크] 추가 문구
+384,9180003,보상은 우편함에서 확인하세요.,Check the mailbox for your rewards.,[출석체크] 안내 문구
+385,9180004,참여 방법,How to,[출석체크] 참여 방법 도형 텍스트
+386,9180005,매일 매일 접속,Access the game everyday,[출석체크] 참여 방법 내용
+387,9180006,이벤트 대상,Target,[출석체크] 이벤트 대상 도형 텍스트
+388,9180007,버블퐁 프렌즈의 모든 유저분들,All users of Bubblefong Friends,[출석체크] 이벤트 대상 내용
+389,9180008,{0}일차,Day {0},[출석체크] 날짜 표시 / {0} : [attendance_reward][DAYS]
+390,9190001,캐릭터,Character,[캐릭터] 캐릭터 탭 버튼
+391,9190002,동료,Partner,[캐릭터] 동료 탭 버튼
+392,9190003,터지는\n버블 수,Bubbles\npopped,[캐릭터] 상세 정보 > 액티브 레벨 업 시 성장 값 텍스트
+393,9190004,효과 범위,Area\nof effect,[캐릭터] 상세 정보 > 액티브 레벨 업 시 성장 값 텍스트
+394,9190005,피해 제거량,Damage\ndecrease,[캐릭터] 상세 정보 > 액티브 레벨 업 시 성장 값 텍스트
+395,9190006,치즈 개수,Cheese\namount,[캐릭터] 상세 정보 > 액티브 레벨 업 시 성장 값 텍스트
+396,9190007,지속 시간,Duration,[캐릭터] 상세 정보 > 액티브 레벨 업 시 성장 값 텍스트
+397,9190008,추가\n피해량,Extra\ndamage,[캐릭터] 상세 정보 > 패시브 > 레벨 업 시 성장 값 텍스트 > 핑크퐁
+398,9190009,버블 수,Number of bubbles,[캐릭터] 상세 정보 > 패시브 > 레벨 업 시 성장 값 텍스트 > 호기
+399,9190010,시간 가속,Time acceleration,[캐릭터] 상세 정보 > 패시브 > 레벨 업 시 성장 값 텍스트 > 제니
+400,9190011,콤보 증가,Combo increase,[캐릭터] 상세 정보 > 패시브 > 레벨 업 시 성장 값 텍스트 > 포키
+401,9190012,지속 시간,Duration,"[캐릭터] 상세 정보 > 패시브 > 레벨 업 시 성장 값 텍스트 > 빌리, 레이첼"
+402,9190013,치즈\n개수 증가,Pieces of\ncheese,[캐릭터] 상세 정보 > 패시브 > 레벨 업 시 성장 값 텍스트 > 마이언
+403,9190014,콤보 감소,Combo decrease,[캐릭터] 상세 정보 > 패시브 > 레벨 업 시 성장 값 텍스트 > 코코
+404,9190015,BP 획득량,BP earned,[캐릭터] 상세 정보 > P2E
+405,9190016,BP 추가 획득량,Additional BP earned,[캐릭터] 상세 정보 > P2E
+406,9190017,루비 획득,Ruby earned,[캐릭터] 상세 정보 > P2E
+407,9190018,"루비는 캐릭터당 획득량이 정해지며, 캐릭터를 강화하면 최대 획득량이 증가합니다.","The amount of rubys obtained per character is set, and the maximum amount obtained increases as the character is upgraded.",[캐릭터] 상세 정보 > P2E > 안내문구
+408,9190019,선택,Select,[캐릭터] 상세 정보 > 선택 버튼 텍스트
+409,9190020,선택된 캐릭터가 없습니다.,No character has been selected.,[캐릭터] 상세 정보 > 강화 > 소모 캐릭터를 선택하지 않았을 때
+410,9190021,잠금,Lock,[캐릭터] 상세 정보 > 잠금 버튼 텍스트
+411,9190022,잠금 해제,Unlock,[캐릭터] 상세 정보 > 잠금 해제 버튼 텍스트
+412,9190023,강화,Upgrade,[캐릭터] 상세 정보 > 강화 버튼 텍스트
+413,9190024,획득 가능,Obtainable,[캐릭터] 상세 정보 > 루비 획득 가능 여부 텍스트
+414,9190025,획득 불가능,Unobtainable,[캐릭터] 상세 정보 > 루비 획득 가능 여부 텍스트
+415,9190026,소모 게이지,Used gauge,[캐릭터] 상세 정보 > 액티브 스킬 스킬 게이지 소모량 표시
+416,9190027,강화가 필요합니다.,Need upgrades.,[캐릭터] 상세 정보 > 패시브 > 강화 필요 문구
+417,9190028,강화 성공률,Upgrade success rate,[캐릭터] 상세 정보 > 강화
+418,9190029,재료를 선택해주세요.,Choose a material Character,[캐릭터] 상세 정보 > 강화
+419,9190030,재료를 선택하세요.,Choose a material,[캐릭터] 상세 정보 > 강화 > 재료 선택하지 않았을 때
+420,9190031,강화에 성공했습니다.,Upgrade successful.,[캐릭터] 상세 정보 > 강화 > 성공
+421,9190032,강화에 실패했습니다.,Upgrade failed.,[캐릭터] 상세 정보 > 강화 > 실패
+422,9190033,{0}(이)가 부족합니다.\n인벤토리로 이동합니다.,Not enough {0}.\nMove to Inventory.,[캐릭터] 상세 정보 > 강화 > 재화 부족
+423,9190034,보유 효과,Owned buff,[동료] 상세 정보 > 보유 효과 페이지 이름
+424,9190035,장착할 슬롯을 선택해주세요.,Select a slot for installation.,[동료] 상세 정보 > 동료 장착 안내 문구
+425,9190036,취소,Cancel,[동료] 상세 정보 > 동료 장착 > 취소 버튼 텍스트
+426,9190037,승급재료를 선택하세요.,Select materials for promotion.,[동료] 상세 정보 > 승급 > 재료 선택 안내
+427,9190038,승급에 성공했습니다.,Promotion successful.,[동료] 상세 정보 > 승급 > 성공
+428,9190039,승급에 실패했습니다.,Promotion failed.,[동료] 상세 정보 > 승급 > 실패
+429,9190040,선택된 동료가 없습니다.,Companions have not been selected.,[동료] 상세 정보 > 승급 > 소모 동료를 선택하지 않았을 때
+430,9190041,승급,Promotion,[동료] 상세 정보 > 승급 버튼 텍스트
+431,9190042,레벨업,Level up,[캐릭터&동료] 상세 정보 > 레벨업 버튼 텍스트
+432,9190043,레벨순,Level,[캐릭터] 정렬 버튼
+433,9190044,등급순,Grade,[캐릭터] 정렬 버튼
+434,9190045,동료순,Partner,[캐릭터] 정렬 버튼
+435,9190046,캐릭터순,Character,[캐릭터] 정렬 버튼
+436,9190047,정보 보기,Info,[캐릭터] 정보 보기
+437,9190048,장착중,Installed,[캐릭터] 정보 보기 > 장착중
+438,9190049,조합 효과,Combination Effect,[캐릭터] 정보 보기 > 조합 효과
+439,9190050,4단계 추가 효과,4 stage additional buff,[캐릭터] 정보 보기 > 조합 효과 > 추가 효과 설명
+440,9190051,단계는 동료 레벨합(3/15/30/45)으로 결정됩니다.(최대 4단계),The level will be determined by the partner levels\ncombination (3/15/30/45). (Up to 4 stages),[캐릭터] 정보 보기 > 조합 효과 > 안내 문구
+441,9190052,동료를 장착해주세요.,Equip your partners.,[캐릭터] 정보 보기 > 장착중 > 동료 장착 안내 문구
+442,9190053,적용중인 조합 효과 없음.,No combination buff has been applied.,[캐릭터] 정보 보기 > 장착중 > 동료 조합 효과 안내 문구
+443,9190054,비었음,Empty,[캐릭터] 정보 보기 > 장착중 > 동료 장착 안내 문구
+444,9190055,P2E,P2E,[캐릭터] 상세 정보 > 탭 버튼
+445,9190056,액티브,ACTIVE,[캐릭터] 상세 정보 > 탭 버튼
+446,9190057,패시브,PASSIVE,[캐릭터] 상세 정보 > 탭 버튼
+447,9190058,패시브 레벨,Passive Lv.,[캐릭터] 상세 정보 > 강화 > 패시브 레벨
+448,9190059,동료 효과 없음,No owned buff has been applied.,[캐릭터] 정보 보기 > 장착중 > 동료 효과
+449,9190060,확인,Confirm,[캐릭터] 팝업 확인 버튼 텍스트
+450,9190061,승급 성공률,Promotion success rate,[캐릭터] 상세 정보 > 승급
+451,9190062,재료 동료 선택,Choose a material partner.,[캐릭터] 상세 정보 > 승급
+452,9190063,레벨이 부족합니다.,Not enough levels.,[캐릭터] 강화&승급 > 레벨 부족
+453,9190064,적용중,Applied,[캐릭터] 정보 보기 > 적용중인 동료 조합 효과
+454,9190065,안내,Announcement,[캐릭터] 레벨업 및 강화&승급 시 재료 부족 팝업 이름
+455,9190066,강화된 재료입니다.\n사용하시겠습니까?,Upgraded ingredient.\nDo you want to use it?,"[캐릭터, 파트너] 업그레이드 팝업에서 재료가 강화된 상태일 때 확인 팝업 내용"
+456,9190067,더 이상 강화할 수 없는 재료입니다.,This material can no longer be upgraded.,[아이템] 아이템 인벤토리에서 토큰 최고 등급 토큰 합성 시도 시 불가 팝업 내용
+457,9190068,에러 코드 : {0},Error Code : {0},[팝업] 에러 팝업 제목 (뒤에 에러코드 합쳐서 출력)
+458,9190069,선택된 동료가 없습니다.,No partner has been selected.,[파트너] 상세 정보 > 강화 > 소모 파트너를 선택하지 않았을 때
+459,9190070,재료를 선택해주세요.,Choose a material Partner,[파트너] 상세 정보 > 강화
+460,9190071,동일한 캐릭터를 소모하여 캐릭터를 강화할 수 있습니다.,You can upgrade your character by consuming the same character.,[캐릭터] 강화창 안내 문구
+461,9190072,동일한 동료를 소모하여 동료를 강화할 수 있습니다.,You can upgrade your partner by consuming the same partner.,[파트너] 강화창 안내 문구
+462,9190073,장착 초기화,Reset Slot,[파트너] 인벤토리 파트너 장착 초기화 버튼
+463,9190074,장착중인 동료,Selected Partners,[파트너] 인벤토리 장착 중인 파트너 표시
+464,9190075,토큰 합성에 성공하였습니다.,Token synthesis successful.,[아이템] 토큰 합성 성공
+465,9190076,토큰 합성에 실패하였습니다.,Token synthesis failed.,[아이템] 토큰 합성 실패
+466,9190077,아이템을 획득했습니다.,Acquired the item below.,[아이템] 아이템 합성 결과
+467,9190078,획득할 아이템을 선택하세요.,Please select the item you want.,[아이템] 아이템 합성 결과 선택
+468,9190079,필요 없는 아이템을 조합하여 다른 아이템을 획득할 수 있습니다.,You can acquire other items by selecting and synthesizing unnecessary items.,[아이템] 아이템 인벤토리 안내 텍스트
+469,9190080,토큰을 조합하여 더 높은 등급의 토큰을 획득할 수 있습니다.,Tokens can be synthesized to obtain the next level of tokens.,[아이템] 토큰 인벤토리 안내 텍스트 1
+470,9190081,성공 확률은 조합한 토큰의 개수에 따라 상승합니다.,The probability of success increase according to the number of tokens selected.,[아이템] 토큰 인벤토리 안내 텍스트 2
+471,9190082,동일한 등급의 토큰만 선택할 수 있습니다.,Only tokens of the same grade can be selected.,[아이템] 토큰 인벤토리 안내 텍스트 3
+472,9190083,2개의 아이템 선택 : 원하는 아이템을 획득하세요,Select 2 items : Obtain a item your choice,[아이템] 아이템 합성창 활성화 텍스트 (비활성)
+473,9190084,조합 성공 확률,Probability of success,[아이템] 토큰 합성창 텍스트
+474,9190085,아이템,ITEM,[아이템] 탭 > 아이템
+475,9190086,토큰,TOKEN,[아이템] 탭 > 토큰
+476,9190087,조합,Synthesis,[아이템] 합성 버튼 이름
+477,9190088,재료 선택,Select Ingredient,[아이템] 재료 아이템 텍스트
+478,9190089,같은 종류의 토큰만 합성할 수 있습니다. ,You can only synthesize tokens of the same type.,[아이템] 토큰 합성 경고 문구
+479,9190090,캐릭터 레벨이 {0} 에 도달하여 강화할 수 있습니다.,It can be upgraded after reaching level {0}.,[캐릭터] 특정 레벨에서 강화 안내
+480,9190091,{0}(이)가 부족합니다.,Not enough {0}.,[캐릭터] 상세 정보 > 강화 > 재화 부족
+481,9190092,선택됨,Selected,[캐릭터&동료] 버튼 텍스트
+482,9190093,프로필,Profile,[캐릭터] 프로필 탭
+483,9190094,<color=yellow>2개의 아이템 선택 :</color> 원하는 아이템을 획득하세요,<color=yellow>Select 2 items :</color> Obtain a item your choice,[아이템] 아이템 합성창 활성화 텍스트 (활성)
+484,9190095,SSR 토큰을 조합하여 랜덤한 아이템을 획득 할 수 있습니다. ,SSR Tokens can be synthesized to obtain a random items.,[아이템] 토큰 인벤토리 안내 텍스트 4
+485,9190096,빠른 합성,Quick Synthesis,[아이템] 탭 > 빠른 조합
+486,9190097,<color=#FFB400>100%</color> 확률로 다음 레벨 토큰 또는 랜덤 아이템을 획득할 수 있습니다. \n<color=red>진행 후 취소할 수 없습니다.</color>,You can obtain the next level token with <color=#FFB400>100%</color> probability. \n<color=red>It cannot be canceled.</color>,[아이템] 토큰 빠른 합성 안내 텍스트 
+487,9190098,합성,Manual Systhesis,[버튼] 아이템 합성 버튼
+488,9200001,획득한 루비,Ruby earned,[로비] 루비 획득 현황
+489,9200002,초기화까지 : ,Until reset : ,[BP] 초기화까지 남은 시간
+490,9200003,누적 BP는 루비 획득 여부와 상관없이 초기화 됩니다.,The cumulative BP will be reset regardless of whether the rubys are earned.,[BP] 안내 문구
+491,9200004,획득하기,Receive,[BP] 획득하기 버튼 텍스트
+492,9200005,{0}시간 {1}분,{0} hours {1} mins,[로비다이아획득] 채굴 초기화까지 남은시간 표시
+493,9200006,오늘은 그만 보기,Stop watching today,[로비] 루비 획득 제한 안내
+494,9210001,VIP Lv.{0} 적용중,Applied,[VIP] 적용중인 레벨
+495,9210002,적용중인 혜택 없음,No benefit Applied,[VIP] 혜택 미적용
+496,9210003,VIP 혜택,VIP benefits,[VIP] 팝업 이름
+497,9210004,VIP Lv.{0},VIP Lv.{0},[VIP] 레벨 표시
+498,9210005,BBF {0}개,{0} BFF owned,[VIP] 혜택 조건 > 토큰 n개 보유
+499,9210006,BBF {0}개 {1}일 보유,{0} BFF owned for {1} days,[VIP] 혜택 조건 > 토큰 n개 m일 보유
+500,9210007,관리,Management,[VIP] VIP 팝업 > VIP 관리 버튼
+501,9220001,스타팩,Star Pack,[스타팩] 스타팩 뽑기권 이름
+502,9220002,슈퍼 스타팩,Superstar Pack,[스타팩] 슈퍼 스타팩 뽑기권 이름
+503,9220003,스타를 소모하여 아이템을 획득할 수 있습니다.,Items can be obtained by using stars.,[스타팩] 스타팩 안내 문구
+504,9220004,슈퍼 스타팩은 선착순으로 푸른 다이아를 획득할 수 있습니다.\n남은 푸른 다이아 ({0}/{1}),"With the Superstar Pack, rubys can be obtained on a first-come-first-served basis.",[스타팩] 슈퍼 스타팩 안내 문구
+505,9220005,VIP Lv.{0} 이상 교환 가능,Exchangeable above VIP Lv.{0},[스타팩] 구매 제한 안내 문구
+506,9230001,확률표,Probability Table,[확률표] 팝업 이름
+507,9230002,아이템,Item,[확률표] 아이템 이름
+508,9230003,획득 개수,Obtained Number,[확률표] 아이템 획득 개수
+509,9230004,확률,Rate,[확률표] 아이템 등장 확률
+510,9230005,무작위 아이템을 1 번 뽑습니다.,Draw a random item 1 times.,[확률표] 안내 문구
+511,9240001,순위 보상은 우편함으로 발송됩니다.,Rank rewards will be sent to your mail box.,[랭킹 페이지] 순위 보상 안내 문구
+512,9240002,등급 보상,Tier rewards,[랭킹 페이지] 등급 보상 버튼 텍스트
+513,9240003,순위 보상,Rank rewards,[랭킹 페이지] 순위 보상 버튼 텍스트
+514,9240004,핑크퐁 시즌 {0},PINKFONG SEASON {0},[랭킹 페이지] 시즌 이름 및 넘버링
+515,9240005,시즌 종료 까지 : {0}일 {1}시간 {2}분,The end of season : {0}d {1}h {2}m,[랭킹 페이지] 시즌 남은 기간
+516,9240006,순위,Ranking,[랭킹 페이지] 순위표 > 순위
+517,9240007,등급,Tier,[랭킹 페이지] 순위표 > 등급
+518,9240008,닉네임,Nickname,[랭킹 페이지] 순위표 > 닉네임
+519,9240009,랭킹 점수,RP,[랭킹 페이지] 순위표 > 랭킹 점수
+520,9240010,개인전,101,[랭킹 페이지] 전적 > 개인전
+521,9240011,팀전,4vs4,[랭킹 페이지] 전적 > 팀전
+522,9240012,우승,WIN,[랭킹 페이지] 전적 > 우승
+523,9240013,TOP3,TOP3,[랭킹 페이지] 전적 > TOP3
+524,9240014,TOP10,TOP10,[랭킹 페이지] 전적 > TOP10
+525,9240015,전적,RECORD,[랭킹 페이지] 전적 > 팀전 전적
+526,9240016,MVP,MVP,[랭킹 페이지] 전적 > MVP
+527,9240017,{0}승{1}패,{0}W{1}L,[랭킹 페이지] 전적 > 승패
+528,9240018,안내,Announcement,[랭킹 페이지] 시즌 변경 안내 팝업 이름
+529,9240019,{0} 시즌이 시작되었습니다.,The {0} season has begun.,[랭킹 페이지] 시즌 변경 안내 팝업 내용
+530,9240020,확인,Confirm,[랭킹 페이지] 시즌 변경 안내 팝업 확인 텍스트
+531,9240021,랭킹 집계에는 일정 시간이 소요될 수 있습니다.,Ranking aggregation can take some time.,[랭킹 페이지] 랭킹 팝업 안내 문구
+532,9240022,다음 시즌 까지 : {0}일 {1}시간 {2}분,Until Next Season : {0}d {1}h {2}m,[랭킹 페이지] 다음 시즌까지 남은 시간
+533,9240023,핑크퐁 비시즌,PinkFong Off Season,[랭킹 페이지] 비시즌 표시
+534,9250001,아이템을 획득했습니다.,Item obtained.,[아이템 획득] 안내 문구
+535,9250002,아이템은 우편함에서 획득 가능합니다.,Check your mail box to receive items.,[아이템 획득] 안내 문구
+536,9260001,패키지,Package,[상점] 탭 > 패키지
+537,9260002,다이아,Diamond,[상점] 탭 > 다이아
+538,9260003,프렌즈팩,Friends Pack,[상점] 탭 > 프렌즈팩
+539,9260004,아이템,Item,[상점] 탭 > 아이템
+540,9260005,구매 제한 (계정당 {0}/{1}),Purchase limit ({0}/{1} per account),[상점] 구매 제한 안내
+541,9260006,구매 제한 (일일 {0}/{1}),Purchase limit ({0}/{1} per day),[상점] 구매 제한 안내
+542,9260007,구매 제한 (주간 {0}/{1}),Purchase limit ({0}/{1} per week),[상점] 구매 제한 안내
+543,9260008,구매 제한 (월간 {0}/{1}),Purchase limit ({0}/{1} per month),[상점] 구매 제한 안내
+544,9260009,패키지 구성품,Components,[상점] 패키지 팝업 이름
+545,9260010,구매 확인,Purchase Confirmation,[상점] 구매 확인 팝업 이름
+546,9260011,"해당 상품을 구매하시겠습니까?\n(구매 시 환불, 변경이 불가능합니다.)",Would you like to purchase the product?\n (Refund or change is not allowed at the time of purchase.),[상점] 구매 확인 팝업 내용
+547,9260012,구매 하기,Purchase,[상점] 구매 확인 팝업 버튼 텍스트
+548,9260013,{0} 부족하여 구매할 수 없습니다.,{0} are not enough to buy.,[상점] 재화 부족 팝업 안내
+549,9261001,새 친구 패키지,New Friends Package,[상점] 상품명
+550,9261002,일일 패키지,Daily Package,[상점] 상품명
+551,9261003,주간 패키지,Weekly Package,[상점] 상품명
+552,9261004,월간 패키지,Monthly Package,[상점] 상품명
+553,9261005,100 루비,100 Ruby,[상점] 상품명
+554,9261006,500 루비,500 Ruby,[상점] 상품명
+555,9261007,1000 루비,1000 Ruby,[상점] 상품명
+556,9261008,노말 친구 팩,Nomal Friends Pack,[상점] 상품명
+557,9261009,레어 친구 팩,Rare Friends Pack,[상점] 상품명
+558,9261010,슈퍼 레어 친구 팩,Super Rare Friends Pack,[상점] 상품명
+559,9261011,경쟁 티켓,Competition tickets,[상점] 상품명
+560,9261012,미니 게임 칩,Mini game chips,[상점] 상품명
+561,9270001,받기,Receive,[우편함] 받기 버튼 텍스트
+562,9270002,NFT 목록 갱신,Update List,[우편함] NFT 목록 갱신 버튼 텍스트
+563,9270003,모두 받기,Receive all,[우편함] 모두 받기 버튼 텍스트
+564,9270004,뽑기권을 제외한 아이템만 획득 가능합니다. 획득 하시겠습니까?,Items except for drawing tickets can be obtained. Would you like to receive?,[우편함] 모두 받기 > 안내 문구
+565,9270005,우편함이 비었습니다.,Your mail box is empty.,[우편함] 안내 문구
+566,9270006,가져오기 목록을 불러오는 중입니다.\n네트워크 상태에 따라 1~2분정도 소요될 수 있습니다.,The import list is being loaded.\nThe process might take 1-2 minutes depending on the network condition.,[우편함] NFT 가져오기 > 가져오기 안내 문구
+567,9270007,유효 기간 없음,unlimited,[우편함] 기간 무제한 우편 텍스트
+568,9270008,정말로 삭제하시겠습니까?,Are you sure you want to delete it?,[우편함] 메일 삭제 확인 팝업 내용
+569,9270009,메일 삭제,Delete Mail,[우편함] 메일 삭제 확인 팝업 제목
+570,9270010,삭제하기,Delete,[우편함] 메일 삭제 버튼
+571,9270011,유효 기간,Expires in,[우편함] 메일 만료까지 남은 시간 표시
+572,9270012,완료,Complete,[우편함] 수령 완료 표시
+573,9270013,All,All,[우편함] 탭 > NFT 아닌 메일
+574,9270014,NFT,NFT,[우편함] 탭 > NFT 메일
+575,9270015,아이템 수령 전에 메일을 삭제할 수 없습니다.,You cannot delete the mail before receiving the item.,[우편함] 아이템 수령 전 메일 삭제 불가 안내
+576,9280001,설정,Settings,[설정] 팝업 이름
+577,9280002,배경음,BGM,[설정] 배경음 버튼 텍스트
+578,9280003,효과음,S.E,[설정] 효과음 버튼 텍스트
+579,9280004,보이스,Voice,[설정] 알림음 버튼 텍스트
+580,9280005,계정연결,Connect account,[설정] 계정연결
+581,9280006,연결됨,Connected,[설정] 계정연결 확인 텍스트1
+582,9280007,연결 해제됨,Disconnected,[설정] 계정연결 확인 텍스트2
+583,9280008,기타,Others,[설정] 기타
+584,9280009,서비스 이용약관,Terms of service,[설정] 서비스 이용약관 버튼 텍스트
+585,9280010,개인정보 이용정책,Privacy policy,[설정] 개인정보 이용정책 버튼 텍스트
+586,9280011,고객센터,Customer service,[설정] 고객센터 버튼 텍스트
+587,9280012,쿠폰 입력,Enter coupon,[설정] 쿠폰 버튼 텍스트
+588,9280013,쿠폰 사용 완료,Coupon usage completion,[설정] 쿠폰 사용 완료 안내 텍스트
+589,9280014,확인,Confirm,[설정] 쿠폰 팝업 확인 버튼
+590,9280015,높음,High,[설정] 성능 > 높음 버튼 텍스트
+591,9280016,푸쉬,Push,[설정] 주간 알림 수신 동의 텍스트
+592,9280017,광고 푸쉬 수신 동의,Allow to receive ad push,[설정] 주간 알림 수신 동의 텍스트
+593,9280018,야간 광고 푸쉬 수신 동의,Allow to receive ad push at night,[설정] 야간 알림 수신 동의 텍스트
+594,9280019,계정 연동 알림,Account Link Notification,[설정] 구글 로그인 팝업 이름
+595,9280020,"구글 계정을 사용중 입니다.\n로그아웃 하시겠습니까?\n(로그아웃 후 이전과 동일한 구글 계정으로 인증하면, 이어서 플레이가 가능합니다.)","You are using Google account.\nDo you want to logout?\n(After logging out, use the same google account to countinue play with the same account.)",[설정] 구글 로그인일 때 로그아웃 알림
+596,9280021,구글 계정으로 로그인 하시겠습니까?\n로그인 화면으로 이동합니다.,Do you want to login with Google account?\nProceedign to login screen.,[설정] 게스트 로그인일 때 구글 로그인 알림
+597,9280022,로그아웃 하시겠습니까?,Do you want to logout?,[설정] 로그아웃 알림
+598,9280023,컨트롤,Control,[설정] 조종 타입 선택
+599,9280024,게스트 로그인,Guest Login,[로그인] 게스트 로그인 팝업 제목
+600,9280025,게스트 로그인 시 게임 데이터 유실에 대한 책임을 지지 않습니다. 안전한 게임을 위하여 계정 연동을 권장 드립니다.,We are not responsible for any loss of game data when logging in as a guest. We recommend linking accounts to ensure safe gaming.,[로그인] 게스트 로그인 안내
+601,9280026,계정 삭제,Delete Account,[설정] 계정 삭제
+602,9280027,삭제한 계정은 복구할 수 없습니다. 삭제를 원하시면 UUID를 입력 후 삭제하기 버튼을 눌러주세요.,"Delete account cannot be recovered. If you want to delete it, enter the UUID and press the delete button.",[설정] 계정 삭제 팝업창 안내 문구
+603,9280028,UUID를 입력해 주세요.,Enter your UUID.,[설정] UUID 입력 창
+604,9280029,UUID를 잘못 입력했습니다.,You entered the UUID incorrectly.,[설정] UUID 오기입 팝업
+605,9280030,언어,Language,[설정] 언어 설정
+606,9280031,한국어,한국어,[설정] 한국어
+607,9280032,English,English,[설정] 영어
+608,9280033,<color=#FFB600>버블</color> 슈터,<color=#FFB600>Bubble</color> Shooter,[UI] 버블 슈터 게임 입장 1
+609,9280034,101 배틀 로얄,101 Battle Royale,[UI] 버블 슈터 게임 입장 2
+610,9280035,<color=#FFB600>카드 맞추기</color> 게임,<color=#FFB600>Matching</color> Game,[UI] 카드 맞추기 게임 입장
+611,9280036,<color=#FFB600>오셀로</color> 게임,<color=#FFB600>Othello Game</color>,[UI] 오셀로 게임 입장
+612,9280037,<color=#FFB600>커넥트</color> 4,<color=#FFB600>Connect</color> 4,[UI] 커넥트4 게임 입장
+613,9290001,유저 정보,User information,[유저 정보] 팝업 이름
+614,9290002,이번 시즌,This Season,[유저 정보] 이번 시즌 텍스트
+615,9290003,지난 시즌,Last Season,[유저 정보] 지난 시즌 텍스트
+616,9290004,최종 랭킹,Final ranking,[유저 정보] 지난 시즌 최종 랭킹 표시
+617,9290005,최고 랭킹,Best ranking,[유저 정보] 지난 시즌 최고 랭킹 표시
+618,9290006,기록이 없습니다.,no record,[유저 정보] 정보 없을 때
+619,9290007,확인,Confirm,[유저 정보] 닉네임 변경 팝업창 확인 버튼 텍스트
+620,9290008,닉네임 변경,Change of Nickname,[유저 정보] 닉네임 변경 팝업창 이름
+621,9290009,닉네임은 숫자와 특수 기호는 사용할 수 없습니다.,Nicknames cannot contain numbers and special symbols.,[유저 정보] 닉네임 변경 팝업창 내용
+622,9290010,Announcement,Announcement,[유저 정보] 닉네임 변경 실패 시 팝업 이름
+623,9290011,{0}H {1}M 후 변경 가능,Can change it after {0}H {1}M,[유저 정보] 남은 시간 안내 텍스트
+624,9290012,닉네임 생성,Create Nickname,[유저 정보] 최초 닉네임 입력
+625,9290013,변경,Change,[유저정보] 닉네임 변경 버튼
+626,9290014,복사,Copy,[유저정보] 닉네임 복사 버튼
+627,9290015,복사 성공,Copied complete,[유저정보] 닉네임 복사 성공 메시지
+628,9290016,유효하지 않은 닉네임입니다.,The Nickname is invalid.,[유저정보] 닉네임 변경 실패 메시지
+629,9300001,시즌패스,Battle Pass,[아이콘 이름] 시즌패스
+630,9300002,캐릭터,Character,[아이콘 이름] 캐릭터
+631,9300003,우편,Mail,[아이콘 이름] 우편
+632,9300004,상점,Shop,[아이콘 이름] 상점
+633,9300005,랭킹,Ranking,[아이콘 이름] 랭킹
+634,9300006,출석,Attendance,[아이콘 이름] 출석
+635,9300007,NFT,NFT,[아이콘 이름] NFT
+636,9300008,스타팩,Starpack,[아이콘 이름] 스타팩
+637,9300009,공지사항,Notice,[아이콘 이름] 공지사항
+638,9300010,스타박스,STAR BOX,[아이콘 이름] 스타 박스
+639,9300011,오픈 이벤트,OPEN EVENT,[출석팝업] 타이틀명
+640,9300012,이벤트 기간 : {0}년 {1}월 {2}일 ~ {3}년 {4}월 {5}일,EVENT PERIOD : {1} / {2} / {0} ~ {4} / {5} / {3},[출석팝업] 기간
+641,9300013,닉네임을 입력하세요.,Nickname,[닉네임 변경] 사용자 입력 전 텍스트
+642,9300014,MAX,MAX,"[캐릭터, 파트너] 최대 레벨 시 비활성화 버튼 텍스트"
+643,9300015,쿠폰 번호를 입력하세요.,Enter coupon No.,[쿠폰] 사용자 입력 전 텍스트
+644,9300016,인벤토리,Inventory,[아이콘 이름] 아이템 인벤토리 버튼
+645,9300017,이벤트,Event,[아이콘 이름] 이벤트 출석 버튼
+646,9300018,테스트 이벤트 1,TEST EVENT 1,[이벤트출석] 팝업
+647,9300019,테스트 이벤트 2,TEST EVENT 2,[이벤트출석] 팝업
+648,9300020,공지 {0} 개,{0} POST,[공지사항] 공지 한개일때
+649,9300021,공지 {0} 개,{0} POSTS,[공지사항] 공지 여러개일때
+650,9300022,접속이 원활하지 않습니다.,The connection is not clear.,[에러] 접속이 끊겼을 때
+651,9300023,잘못된 응답으로 인해 앱을 종료합니다.,Closing the app due to an incorrect response.,[에러] 잘못된 응답으로 앱 종료
+652,9310001,메타마스크 지갑 주소를 입력하세요.,Enter MetaMask Wallet Address.,[NFT] NFT 지갑 연결 안내 문구
+653,9310002,지갑 연결 됨,Wallet connected,[NFT] NFT 지갑 연결 상태
+654,9310003,지갑 연결 해제 됨,Wallet disconnected,[NFT] NFT 지갑 연결 상태
+655,9310004,지갑 연결을 요청중입니다.\n네트워크 상태에 따라 1~2분 정도 소요될 수 있습니다.,Requesting connnection to wallet. \nThe process might take 1-2 minutes depending on the network condition.,[NFT] NFT 지갑 연결 안내문구
+656,9310005,연결하기,Connect,[NFT] NFT 지갑 연결 > 붙여넣기 버튼 텍스트
+657,9310006,잘못된 지갑 주소(URL) 형식입니다.,Invalid wallet address format (URL).,[NFT] NFT 지갑 연결 > 지갑 주소 오류 텍스트
+658,9310007,URL 입력,Enter URL,[NFT] NFT 지갑 연결 > NFT 내보내기 > 확인 팝업 > 안내 문구
+659,9310008,NFT 내보내기 처리중입니다.\n네트워크 상태에 따라 1~2분정도 소요될 수 있습니다.,Exporting the NFT.\nIt takes a couple of minutes depending on the network condition.,[NFT] NFT 지갑 연결 > NFT 가져오기 > 내보내기 안내 문구
+660,9310009,내보내기,Export,[NFT] 내보내기 버튼 텍스트
+661,9310010,다이아는 1일 1회만 내보낼 수 있으며 VIP 레벨에 따라 내보낼 수 있는 횟수가 증가합니다.,Property can be exported once a day. The number of exports varies depending on the VIP level.,[NFT] 디이아 출금 횟수 제한 안내 문구
+662,9310011,내보내기 하시겠습니까?,Would you like to export?,[NFT] 다이아 내보내기 안내 문구
+663,9310012,마켓 플레이스에서 로그인 후에 내보내기 가능합니다.,You can export after you sign into the marketplace.,[NFT] 마켓 로그인 안되어있을 때 내보내기 시 안내 문구
+664,9310013,아이템,Item,[NFT] 재화 발행하기 목록 - 아이템
+665,9310014,초기화 시간,Reset time,[NFT] 재화 발행하기 목록 - 남은 시간
+666,9310015,발행하기 횟수,Number of export,[NFT] 재화 발행하기 목록 - 발행하기 가능 횟수
+667,9310016,발행하기,Export,[NFT] 재화 발행하기 버튼 텍스트
+668,9310017,갱신하기,Renewal,[NFT] 재화 발행하기 갱신 버튼 텍스트
+669,9310018,안내,Announcement,[NFT] 에러 팝업 이름
+670,9310019,확인,Confirm,[NFT] 에러 팝업 확인 버튼 텍스트
+671,9310020,예기치 못한 에러,an unexpected error,[NFT] 에러 코드1
+672,9310021,Address 검증 실패,Address validation failed,[NFT] 에러 코드2
+673,9310022,UID 검증 실패,UID validation failed,[NFT] 에러 코드3
+674,9310023,ITEM ID 검증 실패,ITEM ID validation failed,[NFT] 에러 코드4
+675,9310024,TYPE 검증 실패,TYPE validation failed,[NFT] 에러 코드5
+676,9310025,등록되지 않은 유저로 요청,Request as an unregistered user,[NFT] 에러 코드6
+677,9310026,"image, metadata 파일 없음",No image and metadata,[NFT] 에러 코드7
+678,9310027,image 파일 없음,No image,[NFT] 에러 코드8
+679,9310028,metadata 파일 없음,No metadata,[NFT] 에러 코드9
+680,9310029,"<size=50f>내보내기 하시겠습니까?</size><line-height=40f>\n</line-height><size=30f>내보내기가 완료되면,\n오늘은 더 이상 내보내기를 할 수 없습니다.</size>","<size=50f>Do you want to Export?</size><line-height=40f>\n</line-height><size=30f>Once the export is complete,\nyou will no longer be able to export today.</size>",[NFT] 다이아 내보내기 확인 파업 내용
+681,9310030,지갑 주소,Wallet,[NFT] 지갑 주소
+682,9310031,내보내기 성공,Export Complete,[NFT] 내보내기 성공 안내
+683,9310032,다이아가 부족합니다.,There are not enough diamonds.,[NFT] 다이아 부족 안내
+684,9310033,"한번에 1000개씩, 하루에 최대 2000개 까지 내보내기 할 수 있습니다.","You can export 1000 diamonds at a time, up to 2000 diamonds per day.",[NFT] 다이아 내보내기 안내
+685,9310034,하루 내보내기 양,Quantity Left,[NFT] 다이아 남은 수량 안내
+686,9320001,게임 종료,EXIT,[게임 종료] 팝업 이름
+687,9320002,게임을 종료하시겠습니까?,Would you like to exit the game?,[게임 종료] 안내 문구
+688,9320003,네,Yes,[게임 종료] 확인 버튼
+689,9320004,아니오,No,[게임 종료] 취소 버튼
+690,9320005,확인,Confirm,[팝업] 확인 버튼 텍스트
+691,9320006,스킬이 모두 초기화됩니다. 진행하시겠습니까?,All skills will be reset. Do you want to proceed?,[팝업] 스킬 리셋 확인 팝업
+692,9330001,원하는 상자를 선택하세요!,Pick a box you want!,[스타 박스] 설명 텍스트
+693,9330002,당첨금은 우편함에서 획득 가능합니다.,Prize money can be obtained in the mailbox.,[스타 박스] 안내 텍스트
+694,9330003,안내,Announcement,[스타 박스] 당첨금 부족 팝업 이름
+695,9330004,남아있는 당첨금이 부족하여 당첨금의 일부만 획득할 수 있습니다. 그래도 상자를 오픈 하시겠습니까?,"There is not enough prize money left, so you can only earn a portion of the prize money. Do you still want to open the box?",[스타 박스] 당첨금 부족 팝업 내용
+696,9330005,해당 캐릭터로 오늘 획득할 수 있는 모든 루비를 이미 획득하였습니다. 계속 할까요?,You have already obtained all the rubys that can be obtained today with this character. Do you start the game?,[인게임] 루비 최대 획득량 초과시
+697,9340001,공지 사항,NOTICE,[공지 사항] 팝업 이름
+698,9340002,소셜 미디어 팔로우하기,Follow social media,[공지 사항] 팝업 > 소셜 미디어 팔로우하기 버튼
+699,9340003,진행중인 이벤트가 없습니다.,There are no events to display,[공지 사항] 팝업 > 공지 내용 없을 때 텍스트
+700,9340004,접속하신 국가에서는 이용이 제한됩니다.,This service is not available in your country.,[공지 사항] 팝업 > 이용 불가 팝업 내용
+701,9400001,루비는 매일 NFT 캐릭터당 정해진 양만큼 획득할 수 있습니다.,Rubys can be obtained in a set amount per NFT character every day.,[매칭 화면] 툴팁1
+702,9400002,콤보 수가 높을수록 상대에게 입히는 피해량과 스킬 게이지 충전량이 증가합니다.,"The more the combos you record, the more damage is dealt and the skill gauge recharge amount also increases.",[매칭 화면] 툴팁2
+703,9400003,상대에게 피해를 받으면 피해가 누적되며 누적 피해량만큼 성게가 생성됩니다.,"Damage you take from the opponent accumulates, and the number of sea urchins increases as the accumulated amount of damage taken increases.",[매칭 화면] 툴팁3
+704,9400004,버블을 터뜨려 성게를 제거할 수 있습니다.,Pop bubbles to remove the sea urchins.,[매칭 화면] 툴팁4
+705,9400005,획득한 루비는 경쟁전을 통해서 다이아로 교환 가능합니다.,Rubys you obtain can be exchanged for Diamonds at the competition.,[매칭 화면] 툴팁5
+706,9400006,동료는 최대 3마리까지 장착 가능합니다.,You can deploy with up to 3 partners.,[매칭 화면] 툴팁6
+707,9400007,등급에 상관없이 같은 종류의 동료는 중복해서 장착할 수 없습니다.,"Regardless of the level, the partners of the same class cannot be deployed.",[매칭 화면] 툴팁7
+708,9400008,캐릭터를 강화하면 루비 일일 획득량이 증가합니다.,Upgrading your character increases the daily amount of Rubys earned.,[매칭 화면] 툴팁8
+709,9500001,브론즈 III,Bronze III,[랭킹 페이지] 브론즈3
+710,9500002,브론즈 II,Bronze II,[랭킹 페이지] 브론즈2
+711,9500003,브론즈 I,Bronze I,[랭킹 페이지] 브론즈1
+712,9500004,실버 III,Silver III,[랭킹 페이지] 실버3
+713,9500005,실버 II,Silver II,[랭킹 페이지] 실버2
+714,9500006,실버 I,Silver I,[랭킹 페이지] 실버1
+715,9500007,골드 III,Gold III,[랭킹 페이지] 골드3
+716,9500008,골드 II,Gold II,[랭킹 페이지] 골드2
+717,9500009,골드 I,Gold I,[랭킹 페이지] 골드1
+718,9500010,다이아 III,Diamond III,[랭킹 페이지] 다이아3
+719,9500011,다이아 II,Diamond II,[랭킹 페이지] 다이아2
+720,9500012,다이아 I,Diamond I,[랭킹 페이지] 다이아1
+721,9600001,골드 획득량 +{0}%증가,Gold gain +{0}% increased,[VIP] 1레벨 혜택
+722,9600002,BP 획득량 +{0}증가,BP gain +{0}% increased,[VIP] 2레벨 혜택
+723,9600003,슈퍼 스타 팩 구매 가능,Purchase for Super Star Pack available,[VIP] 3레벨 혜택
+724,9600004,루비 출금 가능 횟수 +{0} 증가,Ruby withdrawal number increased by +{0},[VIP] 4레벨 혜택
+725,9600005,루비 출금 가능 횟수 +{0} 증가,Ruby withdrawal number increased by +{0},[VIP] 5레벨 혜택
+726,9600006,루비 출금 가능 횟수 +{0} 증가,Ruby withdrawal number increased by +{0},[VIP] 6레벨 혜택
+727,9600007,루비 출금 가능 횟수 +{0} 증가,Ruby withdrawal number increased by +{0},[VIP] 7레벨 혜택
+728,9700001,마당 쓸기,Sweep the yard,[임무] 임무 제목
+729,9700002,친구들과 함께 놀 수 있도록 마당을 쓸어보아요. 방문하는 친구들의 웃는 얼굴이 떠오르지 않나요?,Let's sweep the yard for your friends to play together. Can't you just imagine the smiling faces of your visiting friends?,[임무] 임무 내용
+730,9700003,비누방울 만들기,Make bubbles,[임무] 임무 제목
+731,9700004,친구들과 함께 놀 수 있도록 비누방울을 만들어보아요. 크게~ 많이~,Let's make bubbles for your friends to play together. Make many and bigger~,[임무] 임무 내용
+732,9700005,명상하기,Meditate,[임무] 임무 제목
+733,9700006,"명상하며 마음을 가다듬어봐요. 숨을 들이마시고, 천천히 내쉬고~","Let's be calm your mind by meditating. Breathe in, breathe out slowly~",[임무] 임무 내용
+734,9700007,모험 떠나기,Go on an adventure,[임무] 임무 제목
+735,9700008,흥미로운 모험을 떠나보아요. 이번엔 어디로 가볼까요?,Let's go on an exciting adventure. Where will you go this time?,[임무] 임무 내용
+736,9700009,새로운 곳 조사하기,Investigate a new place,[임무] 임무 제목
+737,9700010,새로운 곳이 발견되었대요! 어서 조사해볼까요?,A new place has been discovered! Let's go investigate!,[임무] 임무 내용
+738,9700011,눈 치우기,Clear the snow,[임무] 임무 제목
+739,9700012,소복하게 쌓인 눈을 치워보아요. 영차 영차~,Let's clear the filed up snow. Here we go~,[임무] 임무 내용
+740,9700013,책 읽어주기,Read a book,[임무] 임무 제목
+741,9700014,친구들에게 책을 읽어주세요. 귀에 쏙쏙 박히도록 또박또박 천천히~,Let's read a book to your friends. Clearly and Slowly~ so it sticks in their ears.,[임무] 임무 내용
+742,9700015,당근 케이크 만들기,Make a carrot cake,[임무] 임무 제목
+743,9700016,친구들과 함께 먹을 수 있는 당근 케이크를 만들어보아요. 폭신 폭신 먹음직스럽게~,Let's make a carrot cake to share with your friends. Fluffy and delicious~,[임무] 임무 내용
+744,9700017,라디오 수리하기,Repair a Radio,[임무] 임무 제목
+745,9700018,고장난 라디오를 수리해보아요. 할 수 있어요!,Let's fix a broken radio. You can do it!,[임무] 임무 내용
+746,9700019,작곡하기,Compose a song,[임무] 임무 제목
+747,9700020,친구들과 함께 부를 수 있는 노래를 작곡해보아요. 너무 어렵지 않게!,Let's compose a song to sing with your friends. It shouldn't be too difficult!,[임무] 임무 내용
+748,9700021,도시락 배달하기,Deliver a lunch box.,[임무] 임무 제목
+749,9700022,친구들이 소풍에서 먹을 수 있게 도시락을 배달해보아요. 맛있는걸로 부탁해요~,Let's deliver a lunch box for your friends to eat at a picnic. Please delicious one~,[임무] 임무 내용
+750,9700023,수영 가르치기,Teach swimming,[임무] 임무 제목
+751,9700024,친구들이 물놀이 가서도 안전할 수 있도록 수영을 가르쳐보아요. 하나 둘~ 하나 둘~,Let's teach your friends how to swim so they can play safely in the water. One two~ one two~,[임무] 임무 내용
+752,9700025,힘겨루기,Compete Strength,[임무] 임무 제목
+753,9700026,친구들과 누가 가장 센지 힘겨루기를 해보아요. 과연 오늘의 우승자는?,Let's compete your friends to a wrestling match to see who's the strongest. Who's the winner?,[임무] 임무 내용
+754,9700027,노래하기,Sing a song,[임무] 임무 제목
+755,9700028,놀란 친구들이 진정할 수 있도록 노래를 불러주세요. 아~ 아~,Sing a song to help your frightened friends calm down. Ah~,[임무] 임무 내용
+756,9700029,빵 만들기,Make bread,[임무] 임무 제목
+757,9700030,친구들과 함께 먹을 수 있는 빵을 만들어보아요. 으음~ 맛있는 냄새!,Let's make bread to share with your friends. Smells delicious!,[임무] 임무 내용
+758,9700031,장보기,Go grocery shopping,[임무] 임무 제목
+759,9700032,친구들과 만찬을 즐길 수 있게 장을 보기로 해요. 어떤 물품들을 준비해야 할까요?,Let's go grocery shopping for a feast with your friends. Which items do you need to buy?,[임무] 임무 내용
+760,9700033,그림 그리기,Draw a picture,[임무] 임무 제목
+761,9700034,친구들과 함께 하는 공간에 그림을 그려 예쁘게 꾸며주세요.,Decorate the space you share with your friends by painting a picture.,[임무] 임무 내용
+762,9700035,인형옷 만들기,Make dolls clothing,[임무] 임무 제목
+763,9700036,친구에게 선물할 인형옷을 만들어보아요. 사각~ 사각~,Let's make a doll clothing to give to a friend as a gift.,[임무] 임무 내용
+764,9700037,공구함 정리하기,Organize a toolbox,[임무] 임무 제목
+765,9700038,여기 저기 어지러져있는 공구함을 정리해보아요. 깔끔하게~,Organize a toolbox that are scattered here and there. Cleanly~,[임무] 임무 내용
+766,9700039,악기 청소,Clean a musical instrument,[임무] 임무 제목
+767,9700040,조금 지저분해진 악기를 청소해 볼까요? 뽀드득~ 뽀드득~,Clean a musical instrument that's gotten a little dirty. Squeaky clean~,[임무] 임무 내용
+768,9700041,치즈 샌드위치 만들기,Make a cheese sandwich,[임무] 임무 제목
+769,9700042,나들이에서 친구들과 함께 먹을 수 있는 치즈 샌드위치를 만들어보아요. 속재료는 무엇을 넣어야 할까요?,Let's make a cheese sandwich to share with your friends at a picnic. Which ingredients should you put in?,[임무] 임무 내용
+770,9700043,기름 채우기,Fill in oil,[임무] 임무 제목
+771,9700044,따뜻한 난방을 위해 기름통에 기름을 채워보아요.,Let's fill in oil to oil drum to keep warm.,[임무] 임무 내용
+772,9700045,시 짓기,Write a poem,[임무] 임무 제목
+773,9700046,친구들 앞에서 발표할 시를 지어보아요. 감수성이 듬뿍~,Let's write a poem to perform in front of your friends. Full of sensivity~,[임무] 임무 내용
+774,9700047,보물찾기,Treasure hunt,[임무] 임무 제목
+775,9700048,신비한 보물을 찾아볼까요? 어디쯤에 숨겨져 있을까?,Let's find a mysterious treasure! where is it hidden?,[임무] 임무 내용
+776,9700049,응원하기,Cheer up,[임무] 임무 제목
+777,9700050,친구들이 힘낼 수 있도록 힘차게 응원해보아요. 아자~ 아자~,Let's cheer up your friends to keep them going. Go! go!,[임무] 임무 내용
+778,9700051,별자리 관측하기,Discover stars,[임무] 임무 제목
+779,9700052,계절에 맞는 별자리를 관측해보아요. 저기 저 별자리는 무엇이죠?,Let's discover seasonal constellations. What's that over there?,[임무] 임무 내용
+780,9700053,파도타기,Surf the waves,[임무] 임무 제목
+781,9700054,친구들 앞에서 신나게 파도를 타볼까요? 씽~ 씽~,Have fun surfing the waves in front of your friends! Go~ Go~,[임무] 임무 내용
+782,9700055,피아노 치기,Play the piano,[임무] 임무 제목
+783,9700056,친구들과 함께 즐길 수 있도록 신나게 피아노를 쳐볼까요? 띵똥~ 띵똥~,Play the piano for your friends to enjoy. Ding-dong~,[임무] 임무 내용
+784,9700057,폭탄 만들기,Make a bomb,[임무] 임무 제목
+785,9700058,작은 장난을 위해 조그만 폭탄을 만들어볼까요? 안전하게요!,Let's make a little bomb for a little prank. Be safe!,[임무] 임무 내용
+786,9700059,선물 고르기,Choosing a gift,[임무] 임무 제목
+787,9700060,친구들에게 줄 선물을 골라보아요. 어떤 선물이 좋을까? 두근 두근,It's time to pick out gifts for your friends. What should you get them? Pit-a-pat!,[임무] 임무 내용
+788,9700061,빗소리 감상하기,Enjoy the sound of rain,[임무] 임무 내용
+789,9700062,조용히 빗소리를 감상해봐요. 투투득~ 투투득~,Quietly enjoy the sound of pattering rain.,[임무] 임무 내용
+790,9700063,수영 경주하기,Play swim race,[임무] 임무 내용
+791,9700064,누가 누가 제일 빠를까 수영 경주를 해보아요!,Let's have a swimming race to see who is the fastest!,[임무] 임무 내용
+792,9700065,옷 고르기,Clothes selection,[임무] 임무 내용
+793,9700066,오늘은 어떤 옷을 입고 친구들을 만날까요?,What should I wear and meet my friends today?,[임무] 임무 내용
+794,9700067,파티하기,Playing party,[임무] 임무 내용
+795,9700068,친구들과 함께 모여서 재밌는 파티를 즐겨요!,Get together with your friends and enjoy a play party!,[임무] 임무 내용
+796,9700069,깜짝 놀래키기,Surprise!,[임무] 임무 내용
+797,9700070,숨어 있다가 갑자기 나타나 친구를 놀래켜봐요! 뿅!,Hide and suddenly appear to surprise your friends! POP!,[임무] 임무 내용
+798,9700071,산책하기,Take a walk,[임무] 임무 내용
+799,9700072,여기저기 돌아다녀요. 친구와 함께면 심심하지 않아요!,I wander around here and there. You'll never be bored with friends!,[임무] 임무 내용
+800,9700073,노래하기,Let's singing,[임무] 임무 내용
+801,9700074,친구들과 함께 작곡한 노래를 불러보아요. 아~ 아~,Let's sing a song we wrote together with our friends. Ah~ ah~,[임무] 임무 내용
+802,9700075,정리하기,Let's organize,[임무] 임무 내용
+803,9700076,친구들과 재밌게 놀고서 정리는 중요해요!,Cleaning up is important after having fun with friends!,[임무] 임무 내용
+804,9700077,풍선 불기,Blowing up a ballon,[임무] 임무 내용
+805,9700078,누구 풍선이 가장 클까요? 너무 욕심내다가는 터질 수도 있어요!,"whose balloon is the biggest? If you get too greedy, you might explode!",[임무] 임무 내용
+806,9700079,요리하기,Let's Cooking,[임무] 임무 내용
+807,9700080,친구들과 나누어 먹을 음식을 준비해 볼까요?,Shall we prepare some food to share with friends?,[임무] 임무 내용
+808,9700081,춤 추기,Play the dance,[임무] 임무 내용
+809,9700082,친구들과 함께 노래소리에 맞추어 춤을 춰봐요. 라라라~,Dance to the sound of the song with your friends. La la la~,[임무] 임무 내용
+810,9700083,음료수 준비하기,Prepare drink,[임무] 임무 내용
+811,9700084,친구들과 소풍에서 함께 마실 음료수를 준비해요~,Prepare drinks to drink with your friends on a picnic~,[임무] 임무 내용
+812,9700085,소풍가기,Let's go to picnic,[임무] 임무 내용
+813,9700086,소풍가기 좋은 날. 어디로 가볼까요?,A good day for a picnic. Where should we go?,[임무] 임무 내용
+814,9700087,격려하기,Let's encourage,[임무] 임무 내용
+815,9700088,실패할 수 있어요. 다시 천천히 도전할 수 있게 친구를 위로해보아요.,Everyone may fail. Try comforting friend so that can try again slowly.,[임무] 임무 내용
+816,9700089,드럼 연주하기,Play the drumming,[임무] 임무 내용
+817,9700090,친구들과 함께 즐길 수 있도록 신나게 드럼을 쳐볼까요? 두둠칫!,Play the drum for your friends to enjoy. Dudumchit!,[임무] 임무 내용
+818,9700091,기타 연주하기,Play the guitar,[임무] 임무 내용
+819,9700092,친구들과 함께 즐길 수 있도록 신나게 기타를 쳐볼까요? 띠리링~,Play the guitar for your friends to enjoy.,[임무] 임무 내용
+820,9700093,인사하기,Say hello,[임무] 임무 내용
+821,9700094,친구들과 만나면 반갑게 인사해요. 안녕~,"When meet friends, greet them warmly. Hello~",[임무] 임무 내용
+822,9700095,운동하기,Play exercise,[임무] 임무 내용
+823,9700096,운동은 꾸준히 하는게 중요해요. 영차~ 영차~,"Exercise is important. Heeve, ho! Heeve, ho!",[임무] 임무 내용
+824,9700097,칭찬하기,Let's praise,[임무] 임무 내용
+825,9700098,친구들의 장점을 칭찬해요. 칭찬을 나누면 모두가 기분 좋거든요~,Praise the strengths of friends. Everyone feels better when share compliments~,[임무] 임무 내용
+826,9700099,사탕 선물하기,Let's give candy as a gift,[임무] 임무 내용
+827,9700100,친구들한테 사탕을 선물해요. 맛있게 먹는 모습을 보는게 행복해요~,Give candy to friends. It makes me haapy to see people eating deliciously~,[임무] 임무 내용
+828,9700101,건강 확인하기,Checking health,[임무] 임무 내용
+829,9700102,오래오래 즐겁게 살기위해서는 몸 상태를 확인하는게 중요해요.,"In order to live a long and enjoyable life, it is important to check the condition of your body.",[임무] 임무 내용
+830,9700103,휴식하기,Take a break,[임무] 임무 내용
+831,9700104,친구들과 재밌게 놀기 위해서는 충분한 휴식도 필요해요.,Playing ith friends requires relaxation.,[임무] 임무 내용
+832,9700105,비밀 이야기 나누기,Let's talk secrets,[임무] 임무 내용
+833,9700106,친구와 비밀을 나누면 더욱 깊은 사이가 될 수 있어요.,Sharing secrets with friends can deepen relationship.,[임무] 임무 내용
+834,9700107,샤워하기,Take a shower,[임무] 임무 내용
+835,9700108,구석구석 몸을 씻으면 기분이 좋아요. 쓱쓱~ 싹싹~,It feels good to wash every corner of your body. Swash~ Swash~,[임무] 임무 내용
+836,9700109,카드 찾기,Finding card,[임무] 임무 내용
+837,9700110,같은 그림을 맞춰 보아요. 친구와 함께하면 더 재밌어요~,Let's guess the same picture. It's more fun with friends~,[임무] 임무 내용
+838,9700111,글 쓰기,Writing,[임무] 임무 내용
+839,9700112,친구들이 즐겁게 읽을 수 있는 글을 써봐요.,Write something that friends will enjoy reading.,[임무] 임무 내용
+840,9700113,보물 숨기기,Hide the treasure,[임무] 임무 내용
+841,9700114,친구들과 보물찾기를 하기 위해서 보물을 숨겨봐요.,Hide the treasure to go on a treasure hunt with friends.,[임무] 임무 내용
+842,9700115,파도 소리 감상하기,Listen to the waves,[임무] 임무 내용
+843,9700116,시원한 파도 소리를 들어보아요. 으음~ 기분 좋아~,Listen to the cool sound of the waves. Feel so good~,[임무] 임무 내용
+844,9700117,지도 보기,Look at the map,[임무] 임무 내용
+845,9700118,오늘은 어디를 놀러갈까요? 다 같이 지도를 펼쳐보아요!,Where should go today? Let's Look at the map together!,[임무] 임무 내용
+846,9700119,색칠 놀이하기,Coloring,[임무] 임무 내용
+847,9700120,"빨강색, 파랑색, 노랑색! 즐거운 색칠 놀이를 같이 해요!","Red, Blue, Yellow! Let's have fun coloring together!",[임무] 임무 내용
+848,9700121,방 정리하기,Let's organize room,[임무] 임무 내용
+849,9700122,여기 저기 어지러져있는 방을 정리해보아요. 깔끔하게~,Organize a room that are scattered here and there. Cleanly~,[임무] 임무 내용
+850,9700123,피리 불기,Playing the flute,[임무] 임무 내용
+851,9700124,친구들과 함께 즐길 수 있도록 신나게 피리를 불어볼까요?,Play the flute for your friends to enjoy.,[임무] 임무 내용
+852,9700125,몸 단련하기,Training body,[임무] 임무 내용
+853,9700126,자신을 보호하기 위해서는 평소의 단련이 중요해요!,Daily training is important to protect myself!,[임무] 임무 내용
+854,9700127,자르기,Cutting,[임무] 임무 내용
+855,9700128,친구들이 놀다가 다칠 수 있는 것들을 찾아보고 미리 잘라요.,Look for things friends might get hurt while playing and cut them out in advance.,[임무] 임무 내용
+856,9700129,물건 옮기기,Moving things,[임무] 임무 내용
+857,9700130,무거운 물건을 옮길 때는 조심조심 옮겨야해요.,"When moving heavy objects, must move them carefully.",[임무] 임무 내용
+858,9700131,꽃 구경하기,See flowers,[임무] 임무 내용
+859,9700132,바다 속에 피는 아름 다운 꽃을 구경하면 기분이 좋아요.,It feels good to see beautiful flowers blooming in the sea.,[임무] 임무 내용
+860,9700133,살펴보기,Take a look,[임무] 임무 내용
+861,9700134,이건 뭘까요? 저건 뭘까요? 궁금한게 너무 많아요!,What is this? What is that? I have so many questions!,[임무] 임무 내용
+862,9700135,새 친구 만나기,Meet new friends,[임무] 임무 내용
+863,9700136,오늘은 어떤 새 친구를 만날 수 있을까? 너무 신난다!,What new friends can meet today? So excited!,[임무] 임무 내용
+864,9700137,치료하기,Treating wounds,[임무] 임무 내용
+865,9700138,놀다가 다친 조그마한 상처도 꼭 치료해야되요!,Make sure to treat even small wounds that occur while playing!,[임무] 임무 내용
+866,9700139,음악 감상하기,Listen to music,[임무] 임무 내용
+867,9700140,음악을 들으며 시간을 보내요.,Spend time listening to music.,[임무] 임무 내용
+868,9700141,천천히 움직이기,Move slowly,[임무] 임무 내용
+869,9700142,때로는 천천히 움직여볼까? 주변을 더 잘 볼 수 있을거에요.,Should move slowly sometimes? Will be able to see surroundings better.,[임무] 임무 내용
+870,9700143,장난치기,Play funny,[임무] 임무 내용
+871,9700144,오늘은 어떤 장난을 해볼까요?,What prank should do today?,[임무] 임무 내용
+872,9700145,몸을 꾸미자,Let's decorate,[임무] 임무 내용
+873,9700146,멋쟁이라면 열심히 꾸며야해요.,"If stylish, have to work hard to decorate self.",[임무] 임무 내용
+874,9700147,응원 연습하기,Practice cheering,[임무] 임무 내용
+875,9700148,다양한 응원 방법을 연습해요.,Practice various cheering methods.,[임무] 임무 내용
+876,9700149,날아다니기,Fly around,[임무] 임무 내용
+877,9700150,바다 속을 자유롭게 날아다녀요. 친구를 등에 태우고 같이 날 수도 있어요.,Fly freely through the sea. Can also fly with a friend on back.,[임무] 임무 내용
+878,9700151,안전 확인하기,Check safety,[임무] 임무 내용
+879,9700152,아이들이 안전하게 놀 수 있도록 안전 확인을 해요.,Check safety for children can play safely.,[임무] 임무 내용
+880,9700153,에어로빅 체조하기,Do aerobic exercises,[임무] 임무 내용
+881,9700154,"모두 다 같이 에어로빅 체조를 해보아요! 노래에 맞춰서, 신나게~","Let's do aerobics together! To the song, have fun~",[임무] 임무 내용
+882,9700155,날개짓하기,Flapping wings,[임무] 임무 내용
+883,9700156,열심히 날개짓을 하다보면 언젠가는 하늘을 날 수 있지 않을까요?,"If flap wings hard, won't be able to fly in the sky someday?",[임무] 임무 내용
+884,9700157,여행하기,Go out travel,[임무] 임무 내용
+885,9700158,아직 가보지 않은 먼 곳으로 여행을 떠나요. 길을 잃지 않도록 조심해요!,Let's go on a trip to a distant place that we haven't been to yet. Be careful not to get lost!,[임무] 임무 내용
+886,9700159,함께하기,Together,[임무] 임무 내용
+887,9700160,친구와 함께라면 뭐든지 할 수 있어요.,Can do anything with friends.,[임무] 임무 내용
+888,9700161,이야기하기,Talk to friends,[임무] 임무 내용
+889,9700162,친구와 이야기를 나눠요. 이야기하는 것만으로도 재밌는걸요!,Talk to your friends. Just talking about it is fun!,[임무] 임무 내용
+890,9700163,일광욕하기,Sun tanning,[임무] 임무 내용
+891,9700164,햇빛을 받는 것은 중요해요. 하지만 너무 길지 않게 주의해요.,It's important to get some sunlight. But Be careful not to make it too long.,[임무] 임무 내용
+892,9700165,수영 연습하기,Practice Swimming,[임무] 임무 내용
+893,9700166,수영 연습을 통해서 더 빠르게 움직여요.,Move faster by practicing swimming.,[임무] 임무 내용
+894,9710001,조건,Conditions,[임무] UI
+895,9710002,Lv.,Hero Lv.,[임무] UI
+896,9710003,조건이 일치하면 추가 보상을 획득할 수 있습니다.,Additional rewards can be obtained when all conditions are met.,[임무] UI
+897,9710004,기본 보상,Basic Rewards,[임무] UI
+898,9710005,캐릭터 선택,Select Character,[임무] UI
+899,9710006,추가 보상,Additional Rewards,[임무] UI
+900,9710007,보상 받기,Get Rewards,[임무] UI
+901,9710008,더 이상 수행할 임무가 없습니다.,There are no more missions to complete.,[임무] UI
+902,9710009,임무중,On a mission,[임무] UI
+903,9710010,임무 완료,Mission accomplished,[임무] UI
+904,9710011,임무 수행 중에는 사용할 수 없습니다.,Not possible during missions,[임무] UI
+905,9710012,메일에서 보상 확인,Check your reward in your mail,[임무] UI
+906,9710013,선택 초기화,Reset  Slot,[임무] UI
+907,9710014,등급 조건,Grade,[임무] UI
+908,9710015,임무 보내기,Send Mission,[임무] UI
+909,9710016,임무,Mission,[임무] UI
+910,9710017,장착,Mount,[콤비 파트너] UI
+911,9710018,장착중,Mounting,[콤비 파트너] UI
+912,9710019,버프 1,Buff 1st,[파트너 스킬] UI
+913,9710020,버프 2,Buff 2nd,[파트너 스킬] UI
+914,9710021,버프 3,Buff 3rd,[파트너 스킬] UI
+915,9710022,구글 로그인,Login with Google,[로그인 화면] UI
+916,9710023,애플 로그인,Login with Apple,[로그인 화면] UI
+917,9710024,게스트 로그인,Login with Guest,[로그인 화면] UI
+918,9710025,스킬 재설정,Reset Skill,[동료 스킬] UI
+919,9710026,구매 제한,Purchase Limit,[상점] 구매 제한 안내
+920,9720001,뽑기,Drawing Lot,[뽑기] 버튼
+921,9720002,남은 아이템 개수,Remaining Items,[뽑기] UI
+922,9720003,남은 시간,Time Remaining,[뽑기] UI
+923,9720004,{0}시간 {1}분 {2}초,{0}H {1}M {2}S,[뽑기] UI
+924,9720005,보상,Reward,[뽑기] UI
+925,9720006,뽑기 티켓이 부족합니다.,There are not enough tickets.,[뽑기] UI
+926,9720007,등,st,[뽑기] 등수
+927,9720008,등,nd,[뽑기] 등수
+928,9720009,등,rd,[뽑기] 등수
+929,9720010,등,th,[뽑기] 등수
+930,9720011,번째,st,[뽑기] 순서
+931,9720012,번째,nd,[뽑기] 순서
+932,9720013,번째,rd,[뽑기] 순서
+933,9720014,번째,th,[뽑기] 순서
+934,9720015,시간,H,[뽑기] 남은 시간
+935,9720016,분,M,[뽑기] 남은 분
+936,9720017,초,S,[뽑기] 남은 초
+937,9730001,게임 규칙,Game Rule,[미니게임] UI
+938,9730002,연습 게임,Practice Game,[미니게임] 버튼
+939,9730003,경쟁 게임,Competition Game,[미니게임] 버튼
+940,9730004,제한 시간,Time Limit,[미니게임] UI
+941,9730005,순서,Turn,[미니게임] UI
+942,9730006,점수 : {0},Score : {0},[미니게임] UI
+943,9730007,축하합니다!,Congraturations!,[미니게임] 결과창
+944,9730008,더 노력하세요!,Try harder!,[미니게임] 결과창
+945,9730009,칩을 돌려드려요!,Get the Chip back!,[미니게임] 결과창
+946,9731001,"버블 슈터는 색색가지 버블을 쏘아 올려 세개 이상을 인접시키면 터져요. 매력적인 캐릭터, 다양한 동료들을 데리고 100명의 사람들과 함께 실력을 겨뤄보아요.",Bubble Shooter shoots colorful bubbles that explode when three or more are adjacent to each other. Compete against 101 other people with attractive Characters and various Partners.,[미니게임] 룰 설명
+947,9731002,짝맞추기 게임은 18장의 카드 중 똑같이 생긴 한쌍의 카드를 찾는 게임이에요. 먼저 네쌍을 찾는 사람이 승리한답니다.,Matching is a game of finding pairs of identical cards from a deck of 18. The first player to find four pairs wins.,[미니게임] 룰 설명
+948,9731003,커넥트 포는 번갈아가며 칩을 놓아 먼저 일렬로 4개를 놓으면 이기는 게임이에요. 칩은 중력이 작용하여 선택한 줄의 가장 아래로 떨어진답니다.,Connect Four is a game where you take turns placing chips and the first player to get four in a row wins. The chips fall to the bottom of the selected row by gravity.,[미니게임] 룰 설명
+949,9731004,오델로는 내 칩과 칩 사이에 있는 상대방의 칩을 내것으로 만드는 게임이에요. 서로 번갈아가며 놓다가 더 많은 칩을 놓은 사람이 승리한답니다.,"Othello is a game where you try to make your opponent's chips that are between yours and theirs yours. You take turns placing chips, and the first person to place more chips wins.",[미니게임] 룰 설명
+950,9810000,루아 캐릭터를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Lua character.,[프로필] 프로필 설명
+951,9810001,핑크퐁 캐릭터를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Pinkfong character.,[프로필] 프로필 설명
+952,9810002,호기 캐릭터를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Hogi character.,[프로필] 프로필 설명
+953,9810003,제니 캐릭터를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Jeni character.,[프로필] 프로필 설명
+954,9810004,포키 캐릭터를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Poki character.,[프로필] 프로필 설명
+955,9810005,레이첼 캐릭터를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Rachel character.,[프로필] 프로필 설명
+956,9810006,마이언 캐릭터를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Myan character.,[프로필] 프로필 설명
+957,9810007,빌리 캐릭터를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Billy character.,[프로필] 프로필 설명
+958,9810008,코코 캐릭터를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Coco character.,[프로필] 프로필 설명
+959,9860001,아기 상어 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Brooklyn partner.,[프로필] 프로필 설명
+960,9860002,소라게 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Hermit Crab partner.,[프로필] 프로필 설명
+961,9860003,롱노우즈 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Longnose partner.,[프로필] 프로필 설명
+962,9860004,딱총새우 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Snapping Shrimp partner.,[프로필] 프로필 설명
+963,9860005,우무문어 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Dora partner.,[프로필] 프로필 설명
+964,9860006,넙치 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Flatfish partner.,[프로필] 프로필 설명
+965,9860007,엄마 상어 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Mommy Shark partner.,[프로필] 프로필 설명
+966,9860008,바다거북 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Sea Turtle partner.,[프로필] 프로필 설명
+967,9860009,신사복어 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Gentle Blowfish partner.,[프로필] 프로필 설명
+968,9860010,폼폼게 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Pom-pom Crab partner.,[프로필] 프로필 설명
+969,9860011,가오리 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Manta Ray partner.,[프로필] 프로필 설명
+970,9860012,문어 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Octopus partner.,[프로필] 프로필 설명
+971,9860013,아빠 상어 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Daddy Shark partner.,[프로필] 프로필 설명
+972,9860014,메기 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Catfish partner.,[프로필] 프로필 설명
+973,9860015,청소청줄놀래기 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Bluestreak Cleaner Wrasse partner.,[프로필] 프로필 설명
+974,9860016,미드쉽맨 물고기 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Midshipman Fish partner.,[프로필] 프로필 설명
+975,9860017,나뭇잎해룡 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Leafy Sea Dragon partner.,[프로필] 프로필 설명
+976,9860018,뿔달팽이 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Cone Snail partner.,[프로필] 프로필 설명
+977,9860019,개복치 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Mola mola partner.,[프로필] 프로필 설명
+978,9860020,복어 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Blowfish partner.,[프로필] 프로필 설명
+979,9860021,졸립게 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Sleepy Crab partner.,[프로필] 프로필 설명
+980,9860022,분홍해마 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Pink Seahorse partner.,[프로필] 프로필 설명
+981,9860023,보라해마 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the Purple Seahorse partner.,[프로필] 프로필 설명
+982,9860024,윌리엄 파트너를 획득하면 열리는 프로필입니다.,This profile opens when obtain the William partner.,[프로필] 프로필 설명

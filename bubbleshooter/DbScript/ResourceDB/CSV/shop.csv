@@ -1,0 +1,13 @@
+﻿PRODUCT_ID,CATEGORY,PRODUCT_NAME,PRODUCT_ICON,TAG,IS_TICKET,TICKET_ID,PRICE_ITEM_TYPE,PRICE_ITEM_ID,PRICE,DISCOUNT_RATE,DISCOUNT_PRICE,SELL_TYPE,BUY_LIMIT,SELL_START_DATE,SELL_END_DATE,GACHA_TYPE,SORT_NUMBER,desc
+1000,0,9261001,Icon_package03,"0,0,1,0,1",0,0,1,1,200,0,0,1,1,0,0,ItemBox_Purple_SkeletonData,4,New Friends Package
+1001,0,9261002,Icon_package00,"0,0,1,0,0",0,0,1,1,350,0,0,2,1,0,0,ItemBox_Yellow_SkeletonData,1,Daily Package
+1002,0,9261003,Icon_package01,"0,0,1,0,0",0,0,1,1,500,0,0,3,1,0,0,ItemBox_Pink_SkeletonData,2,Weekly Package
+1003,0,9261004,Icon_package02,"0,0,1,0,0",0,0,1,1,1000,0,0,4,1,0,0,ItemBox_Blue_SkeletonData,3,Monthly Package
+2000,1,9261005,Icon_ruby02,"1,0,0,0,0",0,0,2,2,100,0,0,0,0,20240530,0,EMPTY,5,100 Ruby
+2001,1,9261006,Icon_ruby01,"1,0,0,0,0",0,0,2,2,500,0,0,0,0,20240530,0,EMPTY,6,500 Ruby
+2002,1,9261007,Icon_ruby00,"1,0,0,0,0",0,0,2,2,1000,0,0,0,0,20240530,0,EMPTY,7,1000 Ruby
+3000,2,9261008,Icon_friendspack01,"0,1,0,0,0",1,1000006,0,0,1000,0,0,0,0,0,0,CardPack_Star_SkeletonData,11,Nomal Friends Pack
+3001,2,9261009,Icon_friendspack02,"0,0,0,0,0",1,1000007,1,1,100,0,0,0,0,0,0,CardPack_Yellow_SkeletonData,12,Rare Friends Pack
+3002,2,9261010,Icon_friendspack00,"0,0,0,0,0",0,0,1,1,200,0,0,0,0,0,0,CardPack_SuperStar_SkeletonData,13,Super Rare Friends Pack
+4000,3,9261011,Icon_dualticket,"0,0,0,0,0",0,0,1,1,100,0,0,0,0,0,0,EMPTY,14,Competition tickets
+4001,3,9261012,Icon_arcadecoin,"0,0,0,0,0",0,0,1,1,50,0,0,0,0,0,0,EMPTY,15,Mini game chips
